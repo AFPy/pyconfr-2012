@@ -394,7 +394,7 @@ header h1#logo a {
   display: block;
   width: 276px;
   height: 90px;
-  background: url(../img/pycon_2012_sm.png) no-repeat 0 0;
+  background: url(../img/pyconfr_paris.png) no-repeat 0 0;
   float: left;
   padding-bottom: 12px;
   color:#fff;
@@ -788,7 +788,7 @@ body.home header h1#logo a {
   display: block;
   width: 388px;
   height: 45px;
-  background: url(../img/pycon_2012.png) no-repeat 0 0;
+  background: url(../img/pyconfr_2012.png) no-repeat 0 0;
   text-indent:-9999px;
 }
 
@@ -797,7 +797,7 @@ body.home header h2#slogan {
   left:335px;
   width: 329px;
   height: 31px;
-  background: url(../img/santa_clara.png) no-repeat 0 0;
+  background: url(../img/paris.png) no-repeat 0 0;
   text-indent:-9999px;
 }
 
