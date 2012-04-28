@@ -4,27 +4,26 @@
 {% load biblion_tags %}
 {% load sponsors_pro_tags %}
 {% load thumbnail %}
-{% load i18n %}
 
 {% block body_class %}home{% endblock %}
 
 {% block slogan %}
-    <h2 id="slogan">{% trans 'Santa Clara, CA' %}</h2>
+    <h2 id="slogan">Paris</h2>
 {% endblock %}
 
 {% block header_extra_base %}
     <div id="python"></div>
     <div class="dates">
         <div class="sprints">
-            <h4>{% trans 'Sprints: September 13th&ndash;14th' %}</h4>
+            <h4>Sprints: 13&ndash;14 Septembre</h4>
         </div>
         <div class="talks">
-            <h4>{% trans 'Talks: September 15th&ndash;17th' %}</h4>
+            <h4>Conférences: 15&ndash;17 September</h4>
         </div>
     </div>
     {% sponsors header as header_sponsors %}
     <div class="diamond-sponsors">
-        <span>{% trans 'Presented by' %}</span>
+        <span>Présenté par</span>
         {% for sponsor in header_sponsors reversed %}
 
         <a href="{% url sponsor_list %}">
@@ -44,21 +43,23 @@
     </div>
     {#  SECTION: our platinum and gold sponsors #}
     <div class="span-24 last">
-        <h1 class="hidden">{% trans 'Our Platinum and Gold Sponsors' %}</h1>
+        <h1 class="hidden">Nos sponsors "Gold"</h1>
         {% include "_sponsors.html" %}
-        <p class="spacer learn-more"><a href="{% url sponsor_info %}">{% trans 'Learn how to become a sponsor...' %}</a></p>
+        <p class="spacer learn-more"><a href="{% url sponsor_info %}">Comment
+	devenir un sponsors...</a></p>
     </div>
     {#  SECTION: what is pycon #}
     <div class="span-8">
-        <h1 class="section-title">{% trans 'What is <span>PyCon</span>?' %}</h1>
+        <h1 class="section-title">Qu'est <span>PyConFR</span> ?</h1>
     </div>
     <div class="span-16 last spacer">
         {% box "homepage_main" %}
-        <p class="learn-more"><a href="{% url wakawaka_page 'about' %}">{% trans 'Learn more...' %}</a></p>
+        <p class="learn-more"><a href="{% url wakawaka_page 'about' %}">À
+	propos...</a></p>
     </div>
     {#  SECTION: blog #}
     <div class="span-8">
-        <h1 class="section-title"><span>{% trans 'Announcements' %}</span></h1>
+        <h1 class="section-title"><span>Annonces</span></h1>
     </div>
     <div class="span-16 last spacer">
         {% latest_blog_posts as posts %}
@@ -71,14 +72,14 @@
                 </div>
             {% endfor %}
         {% else %}
-            <p>{% trans 'No blog posts have been published.' %}</p>
+            <p>Aucun blogpost n'a été publié.</p>
         {% endif %}
     </div>
     {#  SECTION: silver and media sponsors #}
     <div class="span-24 last">
         <hr />
         <div class="other-sponsors">
-            <h6>{% trans 'Sponsors' %}</h6>
+            <h6>Sponsors</h6>
             <a href="{% url sponsor_list %}">
             {% for sponsor in sponsors %}
                 {% thumbnail sponsor.website_logo "100x60" format="PNG" as logo %}
