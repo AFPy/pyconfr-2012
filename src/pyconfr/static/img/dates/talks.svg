@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="130"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="talks.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       id="filter3816">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.48404297"
+         id="feGaussianBlur3818" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3789">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.52775879"
+         id="feGaussianBlur3791" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="260.62235"
+     inkscape:cy="931.13765"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3015"
+       transform="translate(-141.42857,-345.14285)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985"
+         y="394.29919"
+         x="150.89563"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3816);font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           y="394.29919"
+           x="150.89563"
+           id="tspan2987"
+           sodipodi:role="line">Conférences</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text2985-1"
+         y="393.5491"
+         x="149.96707"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#484746;fill-opacity:1;stroke:none;font-family:Gunplay;-inkscape-font-specification:Gunplay"
+         xml:space="preserve"><tspan
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:0px;fill:#484746;fill-opacity:1;font-family:Sans;-inkscape-font-specification:Sans Bold"
+           y="393.5491"
+           x="149.96707"
+           id="tspan2987-9"
+           sodipodi:role="line">Conférences</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcb500;fill-opacity:1;stroke:none;font-family:Sans"
+       x="204.05081"
+       y="274.54474"
+       id="text2989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="204.05081"
+         y="274.54474"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#fcb500;fill-opacity:1" /></text>
+    <g
+       id="g3793"
+       transform="translate(-103.47627,-343.14285)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3760-3"
+         y="451.53571"
+         x="111.98184"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter3789);font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Sans Bold"
+           y="451.53571"
+           x="111.98184"
+           id="tspan3762-1"
+           sodipodi:role="line">15-16 Septembre</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3760"
+         y="451.03064"
+         x="111.47677"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;fill:#6eafbf;fill-opacity:1;-inkscape-font-specification:Sans Bold"
+           y="451.03064"
+           x="111.47677"
+           id="tspan3762"
+           sodipodi:role="line">15-16 Septembre</tspan></text>
+    </g>
+  </g>
+</svg>

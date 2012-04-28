@@ -1,0 +1,24 @@
+README
+======
+
+Install & Run
+-------------
+
+Clone, buildout and fresh start::
+
+    cd ~/work/afpy/pyconfr/
+    hg clone https://florent@bitbucket.org/toopy/django-pyconfr
+    virtualenv -p python2.7 --no-site-packages env
+    source env/bin/activate
+    cd django-pyconfr/
+    pip install -U setuptools
+    python bootstrap.py
+    ./bin/django syncdb
+    ./bin/django collectstatic
+    ./bin/django runserver
+
+
+Gunicorn start::
+
+    ./bin/django run_gunicorn -b 127.0.0.1:8001
+
