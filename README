@@ -23,3 +23,9 @@ Gunicorn start::
 
     ./bin/django run_gunicorn -b 127.0.0.1:8001
 
+Translation
+-----------
+These are done in conf/locale
+To compile the translations::
+
+  ./bin/django compilemessages
