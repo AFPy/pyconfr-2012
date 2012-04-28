@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="130"
+   width="255"
+   height="55"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -41,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="260.62235"
-     inkscape:cy="931.13765"
+     inkscape:zoom="2.8"
+     inkscape:cx="160.62235"
+     inkscape:cy="80.158472"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -70,7 +70,7 @@
      id="layer1">
     <g
        id="g3015"
-       transform="translate(-141.42857,-345.14285)">
+       transform="matrix(0.46871249,0,0,0.46871249,-66.320981,-163.09884)">
       <text
          sodipodi:linespacing="125%"
          id="text2985"
@@ -98,19 +98,19 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcb500;fill-opacity:1;stroke:none;font-family:Sans"
-       x="204.05081"
-       y="274.54474"
+       style="font-size:18.74849892px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#fcb500;fill-opacity:1;stroke:none;font-family:Sans"
+       x="95.60952"
+       y="127.35646"
        id="text2989"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2991"
-         x="204.05081"
-         y="274.54474"
-         style="font-weight:bold;-inkscape-font-specification:Sans Bold;fill:#fcb500;fill-opacity:1" /></text>
+         x="95.60952"
+         y="127.35646"
+         style="font-weight:bold;fill:#fcb500;fill-opacity:1;-inkscape-font-specification:Sans Bold" /></text>
     <g
        id="g3793"
-       transform="translate(-103.47627,-343.14285)">
+       transform="matrix(0.46871249,0,0,0.46871249,-48.532264,-162.16141)">
       <text
          sodipodi:linespacing="125%"
          id="text3760-3"
