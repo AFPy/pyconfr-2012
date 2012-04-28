@@ -13,6 +13,7 @@ Clone, buildout and fresh start::
     cd django-pyconfr/
     pip install -U setuptools
     python bootstrap.py
+    ./bin/buildout
     ./bin/django syncdb
     ./bin/django collectstatic
     ./bin/django runserver
