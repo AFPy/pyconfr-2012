@@ -24,7 +24,7 @@ msgstr ""
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:15
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:23
 msgid "Date/time"
-msgstr ""
+msgstr "Date/heure"
 
 #: clone/django-analytics/analytics/csv_views.py:20
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/panels/profiling.html:11
@@ -110,12 +110,12 @@ msgstr ""
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:20
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/login.html:33
 msgid "Username:"
-msgstr ""
+msgstr "Login:"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:23
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/login.html:37
 msgid "Password:"
-msgstr ""
+msgstr "Mot de passe:"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:28
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:40
@@ -128,11 +128,11 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_reset_complete.html:14
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/views/decorators.py:26
 msgid "Log in"
-msgstr ""
+msgstr "S'enregistrer"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:31
 msgid "Or use your OpenID:"
-msgstr ""
+msgstr "Ou utiliser votre OpenID"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:34
 msgid "OpenID:"
@@ -217,13 +217,13 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:23
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:16
 msgid "User"
-msgstr ""
+msgstr "Utilisateur"
 
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:17
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/forms.py:112
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:17
 msgid "Comment"
-msgstr ""
+msgstr "Commentaire"
 
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:36
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:38
@@ -285,7 +285,7 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:10
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:11
 msgid "History"
-msgstr ""
+msgstr "Historique"
 
 #: clone/django-reversion/src/reversion/templates/reversion/revision_form.html:12
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:12
@@ -326,29 +326,29 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/submit_line.html:4
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/formsets.py:309
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:34
 #: clone/pycon/pycon_project/apps/wakawaka/forms.py:34
 msgid "Delete this revision"
-msgstr ""
+msgstr "Supprimer cette révision"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:38
 #: clone/pycon/pycon_project/apps/wakawaka/forms.py:38
 msgid "Delete the page with all revisions"
-msgstr ""
+msgstr "Supprimer cette page avec toutes les révisions"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:61
 #: clone/pycon/pycon_project/apps/wakawaka/forms.py:61
 #, python-format
 msgid "The page %s was deleted"
-msgstr ""
+msgstr "La page %s a été supprimée"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:72
 #: clone/pycon/pycon_project/apps/wakawaka/forms.py:72
 #, python-format
 msgid "The revision for %s was deleted"
-msgstr ""
+msgstr "La révision pour %s a été supprimée"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:79
 #: clone/pycon/pycon_project/apps/wakawaka/forms.py:79
@@ -375,30 +375,30 @@ msgstr ""
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:11
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:52
 msgid "created"
-msgstr ""
+msgstr "créé"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:12
 #: clone/django-wakawaka/src/wakawaka/models.py:41
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:12
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:53
 msgid "modified"
-msgstr ""
+msgstr "modifié"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:19
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:19
 msgid "Wiki page"
-msgstr ""
+msgstr "Page Wiki"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:20
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:20
 msgid "Wiki pages"
-msgstr ""
+msgstr "pages wiki"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:36
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:48
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:9
 msgid "content"
-msgstr ""
+msgstr "sommaire"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:37
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:49
@@ -409,28 +409,28 @@ msgstr ""
 #: clone/django-wakawaka/src/wakawaka/models.py:39
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:51
 msgid "creator ip"
-msgstr ""
+msgstr "ip du créateur"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:44
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:56
 msgid "Revision"
-msgstr ""
+msgstr "Révision"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:45
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:57
 msgid "Revisions"
-msgstr ""
+msgstr "Révisions"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:50
 #: clone/pycon/pycon_project/apps/wakawaka/models.py:66
 #, python-format
 msgid "Revision %(created)s for %(page_slug)s"
-msgstr ""
+msgstr "Révision %(created)s pour %(page_slug)s"
 
 #: clone/django-wakawaka/src/wakawaka/views.py:119
 #: clone/pycon/pycon_project/apps/wakawaka/views.py:156
 msgid "You don't have permission to edit pages."
-msgstr ""
+msgstr "Vous n'avez pas les permissions pour éditer des pages"
 
 #: clone/django-wakawaka/src/wakawaka/views.py:127
 #: clone/pycon/pycon_project/apps/wakawaka/views.py:164
@@ -693,7 +693,10 @@ msgid ""
 "By clicking \"Sign Up\", you are indicating that you have read and agree to "
 "the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href=\"%(privacy_url)s"
 "\">Privacy Policy</a>."
-msgstr ""
+msgstr "En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et "
+"accepté les <a href=\"%(terms_url)s\">conditions d'utilisation</a> et "
+"<a href=\"%(privacy_url)s \">la politique de confidentialité</a>."
+
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:10
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:6
@@ -828,7 +831,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/login.html:13
 #: clone/pycon/pycon_project/templates/account/signup.html:13
 msgid "Log In"
-msgstr ""
+msgstr "S'indentifier"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:19
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:13
@@ -837,7 +840,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/password_reset.html:12
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:12
 msgid "Note"
-msgstr ""
+msgstr "Note"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:20
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:13
@@ -847,24 +850,24 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:12
 #, python-format
 msgid "you are already logged in as %(user_display)s."
-msgstr ""
+msgstr "vous êtes déjà identifié comme %(user_display)s"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:25
 #: clone/pycon/pycon_project/templates/account/login.html:21
 #, python-format
 msgid "Don't have an account? <a href=\"%(signup_url)s\">Sign up</a>!"
-msgstr ""
+msgstr "Vous n'avez pas de compte ? <a href=\"%(signup_url)s\">Enregistrez-vous</a> !"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:28
 #: clone/pycon/pycon_project/templates/account/login.html:35
 msgid "Forgot password?"
-msgstr ""
+msgstr "Mot de passe oublié ?"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:48
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:38
 #: clone/pycon/pycon_project/templates/account/login.html:47
 msgid "Or sign in with your OpenID"
-msgstr ""
+msgstr "Ou enregistez vous avec votre OpenID"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:64
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:28
@@ -873,16 +876,17 @@ msgstr ""
 msgid ""
 "If you have any trouble logging in to your account, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr ""
+msgstr "Si vous avez des problèmes pour vous connecter, merci de nous "
+"contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:5
 msgid "Logged Out"
-msgstr ""
+msgstr "Déconnecté"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:8
 #: clone/pycon/pycon_project/templates/account/logout.html:8
 msgid "You've been logged out."
-msgstr ""
+msgstr "Vous avez été déconnecté."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:16
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:20
@@ -892,7 +896,7 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_done.html:4
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_form.html:5
 msgid "Change password"
-msgstr ""
+msgstr "Changer de mot de passe"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:10
 #: clone/pycon/pycon_project/templates/account/password_delete.html:9
@@ -946,7 +950,9 @@ msgstr ""
 msgid ""
 "If you have any trouble resetting your password, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr ""
+msgstr "Si vous avez des problèmes pour changer votre mot de passe, merci de"
+" nous contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:15
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:15
@@ -978,7 +984,7 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:10
 #: clone/pycon/pycon_project/templates/account/signup.html:11
 msgid "Sign Up"
-msgstr ""
+msgstr "S'inscrire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:15
 #: clone/pycon/pycon_project/templates/account/signup.html:18
@@ -993,7 +999,7 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:30
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:22
 msgid "Sign up"
-msgstr ""
+msgstr "S'inscrire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:55
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:32
@@ -1004,7 +1010,8 @@ msgstr ""
 msgid ""
 "If you have any trouble creating your account, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr ""
+msgstr "Si vous avez des problèmes pour vous inscrire, merci de"
+" nous contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:11
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:11
@@ -1100,7 +1107,7 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:8
 #: clone/pycon/pycon_project/templates/account/login.html:8
 msgid "Login"
-msgstr ""
+msgstr "S'identifier"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:12
 msgid "Log In to OpenID"
@@ -1625,7 +1632,7 @@ msgstr ""
 
 #: clone/pinax/pinax/projects/basic_project/apps/profiles/models.py:9
 msgid "about"
-msgstr ""
+msgstr "À propos"
 
 #: clone/pinax/pinax/projects/basic_project/apps/profiles/models.py:10
 msgid "location"
@@ -1656,12 +1663,12 @@ msgstr ""
 #: clone/pinax/pinax/projects/basic_project/templates/profiles/_profile_info.html:3
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/forms.py:109
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: clone/pinax/pinax/projects/basic_project/templates/profiles/_profile_info.html:4
 #: src/pyconfr/templates/_nav.html:4
 msgid "About"
-msgstr ""
+msgstr "À propos"
 
 #: clone/pinax/pinax/projects/basic_project/templates/profiles/_profile_info.html:5
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/redirect.html:7
@@ -1880,7 +1887,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/_openid_login.html:23
 #: clone/pycon/pycon_project/templates/account/login.html:42
 msgid "Log in &raquo;"
-msgstr ""
+msgstr "S'identifier"
 
 #: clone/pycon/pycon_project/templates/account/email.html:28
 msgid "make primary"
@@ -1933,7 +1940,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/django_openid/register.html:18
 #: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:19
 msgid "Sign Up &raquo;"
-msgstr ""
+msgstr "S'inscrire"
 
 #: clone/pycon/pycon_project/templates/django_openid/already_logged_in.html:11
 #, python-format
@@ -2315,62 +2322,63 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:168
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:258
 msgid "All"
-msgstr ""
+msgstr "Tout"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:139
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/widgets.py:548
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:139
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/widgets.py:548
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:150
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/widgets.py:548
 msgid "Unknown"
-msgstr ""
+msgstr "Inconnu"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:196
 msgid "Any date"
-msgstr ""
+msgstr "Aucune date"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:197
 msgid "Today"
-msgstr ""
+msgstr "Aujourd'hui"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:200
 msgid "Past 7 days"
-msgstr ""
+msgstr "Les derniers 7 jours"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:203
 msgid "This month"
-msgstr ""
+msgstr "Ce mois"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/filterspecs.py:205
 msgid "This year"
-msgstr ""
+msgstr "Cette année"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/forms.py:9
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/forms.py:87
 msgid ""
 "Please enter a correct username and password. Note that both fields are case-"
 "sensitive."
-msgstr ""
+msgstr "Entrez un login et mot de passe valides. Notez que les deux champs"
+"sont sensibles à la casse."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/forms.py:18
 msgid "Please log in again, because your session has expired."
-msgstr ""
+msgstr "La session a expiré."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/forms.py:37
 #, python-format
 msgid "Your e-mail address is not your username. Try '%s' instead."
-msgstr ""
+msgstr "Votre adresse mail n'est pas votre login. Essayez '%s' à la place."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/helpers.py:19
 msgid "Action:"
-msgstr ""
+msgstr "Action"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/models.py:19
 msgid "action time"
@@ -2407,7 +2415,7 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/db/models/base.py:791
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/models.py:562
 msgid "and"
-msgstr ""
+msgstr "et"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/options.py:632
 #, python-format
@@ -2464,7 +2472,7 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/options.py:846
 msgid "No action selected."
-msgstr ""
+msgstr "Aucune action selectionnée"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/options.py:927
 #, python-format
@@ -2484,7 +2492,7 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/options.py:1065
 msgid "Database error"
-msgstr ""
+msgstr "Erreur de base de données."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/options.py:1127
 #, python-format
@@ -2517,20 +2525,20 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/sites.py:375
 msgid "Site administration"
-msgstr ""
+msgstr "Administration"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/sites.py:419
 #, python-format
 msgid "%s administration"
-msgstr ""
+msgstr "administration %s"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/widgets.py:75
 msgid "Date:"
-msgstr ""
+msgstr "Date:"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/widgets.py:75
 msgid "Time:"
-msgstr ""
+msgstr "Heure:"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/widgets.py:140
 msgid "Lookup"
@@ -2538,20 +2546,20 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/widgets.py:246
 msgid "Add Another"
-msgstr ""
+msgstr "Ajouter un autre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:4
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:8
 msgid "Page not found"
-msgstr ""
+msgstr "Page non trouvée"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
-msgstr ""
+msgstr "Nous sommes désolés: la page demandée n'a pas été trouvée."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/500.html:4
 msgid "Server error"
-msgstr ""
+msgstr "Erreur de serveur"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/500.html:6
 msgid "Server error (500)"
@@ -2577,16 +2585,16 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/actions.html:11
 msgid "Click here to select the objects across all pages"
-msgstr ""
+msgstr "Cliquer ici pour selectionner les objets de toutes les pages"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/actions.html:11
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr ""
+msgstr "Sélectionner %(total_count)s %(module_name)s"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/actions.html:13
 msgid "Clear selection"
-msgstr ""
+msgstr "Annuler la sélection"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/app_index.html:10
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/index.html:19
@@ -2596,14 +2604,14 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:28
 msgid "Welcome,"
-msgstr ""
+msgstr "Bienvenue,"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:33
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_done.html:4
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_form.html:5
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admindocs/templates/admin_doc/bookmarklets.html:3
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:48
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_done.html:4
@@ -2642,7 +2650,7 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/change_list.html:84
 msgid "Filter"
-msgstr ""
+msgstr "Filtre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/delete_confirmation.html:17
 #, python-format
@@ -3695,51 +3703,51 @@ msgstr[1] ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "one"
-msgstr ""
+msgstr "un"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "two"
-msgstr ""
+msgstr "deux"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "three"
-msgstr ""
+msgstr "trois"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "four"
-msgstr ""
+msgstr "quatre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "five"
-msgstr ""
+msgstr "cinq"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "six"
-msgstr ""
+msgstr "six"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "seven"
-msgstr ""
+msgstr "sept"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "eight"
-msgstr ""
+msgstr "huit"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:76
 msgid "nine"
-msgstr ""
+msgstr "neuf"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:96
 msgid "today"
-msgstr ""
+msgstr "aujourd'hui"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:98
 msgid "tomorrow"
-msgstr ""
+msgstr "demain"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/humanize/templatetags/humanize.py:100
 msgid "yesterday"
-msgstr ""
+msgstr "hier"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/localflavor/ar/forms.py:28
 msgid "Enter a postal code in the format NNNN or ANNNNAAA."
@@ -6354,19 +6362,19 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:44
 msgid "expire date"
-msgstr ""
+msgstr "date expirée"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:49
 msgid "session"
-msgstr ""
+msgstr "session"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:50
 msgid "sessions"
-msgstr ""
+msgstr "sessions"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sites/models.py:37
 msgid "domain name"
-msgstr ""
+msgstr "nom de domaine"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sites/models.py:38
 msgid "display name"
@@ -6374,11 +6382,11 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sites/models.py:43
 msgid "site"
-msgstr ""
+msgstr "site"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sites/models.py:44
 msgid "sites"
-msgstr ""
+msgstr "sites"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/core/validators.py:22
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/fields.py:61
@@ -6805,275 +6813,275 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:6
 msgid "Monday"
-msgstr ""
+msgstr "Lundi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:6
 msgid "Tuesday"
-msgstr ""
+msgstr "Mardi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:6
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercredi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:6
 msgid "Thursday"
-msgstr ""
+msgstr "Jeudi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:6
 msgid "Friday"
-msgstr ""
+msgstr "Vendredi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:7
 msgid "Saturday"
-msgstr ""
+msgstr "Samedi"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:7
 msgid "Sunday"
-msgstr ""
+msgstr "Dimanche"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:10
 msgid "Mon"
-msgstr ""
+msgstr "Lu"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:10
 msgid "Tue"
-msgstr ""
+msgstr "Ma"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:10
 msgid "Wed"
-msgstr ""
+msgstr "Me"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:10
 msgid "Thu"
-msgstr ""
+msgstr "Je"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:10
 msgid "Fri"
-msgstr ""
+msgstr "Ve"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:11
 msgid "Sat"
-msgstr ""
+msgstr "Sa"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:11
 msgid "Sun"
-msgstr ""
+msgstr "Di"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:18
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:19
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:19
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:19
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:19
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:19
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:20
 msgid "December"
-msgstr ""
+msgstr "Décembre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "jan"
-msgstr ""
+msgstr "Jan"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "feb"
-msgstr ""
+msgstr "Fév"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "mar"
-msgstr ""
+msgstr "Mar"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "apr"
-msgstr ""
+msgstr "Avr"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "may"
-msgstr ""
+msgstr "Mai"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:23
 msgid "jun"
-msgstr ""
+msgstr "Jui"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "jul"
-msgstr ""
+msgstr "Jui"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "aug"
-msgstr ""
+msgstr "Aoû"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "sep"
-msgstr ""
+msgstr "Sep"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "oct"
-msgstr ""
+msgstr "Oct"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "nov"
-msgstr ""
+msgstr "Nov"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:24
 msgid "dec"
-msgstr ""
+msgstr "Déc"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:31
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "Jan."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:32
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Fév."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:33
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:34
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:35
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:36
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:37
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "Juil."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:38
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Août"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:39
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Sept."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:40
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Oct."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:41
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Nov."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:42
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Déc."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:45
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:46
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:47
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:48
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:49
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:50
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:51
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:52
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:53
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:54
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:55
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/dates.py:56
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "Décembre"
 
 #. Translators: This string is used as a separator between list elements
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/text.py:153
@@ -7083,42 +7091,42 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:21
 msgid "year"
 msgid_plural "years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "année"
+msgstr[1] "années"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:22
 msgid "month"
 msgid_plural "months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mois"
+msgstr[1] "mois"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:23
 msgid "week"
 msgid_plural "weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "semaine"
+msgstr[1] "semaines"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:24
 msgid "day"
 msgid_plural "days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "jour"
+msgstr[1] "jours"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:25
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "heure"
+msgstr[1] "heures"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:26
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "minute"
+msgstr[1] "minutes"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:45
 msgid "minutes"
-msgstr ""
+msgstr "minutes"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/timesince.py:50
 #, python-format
@@ -7451,7 +7459,7 @@ msgstr ""
 
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/panels/settings_vars.html:5
 msgid "Setting"
-msgstr ""
+msgstr "Paramètres"
 
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/panels/signals.html:5
 msgid "Signal"
@@ -8300,11 +8308,11 @@ msgstr "Conférenciers"
 
 #: src/pyconfr/templates/_nav.html:12
 msgid "Registration"
-msgstr ""
+msgstr "Inscription"
 
 #: src/pyconfr/templates/_nav.html:13
 msgid "Venue"
-msgstr ""
+msgstr "Localisation"
 
 #: src/pyconfr/templates/_nav.html:15
 msgid "Jobs Fair"
@@ -8312,7 +8320,7 @@ msgstr ""
 
 #: src/pyconfr/templates/_nav.html:16
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: src/pyconfr/templates/homepage.html:12
 msgid "Santa Clara, CA"
@@ -8328,7 +8336,7 @@ msgstr "Sprints: 15 &ndash; 17 Septembre"
 
 #: src/pyconfr/templates/homepage.html:27
 msgid "Presented by"
-msgstr ""
+msgstr "Présenté par"
 
 #: src/pyconfr/templates/homepage.html:47
 msgid "Our Platinum and Gold Sponsors"
@@ -8336,24 +8344,24 @@ msgstr ""
 
 #: src/pyconfr/templates/homepage.html:49
 msgid "Learn how to become a sponsor..."
-msgstr ""
+msgstr "Devenir un sponsor..."
 
 #: src/pyconfr/templates/homepage.html:53
 msgid "What is <span>PyCon</span>?"
-msgstr ""
+msgstr "Qu'est <span>PyConFr</span> ?"
 
 #: src/pyconfr/templates/homepage.html:57
 msgid "Learn more..."
-msgstr ""
+msgstr "Apprenez-en plus..."
 
 #: src/pyconfr/templates/homepage.html:61
 msgid "Announcements"
-msgstr ""
+msgstr "Annonces"
 
 #: src/pyconfr/templates/homepage.html:74
 msgid "No blog posts have been published."
-msgstr ""
+msgstr "Aucun billet de blog n'a été publié"
 
 #: src/pyconfr/templates/homepage.html:81
 msgid "Sponsors"
-msgstr ""
+msgstr "Sponsors"
