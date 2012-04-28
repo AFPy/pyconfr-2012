@@ -7,7 +7,7 @@ Install & Run
 Clone, buildout and fresh start::
 
     cd ~/work/afpy/pyconfr/
-    hg clone https://florent@bitbucket.org/toopy/django-pyconfr
+    git clone https://NelleV@github.com/NelleV/django-pyconfr.git
     virtualenv -p python2.7 --no-site-packages env
     source env/bin/activate
     cd django-pyconfr/
