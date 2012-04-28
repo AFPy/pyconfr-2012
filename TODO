@@ -1,0 +1,23 @@
+TODO list
+==========
+
+Contenu & Features
+-------------------
+- Inscription à la conférence
+- Mise à jour de la page "Venue"
+- Mise à jour de la page "About"
+
+Installation
+------------
+La mise à jour via buildout plante sur certain ordi
+
+Traductions manquantes
+--------------------------------------------------------------------------------
+- site_base : traduction du footer
+- Speakers: http://127.0.0.1:8000/2012/speaker/
+
+Autres
+------
+Faire une installation sur les serveurs de l'afpy
+
+
