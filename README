@@ -16,6 +16,7 @@ Clone, buildout and fresh start::
     ./bin/buildout
     ./bin/django syncdb
     ./bin/django collectstatic
+    ./bin/django loaddata src/pyconfr/fixtures/*.json
     ./bin/django runserver
 
 
