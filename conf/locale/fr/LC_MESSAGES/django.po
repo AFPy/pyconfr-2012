@@ -8312,7 +8312,7 @@ msgstr "Inscription"
 
 #: src/pyconfr/templates/_nav.html:13
 msgid "Venue"
-msgstr "Localisation"
+msgstr "Lieu"
 
 #: src/pyconfr/templates/_nav.html:15
 msgid "Jobs Fair"
