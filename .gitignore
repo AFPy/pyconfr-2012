@@ -1,2 +1,14 @@
+syntax: glob
+*.db
 *.swp
 *.pyc
+*~
+*.*~
+bin/
+clone/
+develop-eggs/
+downloads/
+eggs/
+parts/
+*.egg-info/
+.installed.cfg
