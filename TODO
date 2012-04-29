@@ -3,8 +3,10 @@ TODO list
 
 Contenu & Features
 -------------------
-***WIKI PAGES ARE NOT DISPLAYED PROPERLY***
 
+- **La mise à jour du contenu des pages via le site ne se fait par proprement:
+le markup n'est pas compilé correctement**.
+- L'édition de texte ne renvoit pas vers la page une fois celle-ci validée.
 - Mise à jour de la page "Venue"
 - Mise à jour de la page "About"
 - Ajouter le "schedule"
