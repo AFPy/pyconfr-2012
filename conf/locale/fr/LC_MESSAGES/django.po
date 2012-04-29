@@ -702,8 +702,9 @@ msgstr "En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et "
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:6
 #: clone/pycon/pycon_project/templates/account/base.html:14
 #: clone/pycon/pycon_project/templates/account/email.html:6
+#: src/pyconfr/templates/_account_bar.html:8
 msgid "Account"
-msgstr ""
+msgstr "Compte"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:11
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:9
@@ -1916,6 +1917,7 @@ msgid "add"
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/logout.html:5
+#: src/pyconfr/templates/_account_bar.html:20
 msgid "Logout"
 msgstr "Se déconnecter"
 
@@ -1933,8 +1935,9 @@ msgid "set password"
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/signup.html:6
+#: src/pyconfr/templates/_account_bar.html:24
 msgid "Signup"
-msgstr ""
+msgstr "s'inscrire"
 
 #: clone/pycon/pycon_project/templates/account/signup.html:29
 #: clone/pycon/pycon_project/templates/django_openid/register.html:18
@@ -8365,3 +8368,23 @@ msgstr "Aucun billet de blog n'a été publié"
 #: src/pyconfr/templates/homepage.html:81
 msgid "Sponsors"
 msgstr "Sponsors"
+
+#: src/pyconfr/templates/_account_bar.html:6
+msgid "Logged in with OpenID"
+msgstr "Se connecter avec OpenID"
+
+#: src/pyconfr/templates/_account_bar.html:11
+msgid "Manage Sponsorship"
+msgstr "Gestion des sponsors"
+
+#: src/pyconfr/templates/_account_bar.html:15
+msgid "Admin"
+msgstr "Admin"
+
+#: src/pyconfr/templates/_account_bar.html:17
+msgid "Edit Content"
+msgstr "Edition"
+
+
+
+
