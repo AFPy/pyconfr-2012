@@ -119,5 +119,17 @@
             "created_by": 1, 
             "label": "venue_info"
         }
+    },
+    {
+        "pk": 12,
+        "model": "boxes.box", 
+        "fields": {
+            "content": "<p>PyConFR rassemble tous les ans plus de 200 développeurs python. PyConFR est organisé par l'AFPY, l'Association Francophone de Python.</p>",
+            "last_updated_by": 1, 
+            "_content_rendered": "<p>PyConFR rassemble tous les ans plus de 200 développeurs python. PyConFR est organisé par l'AFPY, l'Association Francophone de Python.</p>",
+            "created_by": 1, 
+            "label": "about"
+        }
     }
+
 ]
