@@ -1917,7 +1917,7 @@ msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/logout.html:5
 msgid "Logout"
-msgstr ""
+msgstr "Se déconnecter"
 
 #: clone/pycon/pycon_project/templates/account/password_change.html:15
 #: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:20
