@@ -136,8 +136,9 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "staticfiles.context_processors.static",
     
     "pinax.core.context_processors.pinax_settings",
-    
     "pinax.apps.account.context_processors.account",
+    
+    "symposion.review.context_processors.permissions",
 ]
 
 INSTALLED_APPS = [
@@ -170,14 +171,12 @@ INSTALLED_APPS = [
     "wakawaka",
     "markitup",
     "uni_form",
-    "nashvegas",
     "emailconfirmation",
     "timezones",
     "oauth_access",
     "ajax_validation",
     "fixture_generator",
     "mailout",
-    "reversion",
     
     # Pinax
     "pinax.apps.account",
@@ -186,6 +185,7 @@ INSTALLED_APPS = [
     "pinax.apps.waitinglist",
     
     # symposion
+    "symposion.conference",
     "symposion.proposals",
     "symposion.speakers",
     "symposion.sponsors",
