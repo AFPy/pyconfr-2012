@@ -990,12 +990,12 @@ msgstr "S'inscrire"
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:15
 #: clone/pycon/pycon_project/templates/account/signup.html:18
 msgid "You are already logged in."
-msgstr ""
+msgstr "Vous êtes déjà connecté."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:17
 #: clone/pycon/pycon_project/templates/account/signup.html:13
 msgid "Already have an account?"
-msgstr ""
+msgstr "Vous avez déjà un compte."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:30
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:22
@@ -1883,7 +1883,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/base.html:31
 #: src/pyconfr/templates/base.html:31
 msgid "clear"
-msgstr ""
+msgstr "effacer"
 
 #: clone/pycon/pycon_project/templates/account/_openid_login.html:23
 #: clone/pycon/pycon_project/templates/account/login.html:42

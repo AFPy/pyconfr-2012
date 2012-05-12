@@ -1,0 +1,54 @@
+{% extends "speakers/base.html" %}
+
+{% load boxes_tags %}
+
+{% block content %}
+    
+    {% if accepting_proposals %}
+        <p>{% box "talk-proposals" %}</p>
+        
+        <h3>Pour soumettre une proposition de présentation:</h3>
+        
+        <ol class="steps">
+            <li class="done first">enregistrez-vous et connectez-vous</li>
+            <li class="done second">créez un profil de conférencier</li>
+            <li class="next third"><a href="{% url proposal_submit %}">{{ proposal_text }}</a></li>
+        </ol>
+
+        <p><a href="{% url speaker_edit %}">Éditer votre profil</a></p>
+        
+        <p>Vous pouvez éditer votre proposition jusqu'à la date butoir.</p>
+    {% else %}
+        <p>Les soumissions sont fermées et <a href="{% url schedule_list
+	%}">l'emploi du temps a été annoncé</a>.</p>
+    {% endif %}
+    
+    <h2>Soumissions</h2>
+    
+    {% if proposals %}
+        <table class="proposals">
+            <tr>
+                <th>Titre</th>
+                <th>Session</th>
+                <th>Niveau de l'audience</th>
+                <th>Statut</th>
+                <th>Messages</th>
+                <th>Actions</th>
+            </tr>
+            {% for proposal in proposals %}
+            <tr>
+                <td><a href="{% url proposal_detail proposal.pk %}">{{ proposal.title }}</a></td>
+                <td>{{ proposal.kind.name }}</td>
+                <td>{{ proposal.get_audience_level_display }}</td>
+                <td>{% if proposal.cancelled %}Annulée{% else %}{% if request.user == proposal.speaker.user %}{% if proposal.result.accepted %}Acceptée{% else %}Soumise{% endif %}{% else %}Associée{% endif %}{% endif %}</td>
+                <td>{{ proposal.messages.all.count }}</td>
+                {# <td>{% if not proposal.cancelled %}{% if request.user == proposal.speaker.user %}<a href="{% url proposal_edit proposal.pk %}">Edit</a>{% endif %}{% if request.user == proposal.speaker.user %} | <a href="{% url proposal_cancel proposal.pk %}">Cancel</a>{% else %}<a href="{% url proposal_leave proposal.pk %}">Leave</a>{% endif %}{% endif %}</td> #}
+                <td>{% if not proposal.cancelled %}{% if request.user == proposal.speaker.user and proposal.can_edit %}<a href="{% url proposal_edit proposal.pk %}">Editer</a> | <a href="{% url proposal_speaker_manage proposal.id %}">Ajouter/Supprimer des conférenciers</a>{% endif %}{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>Pas de soumission. Vous pouvez <a href="{% url proposal_submit %}">en soumettre une</a> !</p>
+    {% endif %}
+    
+{% endblock %}

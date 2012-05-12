@@ -1,0 +1,29 @@
+{% extends "speakers/base.html" %}
+
+{% load boxes_tags %}
+
+{% block content %}
+    
+    {% if accepting_proposals %}
+        <p>{% box "talk-proposals" %}</p>
+        
+        <h3>Pour soumettre une proposition de présentation:</h3>
+        
+        <ol class="steps">
+            <li class="next first"><a href="{% url acct_signup %}?next={{
+	    request.path }}">enregistrez-vous</a> et <a href="{% url
+	    acct_login %}?next={{ request.path }}">connectez-vous</a></li>
+            <li class="second">créez votre profil de conférencier</li>
+            <li class="third">soumettez une proposition ou plus</li>
+        </ol>
+    {% else %}
+        <p>Les soumissions sont fermées et <a href="{% url schedule_list
+	%}">l'emploi du temps a été annoncé</a>.</p>
+        
+        <p>
+	  Si vous avez soumis une ou des propositions, vous pouvez accéder au
+	  panel en vous
+            <a href="{% url acct_login %}?next={{ request.path }}">connectant</a>.
+        </p>
+    {% endif %}
+{% endblock %}

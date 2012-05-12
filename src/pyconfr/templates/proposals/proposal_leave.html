@@ -1,0 +1,13 @@
+{% extends "proposals/base.html" %}
+
+{% load uni_form_tags %}
+
+{% block content %}
+    <h1>Quitter: {{ proposal.title }}</h1>
+    
+    <form method="POST" action="" enctype="multipart/form-data" class="uniForm">
+        {% csrf_token %}
+        <p>Êtes vous sur de ne plus vouloir intervenir sur la présentation: <b>{{ proposal.title }}</b> ?</p>
+        <input type="submit" value="Oui" />
+    </form>
+{% endblock %}
