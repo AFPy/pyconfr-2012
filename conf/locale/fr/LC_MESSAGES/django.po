@@ -711,7 +711,7 @@ msgstr "Compte"
 #: clone/pycon/pycon_project/templates/account/base.html:19
 #: clone/pycon/pycon_project/templates/account/email.html:9
 msgid "Email Addresses"
-msgstr ""
+msgstr "Adresses mail"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:13
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:5
@@ -731,7 +731,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:5
 #: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:8
 msgid "Change Password"
-msgstr ""
+msgstr "Changer de mot de passe"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:18
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:6
@@ -758,7 +758,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/language_change.html:6
 #: clone/pycon/pycon_project/templates/account/language_change.html:9
 msgid "Language"
-msgstr ""
+msgstr "Langage"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:26
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:6
@@ -768,37 +768,37 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:6
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:9
 msgid "Timezone"
-msgstr ""
+msgstr "Fuseau horaire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:18
 #: clone/pycon/pycon_project/templates/account/email.html:18
 msgid "verified"
-msgstr ""
+msgstr "vérifiée"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:20
 #: clone/pycon/pycon_project/templates/account/email.html:20
 msgid "primary"
-msgstr ""
+msgstr "principale"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:28
 msgid "Make primary"
-msgstr ""
+msgstr "Mettre en principale"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:33
 #: clone/pycon/pycon_project/templates/account/email.html:33
 msgid "unverified"
-msgstr ""
+msgstr "non vérifié"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:40
 msgid "Re-send verification email"
-msgstr ""
+msgstr "Réenvoyer l'email de vérification"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:51
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/edit_inline/stacked.html:70
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/edit_inline/tabular.html:116
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/templates/comments/delete.html:12
 msgid "Remove"
-msgstr ""
+msgstr "Supprimer"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:59
 msgid ""
@@ -809,13 +809,13 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:65
 #: clone/pycon/pycon_project/templates/account/email.html:62
 msgid "Add Email Address"
-msgstr ""
+msgstr "Ajouter une adresse mail"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:70
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/change_form.html:22
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/index.html:29
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:11
 #: clone/pycon/pycon_project/templates/account/language_change.html:11
@@ -825,7 +825,7 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:18
 #: clone/pycon/pycon_project/templates/account/language_change.html:18
 msgid "Change my language"
-msgstr ""
+msgstr "Changer de langue"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:8
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:12
@@ -1019,12 +1019,13 @@ msgstr "Si vous avez des problèmes pour vous inscrire, merci de"
 msgid ""
 "This site can localize all times into your preferred timezone. Change your "
 "timezone below."
-msgstr ""
+msgstr "Ce site peut indiquer les horaires dans le fuseau horaire de votre "
+"choix. Changez le fuseau horaire ci-dessous."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:18
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:18
 msgid "Change my timezone"
-msgstr ""
+msgstr "Changer le fuseau horaire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:5
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:8
@@ -1461,7 +1462,7 @@ msgstr ""
 
 #: clone/pinax/pinax/apps/account/models.py:22
 msgid "language"
-msgstr ""
+msgstr "langue"
 
 #: clone/pinax/pinax/apps/account/models.py:50
 msgid "temp_key"
@@ -1503,7 +1504,7 @@ msgstr ""
 
 #: clone/pinax/pinax/apps/account/views.py:446
 msgid "Language successfully updated."
-msgstr ""
+msgstr "La langue a été mise à jour."
 
 #: clone/pinax/pinax/apps/signup_codes/views.py:75
 #, python-format
@@ -1924,11 +1925,11 @@ msgstr "Se déconnecter"
 #: clone/pycon/pycon_project/templates/account/password_change.html:15
 #: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:20
 msgid "change password"
-msgstr ""
+msgstr "Changer de mot de passe"
 
 #: clone/pycon/pycon_project/templates/account/password_delete.html:12
 msgid "delete my password"
-msgstr ""
+msgstr "Supprimer mon mot de passe"
 
 #: clone/pycon/pycon_project/templates/account/password_set.html:16
 msgid "set password"
@@ -2110,7 +2111,7 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/conf/global_settings.py:65
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/conf/global_settings.py:66
 msgid "Frisian"
@@ -3123,7 +3124,7 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/admin.py:123
 #, python-format
 msgid "Change password: %s"
-msgstr ""
+msgstr "Changer de mot de passe: %s"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/forms.py:15
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/forms.py:49
