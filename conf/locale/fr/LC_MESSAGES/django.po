@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-28 11:45-0400\n"
+"POT-Creation-Date: 2012-05-13 12:19-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,11 +118,12 @@ msgid "Password:"
 msgstr "Mot de passe:"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:28
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:40
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:57
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:17
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:47
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:19
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:28
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:13
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:43
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:59
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:21
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:20
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/sites.py:319
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/login.html:42
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_reset_complete.html:14
@@ -142,18 +143,18 @@ msgstr ""
 msgid "Log in with OpenID"
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:140
+#: clone/django-reversion/src/reversion/admin.py:139
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:129
 msgid "Initial version."
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:162
+#: clone/django-reversion/src/reversion/admin.py:161
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:153
 #, python-format
 msgid "Deleted %(verbose_name)s."
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:182
+#: clone/django-reversion/src/reversion/admin.py:181
 #: clone/django-reversion/src/reversion/templates/reversion/change_list.html:7
 #: clone/django-reversion/src/reversion/templates/reversion/recover_form.html:10
 #: clone/django-reversion/src/reversion/templates/reversion/recover_list.html:10
@@ -165,14 +166,14 @@ msgstr ""
 msgid "Recover deleted %(name)s"
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:293
+#: clone/django-reversion/src/reversion/admin.py:292
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:282
 #, python-format
 msgid "Reverted to previous version, saved on %(datetime)s"
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:293
-#: clone/django-reversion/src/reversion/admin.py:457
+#: clone/django-reversion/src/reversion/admin.py:292
+#: clone/django-reversion/src/reversion/admin.py:456
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:23
 #: clone/django-reversion/src/reversion/templates/reversion/recover_list.html:30
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:41
@@ -186,7 +187,7 @@ msgstr ""
 msgid "DATETIME_FORMAT"
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:295
+#: clone/django-reversion/src/reversion/admin.py:294
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:284
 #, python-format
 msgid ""
@@ -194,13 +195,13 @@ msgid ""
 "below."
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:378
+#: clone/django-reversion/src/reversion/admin.py:377
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:366
 #, python-format
 msgid "Recover %(name)s"
 msgstr ""
 
-#: clone/django-reversion/src/reversion/admin.py:389
+#: clone/django-reversion/src/reversion/admin.py:388
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:377
 #, python-format
 msgid "Revert %(name)s"
@@ -525,22 +526,25 @@ msgid "Save changes"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:31
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:30
 #: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:42
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/text.py:136
 msgid "or"
-msgstr ""
+msgstr "ou"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:37
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/_profile_form.html:13
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax.html:17
 #: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:48
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:46
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:42
 #: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:60
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:59
 msgid "Please confirm deletion"
-msgstr ""
+msgstr "Confirmer la suppression"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:50
 #: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:69
@@ -635,7 +639,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:27
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:38
 msgid "View"
-msgstr ""
+msgstr "Voir"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:29
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:39
@@ -672,33 +676,37 @@ msgstr ""
 msgid "Not Found"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/404.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/404.html:9
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:4
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:8
+msgid "Page not found"
+msgstr "Page non trouvée"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/404.html:10
 msgid "We're sorry but that page could not be found."
-msgstr ""
+msgstr "Cette page n'existe pas."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/500.html:5
 msgid "Server Error"
-msgstr ""
+msgstr "Server Error"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/500.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/500.html:9
+msgid "Something went wrong"
+msgstr "Il y a un problème quelque part..."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/500.html:10
 msgid ""
 "We're sorry but a server error has occurred. We've been notified and will "
 "look into it as soon as possible."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/_terms.html:5
-#: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:26
-#, python-format
-msgid ""
-"By clicking \"Sign Up\", you are indicating that you have read and agree to "
-"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href=\"%(privacy_url)s"
-"\">Privacy Policy</a>."
-msgstr "En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et "
-"accepté les <a href=\"%(terms_url)s\">conditions d'utilisation</a> et "
-"<a href=\"%(privacy_url)s \">la politique de confidentialité</a>."
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:7
+#, fuzzy
+msgid "Logged in as:"
+msgstr "Déconnecté"
 
-
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:18
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:11
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:6
 #: clone/pycon/pycon_project/templates/account/base.html:14
 #: clone/pycon/pycon_project/templates/account/email.html:6
@@ -706,25 +714,55 @@ msgstr "En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et "
 msgid "Account"
 msgstr "Compte"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:11
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:9
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:20
+#: src/pyconfr/templates/_account_bar.html:15
+msgid "Admin"
+msgstr "Admin"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:23
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:48
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_done.html:4
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_form.html:5
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:31
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:33
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:23
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:19
+msgid "Sign up"
+msgstr "S'inscrire"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/_terms.html:6
+#: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:26
+#, python-format
+msgid ""
+"By clicking \"Sign Up\", you are indicating that you have read and agree to "
+"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href=\"%(privacy_url)s"
+"\">Privacy Policy</a>."
+msgstr ""
+"En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et accepté "
+"les <a href=\"%(terms_url)s\">conditions d'utilisation</a> et <a href="
+"\"%(privacy_url)s \">la politique de confidentialité</a>."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:10
 #: clone/pycon/pycon_project/templates/account/base.html:19
 #: clone/pycon/pycon_project/templates/account/email.html:9
 msgid "Email Addresses"
 msgstr "Adresses mail"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:13
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:5
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:14
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:6
 #: clone/pycon/pycon_project/templates/account/base.html:20
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:5
 msgid "OpenID Associations"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:16
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:17
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:9
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:7
 #: clone/pycon/pycon_project/templates/account/base.html:22
 #: clone/pycon/pycon_project/templates/account/password_change.html:5
 #: clone/pycon/pycon_project/templates/account/password_change.html:8
@@ -733,36 +771,33 @@ msgstr ""
 msgid "Change Password"
 msgstr "Changer de mot de passe"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:18
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:19
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:9
 #: clone/pycon/pycon_project/templates/account/base.html:24
 #: clone/pycon/pycon_project/templates/account/password_set.html:6
 #: clone/pycon/pycon_project/templates/account/password_set.html:9
 msgid "Set Password"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:21
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:22
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:9
 #: clone/pycon/pycon_project/templates/account/base.html:28
 #: clone/pycon/pycon_project/templates/account/password_delete.html:5
 #: clone/pycon/pycon_project/templates/account/password_delete.html:8
 msgid "Delete Password"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:24
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:25
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:9
 #: clone/pinax/pinax/apps/account/forms.py:479
 #: clone/pycon/pycon_project/templates/account/language_change.html:6
 #: clone/pycon/pycon_project/templates/account/language_change.html:9
 msgid "Language"
 msgstr "Langage"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:26
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:27
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:9
 #: clone/pinax/pinax/apps/account/forms.py:465
 #: clone/pycon/pycon_project/templates/account/base.html:32
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:6
@@ -770,52 +805,62 @@ msgstr "Langage"
 msgid "Timezone"
 msgstr "Fuseau horaire"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:18
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:11
+#, fuzzy
+msgid "Manage your email addresses."
+msgstr "Adresses mail"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:21
 #: clone/pycon/pycon_project/templates/account/email.html:18
 msgid "verified"
 msgstr "vérifiée"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:20
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:23
 #: clone/pycon/pycon_project/templates/account/email.html:20
 msgid "primary"
 msgstr "principale"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:28
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:31
 msgid "Make primary"
 msgstr "Mettre en principale"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:33
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:36
 #: clone/pycon/pycon_project/templates/account/email.html:33
 msgid "unverified"
 msgstr "non vérifié"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:40
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:43
 msgid "Re-send verification email"
 msgstr "Réenvoyer l'email de vérification"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:51
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:54
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/edit_inline/stacked.html:70
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/edit_inline/tabular.html:116
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/templates/comments/delete.html:12
 msgid "Remove"
 msgstr "Supprimer"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:59
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:62
 msgid ""
 "You should really add an email address so you can receive notifications, "
 "reset your password if you forget it, etc."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:65
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:68
 #: clone/pycon/pycon_project/templates/account/email.html:62
 msgid "Add Email Address"
 msgstr "Ajouter une adresse mail"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:70
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:73
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/change_form.html:22
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/index.html:29
 msgid "Add"
 msgstr "Ajouter"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:10
+#, fuzzy
+msgid "Language Settings"
+msgstr "Langage"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:11
 #: clone/pycon/pycon_project/templates/account/language_change.html:11
@@ -827,25 +872,26 @@ msgstr ""
 msgid "Change my language"
 msgstr "Changer de langue"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:8
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:9
 #: clone/pycon/pycon_project/templates/account/login.html:13
 #: clone/pycon/pycon_project/templates/account/signup.html:13
 msgid "Log In"
 msgstr "S'indentifier"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:19
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:13
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:14
+msgid "If you have an existing account, provide your login credentials below."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:22
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:18
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:16
 #: clone/pycon/pycon_project/templates/account/login.html:17
 #: clone/pycon/pycon_project/templates/account/password_reset.html:12
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:12
 msgid "Note"
 msgstr "Note"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:20
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:13
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:23
 #: clone/pycon/pycon_project/templates/account/login.html:17
 #: clone/pycon/pycon_project/templates/account/password_reset.html:12
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:12
@@ -853,44 +899,60 @@ msgstr "Note"
 msgid "you are already logged in as %(user_display)s."
 msgstr "vous êtes déjà identifié comme %(user_display)s"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:25
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:28
 #: clone/pycon/pycon_project/templates/account/login.html:21
 #, python-format
 msgid "Don't have an account? <a href=\"%(signup_url)s\">Sign up</a>!"
-msgstr "Vous n'avez pas de compte ? <a href=\"%(signup_url)s\">Enregistrez-vous</a> !"
+msgstr ""
+"Vous n'avez pas de compte ? <a href=\"%(signup_url)s\">Enregistrez-vous</a> !"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:28
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:31
 #: clone/pycon/pycon_project/templates/account/login.html:35
 msgid "Forgot password?"
 msgstr "Mot de passe oublié ?"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:48
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:38
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:36
+msgid "Log in with an existing account"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:50
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:39
 #: clone/pycon/pycon_project/templates/account/login.html:47
 msgid "Or sign in with your OpenID"
 msgstr "Ou enregistez vous avec votre OpenID"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:64
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:28
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:53
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:42
+msgid "OpenID Identifier"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:66
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:29
 #: clone/pycon/pycon_project/templates/account/login.html:57
 #, python-format
 msgid ""
 "If you have any trouble logging in to your account, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr "Si vous avez des problèmes pour vous connecter, merci de nous "
-"contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>"
+msgstr ""
+"Si vous avez des problèmes pour vous connecter, merci de nous contacter à <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:5
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:9
 msgid "Logged Out"
 msgstr "Déconnecté"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:8
-#: clone/pycon/pycon_project/templates/account/logout.html:8
-msgid "You've been logged out."
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:10
+#, fuzzy
+msgid "You've been logged out. Come back soon."
 msgstr "Vous avez été déconnecté."
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:16
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:20
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:11
+msgid "Use the form below to change your password."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:18
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:29
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:41
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/auth/user/change_password.html:16
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/auth/user/change_password.html:49
@@ -905,12 +967,12 @@ msgid ""
 "You may delete your password since you are currently logged in using OpenID."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:13
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete.html:15
 msgid "Delete my password"
-msgstr ""
+msgstr "Supprimer le mot de passe"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete_done.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete_done.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_delete_done.html:9
 #: clone/pycon/pycon_project/templates/account/password_delete_done.html:5
 #: clone/pycon/pycon_project/templates/account/password_delete_done.html:8
 msgid "Password Deleted"
@@ -922,9 +984,8 @@ msgid "Your password has been deleted."
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:7
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:11
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:9
 #: clone/pycon/pycon_project/templates/account/password_reset.html:7
 #: clone/pycon/pycon_project/templates/account/password_reset.html:9
 #: clone/pycon/pycon_project/templates/account/password_reset_done.html:6
@@ -932,78 +993,130 @@ msgstr ""
 msgid "Password Reset"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:16
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:12
 #: clone/pycon/pycon_project/templates/account/password_reset.html:17
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll send you "
 "an email allowing you to reset it."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:23
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:20
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:18
+#, fuzzy, python-format
+msgid "You are already logged in as %(user_display)s."
+msgstr "vous êtes déjà identifié comme %(user_display)s"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:28
 #: clone/pycon/pycon_project/templates/account/password_reset.html:24
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_reset_form.html:16
 msgid "Reset my password"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:28
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:32
 #: clone/pycon/pycon_project/templates/account/password_reset.html:29
 #, python-format
 msgid ""
 "If you have any trouble resetting your password, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr "Si vous avez des problèmes pour changer votre mot de passe, merci de"
-" nous contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+"Si vous avez des problèmes pour changer votre mot de passe, merci de nous "
+"contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:10
+msgid "Reset Email Sent"
+msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:15
-#: clone/pycon/pycon_project/templates/account/password_reset_done.html:15
-#, python-format
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:11
 msgid ""
-"We have sent you an email. If you do not receive it within a few minutes, "
-"contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"An email with information on how to reset your password has been sent to "
+"your email address."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:8
-#: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:8
-msgid "Bad Token"
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:22
+#, fuzzy, python-format
+msgid ""
+"If you do not receive your reset email within a few minutes, contact us at "
+"<a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
+"Si vous avez des problèmes pour changer votre mot de passe, merci de nous "
+"contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:12
-#: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:12
-#, python-format
-msgid ""
-"The password reset link was invalid, possibly because it has already been "
-"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
-"a>."
+msgid "Expired or Invalid Reset"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:16
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:13
+msgid ""
+"The password reset link you followed is invalid or has been used already."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:17
+#, python-format
+msgid ""
+"The password reset link you follow is invalid, possibly because it has "
+"already been used.  Please request a <a href=\"%(passwd_reset_url)s\">new "
+"password reset</a>."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:22
+#, fuzzy
+msgid "Changing Password"
+msgstr "Changer de mot de passe"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:23
+msgid "Use the form below to set a new password for your account."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:34
+#, fuzzy
+msgid "Password Updated"
+msgstr "Mot de passe:"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:35
+#, fuzzy
+msgid "Your password has been successfully updated."
+msgstr "La langue a été mise à jour."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:10
+#, fuzzy
+msgid "Set your password"
+msgstr "Supprimer mon mot de passe"
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:11
+msgid "Use the form below to set your password."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_set.html:18
 msgid "Set password"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:7
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:12
 #: clone/pycon/pycon_project/templates/account/signup.html:11
 msgid "Sign Up"
 msgstr "S'inscrire"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:15
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:13
+msgid "To sign up with a new account, use the form below."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:19
 #: clone/pycon/pycon_project/templates/account/signup.html:18
 msgid "You are already logged in."
 msgstr "Vous êtes déjà connecté."
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:17
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:21
 #: clone/pycon/pycon_project/templates/account/signup.html:13
 msgid "Already have an account?"
 msgstr "Vous avez déjà un compte."
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:30
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:22
-msgid "Sign up"
-msgstr "S'inscrire"
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:48
+#, fuzzy
+msgid "Sign in with OpenID"
+msgstr "Se connecter avec OpenID"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:55
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:32
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:33
 #: clone/pycon/pycon_project/templates/account/signup.html:43
 #: clone/pycon/pycon_project/templates/django_openid/register.html:26
 #: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:28
@@ -1011,16 +1124,23 @@ msgstr "S'inscrire"
 msgid ""
 "If you have any trouble creating your account, contact us at <a href="
 "\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
-msgstr "Si vous avez des problèmes pour vous inscrire, merci de"
-" nous contacter à <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+"Si vous avez des problèmes pour vous inscrire, merci de nous contacter à <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:10
+#, fuzzy
+msgid "Timezone settings"
+msgstr "Fuseau horaire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:11
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:11
 msgid ""
 "This site can localize all times into your preferred timezone. Change your "
 "timezone below."
-msgstr "Ce site peut indiquer les horaires dans le fuseau horaire de votre "
-"choix. Changez le fuseau horaire ci-dessous."
+msgstr ""
+"Ce site peut indiquer les horaires dans le fuseau horaire de votre choix. "
+"Changez le fuseau horaire ci-dessous."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:18
 #: clone/pycon/pycon_project/templates/account/timezone_change.html:18
@@ -1028,30 +1148,41 @@ msgid "Change my timezone"
 msgstr "Changer le fuseau horaire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:8
-#: clone/pycon/pycon_project/templates/account/verification_sent.html:5
-#: clone/pycon/pycon_project/templates/account/verification_sent.html:8
-msgid "Verify your email address"
-msgstr ""
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:9
+#, fuzzy
+msgid "Verification email sent"
+msgstr "Réenvoyer l'email de vérification"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:10
-#: clone/pycon/pycon_project/templates/account/verification_sent.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:11
 #, python-format
 msgid ""
-"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
-"link provided to finalize the signup process. If you do not receive it "
-"within a few minutes, contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">"
-"%(CONTACT_EMAIL)s</a>."
+"\n"
+"                We have sent you an email to <b>%(email)s</b> for "
+"verification. Follow the link provided to finalize the signup process.\n"
+"            "
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:17
+#, fuzzy, python-format
+msgid ""
+"If you do not receive it within a few minutes, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+"Si vous avez des problèmes pour vous inscrire, merci de nous contacter à <a "
+"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:19
+msgid "Go back"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:6
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:9
 #: clone/pycon/pycon_project/templates/django_openid/already_logged_in.html:5
 #: clone/pycon/pycon_project/templates/django_openid/already_logged_in.html:8
 msgid "Already logged in"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/already_logged_in.html:11
 #, python-format
 msgid ""
 "You are already logged into the site. To login with a different OpenID "
@@ -1065,12 +1196,12 @@ msgstr ""
 msgid "Verify this Association"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:9
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:8
 msgid "Manage OpenID Associations"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:13
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:13
 #, python-format
 msgid ""
@@ -1079,24 +1210,24 @@ msgid ""
 "password</a>."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:16
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:17
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:17
 #, python-format
 msgid ""
 "Your account is currently associated with the following OpenID %(buttons)s:"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:26
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:27
 #: clone/pycon/pycon_project/templates/account/email.html:51
 msgid "remove"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:33
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:34
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:32
 msgid "To associate a new OpenID with this account, sign in with it here:"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:46
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/associations.html:47
 #: clone/pycon/pycon_project/templates/django_openid/associations.html:39
 msgid "Authenticate and associate with this account"
 msgstr ""
@@ -1106,40 +1237,40 @@ msgstr ""
 msgid "Error using OpenID"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:9
 #: clone/pycon/pycon_project/templates/account/login.html:8
 msgid "Login"
 msgstr "S'identifier"
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:13
 msgid "Log In to OpenID"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:9
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:7
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:10
 #: clone/pycon/pycon_project/templates/django_openid/register.html:6
 #: clone/pycon/pycon_project/templates/django_openid/register.html:9
 msgid "Choose a Username"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:13
 msgid "Please correct the errors below:"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:15
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:16
 msgid ""
 "Now that you have logged in with your OpenID, we need you to choose a "
 "username for this site."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:30
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:31
 #, python-format
 msgid ""
 "<strong>Already have an account?</strong> <a href=\"%(acct_login_openid_url)s"
 "\">Log in</a> to associate your OpenID with your existing account."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:31
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:32
 #, python-format
 msgid ""
 "By clicking &quot;Sign Up&quot;, you are indicating that you have read and "
@@ -1162,16 +1293,15 @@ msgid ""
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:6
-#: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:7
-msgid "Confirm Email"
+msgid "Email Confirmation"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:12
 #: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:11
 msgid "Email Confirmed"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:13
 #: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:13
 #, python-format
 msgid ""
@@ -1179,69 +1309,114 @@ msgid ""
 "'%(user_display)s'."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:14
-#: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:16
-msgid "Invalid confirmation key."
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:18
+msgid "Invalid confirmation key"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/emailconfirmation/confirm_email.html:19
+msgid "The confirmation key you provided is invalid."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/_profile_form.html:14
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax.html:18
+msgid "Update"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/additional_info.html:6
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/additional_info.html:10
+msgid "Additional Info"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/additional_info.html:11
+msgid "Please fill out the following form so we know a little about you."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/additional_info.html:18
+msgid "Submit"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:11
 #: clone/pinax/pinax/projects/basic_project/templates/site_base.html:9
 msgid "Profile"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:11
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:12
 msgid "Your Profile"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:12
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/base.html:13
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profiles.html:7
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profiles.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profiles.html:11
 msgid "All Profiles"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile.html:11
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile.html:7
 #, python-format
 msgid "Profile for %(page_user_display)s"
 msgstr ""
 
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile.html:18
+msgid "Update my profile"
+msgstr ""
+
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit.html:9
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax.html:5
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax.html:7
 msgid "Edit Profile"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit.html:9
+msgid "Edit profile"
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax_success.html:4
 msgid "Success!"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/base.html:13
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax_success.html:9
+#, fuzzy
+msgid "Your profile has been successfully updated!"
+msgstr "La langue a été mise à jour."
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax_success.html:13
+#: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/base.html:42
+msgid "Close"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profiles.html:12
+msgid "All profiles on the site."
+msgstr ""
+
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/base.html:14
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/base.html:15
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:9
 #: clone/pinax/pinax/projects/basic_project/templates/site_base.html:10
 msgid "Notices"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/base.html:15
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:9
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/base.html:16
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/panels/settings_vars.py:16
 msgid "Settings"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:6
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:7
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:11
 msgid "Notification Settings"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:15
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:12
+msgid "Use this page to manage all of your notification settings."
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:19
 msgid "Primary email"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:17
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:21
 #, python-format
 msgid "change under <a href=\"%(email_url)s\">Account</a>"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:21
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:25
 #, python-format
 msgid ""
 "\n"
@@ -1252,26 +1427,26 @@ msgid ""
 "                "
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:32
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:36
 msgid "Notification Type"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:50
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notice_settings.html:54
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/index.html:35
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/widgets.py:300
 msgid "Change"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:15
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:16
 msgid "Mark all unseen notices seen"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:21
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:22
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/translation/trans_real.py:602
 msgid "MONTH_DAY_FORMAT"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:39
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/notification/notices.html:40
 msgid "No notices."
 msgstr ""
 
@@ -1285,6 +1460,11 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/admin_invite_user.html:4
+#: clone/pinax/pinax/apps/signup_codes/views.py:134
+msgid "Invite user"
+msgstr ""
+
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/admin_invite_user.html:8
 msgid ""
 "Invite a user given an e-mail address. The user will be e-mailed a signup "
@@ -1292,25 +1472,24 @@ msgid ""
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:5
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:8
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:9
 msgid "Incorrect Code"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:11
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:12
 #, python-format
 msgid "The code <b>%(code)s</b> is incorrect."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:13
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:14
 msgid "You must specify a code."
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:16
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/signup_codes/failure.html:19
 msgid "Try again:"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:6
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/success.html:5
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:7
 #: clone/pinax/pinax/projects/account_project/templates/homepage.html:6
 #: clone/pinax/pinax/projects/basic_project/templates/homepage.html:6
 #: clone/pinax/pinax/projects/zero_project/templates/homepage.html:5
@@ -1318,12 +1497,24 @@ msgstr ""
 msgid "Welcome"
 msgstr ""
 
-#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:10
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:11
 msgid "Sign up for the waiting list"
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:12
 msgid "Give us your email address and you'll be added to the waiting list"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/success.html:5
+msgid "Waiting list"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/success.html:9
+msgid "Thanks for your interest"
+msgstr ""
+
+#: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/success.html:10
+msgid "You have been added to the waiting list."
 msgstr ""
 
 #: clone/pinax/pinax/apps/account/forms.py:44
@@ -1516,10 +1707,6 @@ msgstr ""
 msgid "An email has been sent to %(email)s."
 msgstr ""
 
-#: clone/pinax/pinax/apps/signup_codes/views.py:134
-msgid "Invite user"
-msgstr ""
-
 #: clone/pinax/pinax/apps/waitinglist/models.py:9
 #: eggs/django_email_confirmation-0.2-py2.7.egg/emailconfirmation/models.py:71
 msgid "email address"
@@ -1668,7 +1855,7 @@ msgid "Name"
 msgstr "Nom"
 
 #: clone/pinax/pinax/projects/basic_project/templates/profiles/_profile_info.html:4
-#: src/pyconfr/templates/_nav.html:4
+#: src/pyconfr/templates/_nav.html:5
 msgid "About"
 msgstr "À propos"
 
@@ -1922,6 +2109,10 @@ msgstr ""
 msgid "Logout"
 msgstr "Se déconnecter"
 
+#: clone/pycon/pycon_project/templates/account/logout.html:8
+msgid "You've been logged out."
+msgstr "Vous avez été déconnecté."
+
 #: clone/pycon/pycon_project/templates/account/password_change.html:15
 #: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:20
 msgid "change password"
@@ -1930,6 +2121,25 @@ msgstr "Changer de mot de passe"
 #: clone/pycon/pycon_project/templates/account/password_delete.html:12
 msgid "delete my password"
 msgstr "Supprimer mon mot de passe"
+
+#: clone/pycon/pycon_project/templates/account/password_reset_done.html:15
+#, python-format
+msgid ""
+"We have sent you an email. If you do not receive it within a few minutes, "
+"contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:8
+msgid "Bad Token"
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/account/password_reset_from_key.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/password_set.html:16
 msgid "set password"
@@ -1945,6 +2155,20 @@ msgstr "s'inscrire"
 #: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:19
 msgid "Sign Up &raquo;"
 msgstr "S'inscrire"
+
+#: clone/pycon/pycon_project/templates/account/verification_sent.html:5
+#: clone/pycon/pycon_project/templates/account/verification_sent.html:8
+msgid "Verify your email address"
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/account/verification_sent.html:10
+#, python-format
+msgid ""
+"We have sent you an email to <b>%(email)s</b> for verification. Follow the "
+"link provided to finalize the signup process. If you do not receive it "
+"within a few minutes, contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">"
+"%(CONTACT_EMAIL)s</a>."
+msgstr ""
 
 #: clone/pycon/pycon_project/templates/django_openid/already_logged_in.html:11
 #, python-format
@@ -1969,6 +2193,14 @@ msgstr ""
 msgid ""
 "<strong>Already have an account?</strong> <a href=\"%(acct_login_openid_url)s"
 "\">Log in here</a> to associate your OpenID with your existing account."
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:7
+msgid "Confirm Email"
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:16
+msgid "Invalid confirmation key."
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:6
@@ -2368,8 +2600,9 @@ msgstr "Cette année"
 msgid ""
 "Please enter a correct username and password. Note that both fields are case-"
 "sensitive."
-msgstr "Entrez un login et mot de passe valides. Notez que les deux champs"
-"sont sensibles à la casse."
+msgstr ""
+"Entrez un login et mot de passe valides. Notez que les deux champssont "
+"sensibles à la casse."
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/forms.py:18
 msgid "Please log in again, because your session has expired."
@@ -2552,11 +2785,6 @@ msgstr ""
 msgid "Add Another"
 msgstr "Ajouter un autre"
 
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:4
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:8
-msgid "Page not found"
-msgstr "Page non trouvée"
-
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/404.html:10
 msgid "We're sorry, but the requested page could not be found."
 msgstr "Nous sommes désolés: la page demandée n'a pas été trouvée."
@@ -2616,12 +2844,6 @@ msgstr "Bienvenue,"
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admindocs/templates/admin_doc/bookmarklets.html:3
 msgid "Documentation"
 msgstr "Documentation"
-
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base.html:48
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_done.html:4
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_change_form.html:5
-msgid "Log out"
-msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/base_site.html:4
 msgid "Django site admin"
@@ -7318,10 +7540,6 @@ msgstr ""
 msgid "Show Toolbar"
 msgstr ""
 
-#: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/base.html:42
-msgid "Close"
-msgstr ""
-
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/redirect.html:9
 msgid ""
 "The Django Debug Toolbar has intercepted a redirect to the above URL for "
@@ -8145,85 +8363,72 @@ msgstr ""
 msgid "Unexpected end tag (%(name)s) before html."
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:22
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:21
 #, python-format
-msgid "StartTag not in PCDATA content model flag: %(tag)s"
+msgid "StartTag not in PCDATA content model flag: %s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:25
-#, python-format
-msgid "Tag name is not a string: %(tag)r"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:27
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:57
-msgid "Empty tag name"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:30
-#, python-format
-msgid "Void element reported as StartTag token: %s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:33
-#, python-format
-msgid "Non-void element reported as EmptyTag token: %s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:39
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:72
-#, python-format
-msgid "Attribute name is not a string: %r"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:41
-msgid "Empty attribute name"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:44
-#, python-format
-msgid "Attribute value is not a string: %r"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:55
-#, python-format
-msgid "Tag name is not a string: %s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:59
-#, python-format
-msgid "Void element reported as EndTag token: %s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:62
-#, python-format
-msgid "EndTag (%(start)s) does not match StartTag (%(end)s)"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:67
-msgid "Comment not in PCDATA content model flag"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:74
-#, python-format
-msgid "%s token with empty data"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:78
-msgid "Non-space character(s) found in SpaceCharacters token: "
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:83
-#, python-format
-msgid "Doctype not in PCDATA content model flag: %s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:85
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:23
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:49
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:77
 #, python-format
 msgid "Tag name is not a string: %r"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:92
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:25
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:51
+msgid "Empty tag name"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:27
+#, python-format
+msgid "Void element reported as StartTag token: %s"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:29
+#, python-format
+msgid "Non-void element reported as EmptyTag token: %s"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:34
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:64
+#, python-format
+msgid "Attribute name is not a string: %r"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:36
+msgid "Empty attribute name"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:38
+#, python-format
+msgid "Attribute value is not a string: %r"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:53
+#, python-format
+msgid "Void element reported as EndTag token: %s"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:59
+msgid "Comment not in PCDATA content model flag"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:66
+#, python-format
+msgid "%s token with empty data"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:70
+msgid "Non-space character(s) found in SpaceCharacters token: "
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:75
+#, python-format
+msgid "Doctype not in PCDATA content model flag: %s"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:84
 #, python-format
 msgid "Unknown token type: %s"
 msgstr ""
@@ -8302,74 +8507,6 @@ msgstr ""
 msgid "Clear image"
 msgstr ""
 
-#: src/pyconfr/templates/_footer.html:3
-msgid "&copy; 2011 &lt;your company here&gt;"
-msgstr ""
-
-#: src/pyconfr/templates/_nav.html:6
-msgid "Speakers"
-msgstr "Conférenciers"
-
-#: src/pyconfr/templates/_nav.html:12
-msgid "Registration"
-msgstr "Inscription"
-
-#: src/pyconfr/templates/_nav.html:13
-msgid "Venue"
-msgstr "Lieu"
-
-#: src/pyconfr/templates/_nav.html:15
-msgid "Jobs Fair"
-msgstr ""
-
-#: src/pyconfr/templates/_nav.html:16
-msgid "Blog"
-msgstr "Blog"
-
-#: src/pyconfr/templates/homepage.html:12
-msgid "Santa Clara, CA"
-msgstr "La Villette"
-
-#: src/pyconfr/templates/homepage.html:19
-msgid "Sprints: September 13th&ndash;14th"
-msgstr "Sprints: 13 &ndash; 14 Septembre"
-
-#: src/pyconfr/templates/homepage.html:22
-msgid "Talks: September 15th&ndash;17th"
-msgstr "Sprints: 15 &ndash; 17 Septembre"
-
-#: src/pyconfr/templates/homepage.html:27
-msgid "Presented by"
-msgstr "Présenté par"
-
-#: src/pyconfr/templates/homepage.html:47
-msgid "Our Platinum and Gold Sponsors"
-msgstr ""
-
-#: src/pyconfr/templates/homepage.html:49
-msgid "Learn how to become a sponsor..."
-msgstr "Devenir un sponsor..."
-
-#: src/pyconfr/templates/homepage.html:53
-msgid "What is <span>PyCon</span>?"
-msgstr "Qu'est <span>PyConFr</span> ?"
-
-#: src/pyconfr/templates/homepage.html:57
-msgid "Learn more..."
-msgstr "Apprenez-en plus..."
-
-#: src/pyconfr/templates/homepage.html:61
-msgid "Announcements"
-msgstr "Annonces"
-
-#: src/pyconfr/templates/homepage.html:74
-msgid "No blog posts have been published."
-msgstr "Aucun billet de blog n'a été publié"
-
-#: src/pyconfr/templates/homepage.html:81
-msgid "Sponsors"
-msgstr "Sponsors"
-
 #: src/pyconfr/templates/_account_bar.html:6
 msgid "Logged in with OpenID"
 msgstr "Se connecter avec OpenID"
@@ -8378,14 +8515,68 @@ msgstr "Se connecter avec OpenID"
 msgid "Manage Sponsorship"
 msgstr "Gestion des sponsors"
 
-#: src/pyconfr/templates/_account_bar.html:15
-msgid "Admin"
-msgstr "Admin"
-
 #: src/pyconfr/templates/_account_bar.html:17
 msgid "Edit Content"
 msgstr "Edition"
 
+#: src/pyconfr/templates/_account_bar.html:22
+#, fuzzy
+msgid "Signin"
+msgstr "s'inscrire"
 
+#: src/pyconfr/templates/_footer.html:3
+msgid "&copy; 2011 &lt;your company here&gt;"
+msgstr ""
 
+#: src/pyconfr/templates/_nav.html:6
+msgid "Schedule"
+msgstr ""
 
+#: src/pyconfr/templates/_nav.html:7
+msgid "Speakers"
+msgstr "Conférenciers"
+
+#: src/pyconfr/templates/_nav.html:9
+msgid "Reviewers"
+msgstr ""
+
+#: src/pyconfr/templates/_nav.html:14
+msgid "Venue"
+msgstr "Lieu"
+
+#: src/pyconfr/templates/_nav.html:15
+msgid "Sponsors"
+msgstr "Sponsors"
+
+#~ msgid "Registration"
+#~ msgstr "Inscription"
+
+#~ msgid "Blog"
+#~ msgstr "Blog"
+
+#~ msgid "Santa Clara, CA"
+#~ msgstr "La Villette"
+
+#~ msgid "Sprints: September 13th&ndash;14th"
+#~ msgstr "Sprints: 13 &ndash; 14 Septembre"
+
+#~ msgid "Talks: September 15th&ndash;17th"
+#~ msgstr "Sprints: 15 &ndash; 17 Septembre"
+
+#~ msgid "Presented by"
+#~ msgstr "Présenté par"
+
+#~ msgid "Learn how to become a sponsor..."
+#~ msgstr "Devenir un sponsor..."
+
+#~ msgid "What is <span>PyCon</span>?"
+#~ msgstr "Qu'est <span>PyConFr</span> ?"
+
+#~ msgid "Learn more..."
+#~ msgstr "Apprenez-en plus..."
+
+#~ msgid "Announcements"
+#~ msgstr "Annonces"
+
+#~ msgid "No blog posts have been published."
+#~ msgstr "Aucun billet de blog n'a été publié"
