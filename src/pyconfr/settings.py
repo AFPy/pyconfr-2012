@@ -177,6 +177,7 @@ INSTALLED_APPS = [
     "ajax_validation",
     "fixture_generator",
     "mailout",
+    "django_forms_bootstrap",
     
     # Pinax
     "pinax.apps.account",
@@ -257,7 +258,7 @@ WAKAWAKA_SLUG_REGEX = r"((\w{2,})(/\w{2,})*)" # allow lower case wiki page names
 WAKAWAKA_LOCK_TIMEOUT = 10*60
 
 MARKITUP_AUTO_PREVIEW = True
-MARKITUP_SET = "markitup/sets/markdown-custom"
+MARKITUP_SET = "markitup/sets/markdown"
 MARKITUP_SKIN = "markitup/skins/simple"
 MARKITUP_FILTER = ("wiki.markdown_parser.parse", {})
 MARKITUP_MEDIA_URL = STATIC_URL

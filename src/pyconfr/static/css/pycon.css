@@ -376,7 +376,6 @@ pre.changes {
 /** header ** */
 header {
   position: relative;
-  height: 130px;
 }
 
 header .container {
@@ -512,6 +511,7 @@ footer a:hover {
   float: left;
   margin: 0 0 0 -20px;
   padding: 0;
+  width: 100%;
 }
 #subnav li {
   display: inline;

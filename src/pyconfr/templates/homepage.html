@@ -38,9 +38,6 @@
 {% block body %}
 
     {% sponsors as sponsors %}
-    <div class="mainbox">
-        {% box "mainbox" %}
-    </div>
     {#  SECTION: our platinum and gold sponsors #}
     <div class="span-24 last">
         <h1 class="hidden">Nos sponsors "Gold"</h1>
@@ -79,7 +76,7 @@
     <div class="span-24 last">
         <hr />
         <div class="other-sponsors">
-            <h6>Sponsors</h6>
+            <!--h6>Sponsors</h6-->
             <a href="{% url sponsor_list %}">
             {% for sponsor in sponsors %}
                 {% thumbnail sponsor.website_logo "100x60" format="PNG" as logo %}

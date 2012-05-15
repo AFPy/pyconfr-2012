@@ -129,7 +129,7 @@ msgstr "Mot de passe:"
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/registration/password_reset_complete.html:14
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/views/decorators.py:26
 msgid "Log in"
-msgstr "S'enregistrer"
+msgstr "Connexion"
 
 #: clone/django-openid/django_openid/templates/django_openid/admin_login.html:31
 msgid "Or use your OpenID:"
@@ -806,9 +806,8 @@ msgid "Timezone"
 msgstr "Fuseau horaire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:11
-#, fuzzy
 msgid "Manage your email addresses."
-msgstr "Adresses mail"
+msgstr "Gérer vos adresses mail"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:21
 #: clone/pycon/pycon_project/templates/account/email.html:18
@@ -858,14 +857,13 @@ msgid "Add"
 msgstr "Ajouter"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:10
-#, fuzzy
 msgid "Language Settings"
 msgstr "Langage"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:11
 #: clone/pycon/pycon_project/templates/account/language_change.html:11
 msgid "This site can be used in your preferred language."
-msgstr ""
+msgstr "Ce site peut être utiliser dans votre langue préférée."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/language_change.html:18
 #: clone/pycon/pycon_project/templates/account/language_change.html:18
@@ -880,7 +878,7 @@ msgstr "S'indentifier"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:14
 msgid "If you have an existing account, provide your login credentials below."
-msgstr ""
+msgstr "Si vous avez un compte existant, saisissez votre `login/mot de passe` ci dessous."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:22
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:18
@@ -913,18 +911,18 @@ msgstr "Mot de passe oublié ?"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:36
 msgid "Log in with an existing account"
-msgstr ""
+msgstr "Connectez-vous avec votre compte existant"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:50
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:39
 #: clone/pycon/pycon_project/templates/account/login.html:47
 msgid "Or sign in with your OpenID"
-msgstr "Ou enregistez vous avec votre OpenID"
+msgstr "Ou connectez-vous avec votre OpenID"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:53
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:42
 msgid "OpenID Identifier"
-msgstr ""
+msgstr "Identifiant OpenID"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:66
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/login.html:29
@@ -943,13 +941,12 @@ msgid "Logged Out"
 msgstr "Déconnecté"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/logout.html:10
-#, fuzzy
 msgid "You've been logged out. Come back soon."
 msgstr "Vous avez été déconnecté."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:11
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "Utilisez le formulaire suivant pour changer votre mot de passe."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_change.html:18
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:29
@@ -1098,7 +1095,7 @@ msgstr "S'inscrire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:13
 msgid "To sign up with a new account, use the form below."
-msgstr ""
+msgstr "Pour s'inscrire avec un nouveau compte, utilisez le formulaire suivant."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:19
 #: clone/pycon/pycon_project/templates/account/signup.html:18
@@ -1129,7 +1126,6 @@ msgstr ""
 "href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/timezone_change.html:10
-#, fuzzy
 msgid "Timezone settings"
 msgstr "Fuseau horaire"
 
@@ -1572,7 +1568,7 @@ msgstr ""
 
 #: clone/pinax/pinax/apps/account/forms.py:147
 msgid "Email (optional)"
-msgstr ""
+msgstr "Email (optionel)"
 
 #: clone/pinax/pinax/apps/account/forms.py:152
 msgid "Usernames can only contain letters, numbers and underscores."
@@ -1816,6 +1812,7 @@ msgstr ""
 #: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:164
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:77
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:105
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:26
 msgid "name"
 msgstr ""
 
@@ -2104,6 +2101,54 @@ msgstr ""
 msgid "add"
 msgstr ""
 
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "To submit a talk:"
+msgstr "Pour soumettre une proposition de présentation:"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "sign up and log in"
+msgstr "enregistrez-vous et connectez-vous"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "create a speaker profile"
+msgstr "créez un profil de conférencier"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "submit one or more proposals"
+msgstr "soumettez une proposition ou plus"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "Talk submissions are now closed and the"
+msgstr "Les soumissions sont fermées et"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "schedule has been announced"
+msgstr "l'emploi du temps a été annoncé"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "Edit your profile"
+msgstr "Éditer votre profil"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "You will be able to come back and revise your submission until the deadline."
+msgstr "Vous pouvez éditer votre proposition jusqu'à la date butoir."
+
 #: clone/pycon/pycon_project/templates/account/logout.html:5
 #: src/pyconfr/templates/_account_bar.html:20
 msgid "Logout"
@@ -2148,7 +2193,7 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/signup.html:6
 #: src/pyconfr/templates/_account_bar.html:24
 msgid "Signup"
-msgstr "s'inscrire"
+msgstr "Inscription"
 
 #: clone/pycon/pycon_project/templates/account/signup.html:29
 #: clone/pycon/pycon_project/templates/django_openid/register.html:18
@@ -3801,8 +3846,9 @@ msgid "Advanced options"
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:8
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:31
 msgid "title"
-msgstr ""
+msgstr "titre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:10
 msgid "enable comments"
@@ -8520,17 +8566,16 @@ msgid "Edit Content"
 msgstr "Edition"
 
 #: src/pyconfr/templates/_account_bar.html:22
-#, fuzzy
 msgid "Signin"
-msgstr "s'inscrire"
+msgstr "Connexion"
 
 #: src/pyconfr/templates/_footer.html:3
 msgid "&copy; 2011 &lt;your company here&gt;"
-msgstr ""
+msgstr "2012 AFPY"
 
 #: src/pyconfr/templates/_nav.html:6
 msgid "Schedule"
-msgstr ""
+msgstr "Agenda"
 
 #: src/pyconfr/templates/_nav.html:7
 msgid "Speakers"
@@ -8538,7 +8583,7 @@ msgstr "Conférenciers"
 
 #: src/pyconfr/templates/_nav.html:9
 msgid "Reviewers"
-msgstr ""
+msgstr "Relecteurs"
 
 #: src/pyconfr/templates/_nav.html:14
 msgid "Venue"
@@ -8547,6 +8592,114 @@ msgstr "Lieu"
 #: src/pyconfr/templates/_nav.html:15
 msgid "Sponsors"
 msgstr "Sponsors"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:18
+msgid "Novice"
+msgstr "Débutant"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:19
+msgid "Intermediate"
+msgstr "Moyen"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:20
+msgid "Experienced"
+msgstr "Expert"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:24
+msgid "No preference"
+msgstr "Pas de préférence"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:25
+msgid "I prefer a 30 minute slot"
+msgstr "Je préfère une tranche de 30 minutes"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:26
+msgid "I prefer a 45 minute slot"
+msgstr "Je préfère une tranche de 45 minutes"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:35
+msgid "If your talk is accepted this will be made public and printed in the program. Should be one paragraph, maximum 400 characters."
+msgstr "Si votre présentation est acceptée ce texte sera publié et imprimé dans le programme. Il doit faire un paragraphe, 400 caratères maximum."
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:40
+msgid "kind"
+msgstr "Type de présentation"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:44
+msgid "category"
+msgstr "catégorie"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:47
+msgid "Detailed description and outline. Will be made public if your talk is accepted. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+msgstr "Description détaillée et complément d'information. Sera publié si la présentation est acceptée. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:48
+msgid "abstract"
+msgstr "résumé"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:52
+msgid "audience level"
+msgstr "audience visée"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:56
+msgid "Anything else you'd like the program committee to know when making their selection: your past speaking experience, open source community experience, etc. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+msgstr "Toute autre chose dont vous sauhaitez faire part au comité: vos précédentes présentations, votre expérience des communautés open-source, etc. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:57
+msgid "additional notes"
+msgstr "notes additionelles"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:61
+msgid "'Extreme' talks are advanced talks with little or no introductory material. See <a href='http://us.pycon.org/2012/speaker/extreme/' target='_blank'>http://us.pycon.org/2012/speaker/extreme/</a> for details."
+msgstr "Tu bluffes Martoni !"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:62
+msgid "extreme"
+msgstr "extrême"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:66
+msgid "duration"
+msgstr "durée"
+
+#: src/pyconfr/templates/proposals/proposal_submit.html
+msgid "Submit A Proposal"
+msgstr "Soumettre une proposition"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:15
+msgid "One"
+msgstr "défaut"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:29
+msgid "A little bit about you. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+msgstr "Un petit quelque chose à propos de vous. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:30
+msgid "biography"
+msgstr "biographie"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:35
+msgid "photo"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:40
+msgid "Your Twitter account, with or without the @"
+msgstr "Votre pseudo twitter, avec ou sans @"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:41
+msgid "twitter username"
+msgstr "pseudo twitter"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:49
+msgid "invite email"
+msgstr "email d'invitation"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:63
+msgid "If you've submitted multiple proposals, please let us know if you only want to give one or if you'd like to give two talks. You may submit more than two proposals."
+msgstr "Si vous avez soumis plusieurs propositions, souhaitez vous présenter toutes vos propositions?"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:64
+msgid "sessions preference"
+msgstr "Je présente tout!"
 
 #~ msgid "Registration"
 #~ msgstr "Inscription"

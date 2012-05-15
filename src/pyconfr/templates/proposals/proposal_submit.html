@@ -3,12 +3,12 @@
 {% load boxes_tags %}
 {% load markitup_tags %}
 {% load uni_form_tags %}
+{% load i18n %}
 
 {% block extra_head %}
     <link rel="stylesheet" href="{{ STATIC_URL }}css/facebox.css" />
     <style>
         .uniForm .formHint {
-            line-height: 12pt;
             margin-top: 8px;
             width: 99%;
         }
@@ -18,13 +18,36 @@
         #div_id_extreme label {
             display: inline;
         }
+        .uniForm .textInput,
+        .uniForm .fileUpload,
+        .uniForm .selectInput,
+        .uniForm select,
+        .uniForm textarea {
+            width: 80%;
+        }
+        .uniForm textarea {
+            margin: -10px 0 0 0;
+        }
+        .uniForm div.markItUp {
+            margin: -10px 0 0 0;
+        }
+        .markItUp .markItUpHeader ul,
+        .markItUp textarea {
+            width: 100%;
+        }
+        .markItUp .markItUpHeader ul {
+            margin: 0 0 8px 8px;
+        }
+        #markItUpId_additional_notes {
+            margin: -20px 0 0 0;
+        }
     </style>
     <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/proposals.css" />
 {% endblock %}
 
 
 {% block content %}
-    <h1>Submit A Proposal</h1>
+    <h1>{% trans 'Submit A Proposal' %}</h1>
     
     {% box "example_proposal" %}
     
@@ -34,16 +57,10 @@
         <fieldset>
             {{ form|as_uni_form }}
             <div class="form_block">
-                <p>
-		      Vous pourrez éditer votre proposition après la
-		      soumission. Le comité du programe peut vous poser des
-		      questions, ou vous donner du feedback, ou même changer
-		      votre proposition lors de la revue.
-                </p>
+                <div>Vous pourrez éditer votre proposition après la soumission. Le comité du programe peut vous poser des questions, ou vous donner du feedback, ou même changer votre proposition lors de la revue.</div>
                 <input type="submit" name="finish" value="Enregistrer" />
                 <!-- <span style="float: right; padding: 4px 6px">or</span> -->
-                <input type="submit" name="add-speakers" value="Enregistrer et
-		ajouter des conférenciers" />
+                <input type="submit" name="add-speakers" value="+ ajouter des conférenciers" />
             </div>
         </fieldset>
     </form>
