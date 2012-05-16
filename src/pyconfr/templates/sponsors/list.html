@@ -1,12 +1,15 @@
 {% extends "sponsors/base.html" %}
 
+{% load boxes_tags %}
 {% load sponsors_pro_tags %}
 {% load thumbnail %}
+{% load i18n %}
 
 {% block body %}
     {% sponsors as sponsors %}
     <div class="span-17 spacer main-content">
-        <h1 class="section-title">{% block subpage_title %}À propos des sponsors <span>PyConFr</span>{% endblock %}</h1>
+        <h1 class="section-title">{% block subpage_title %}{% trans 'À propos des sponsors <span>PyConFr</span>' %}{% endblock %}</h1>
+        <p>{% box "sponsorship" %}</p> 
         <div class="sponsor-list">
             {% regroup sponsors by level as level_list %}
             {% for level in level_list %}
@@ -34,8 +37,7 @@
     </div>
     <div class="span-7 last">
         {% include "sponsors/_subnav1.html" %}
-        <p><a href="{% url sponsor_info %}" class="btn-sponsor"><span>En
-	savoir plus sur<br />devenir un <b>sponsor</b></span></a></p>
+        <p><a href="{% url sponsor_info %}" class="btn-sponsor"><span>En savoir plus <br/><b>→ Sponsor</b></span></a></p>
         <nav class="sidenav sponsor-sidenav">
             <ul>
                 {% for sponsor in sponsors %}
