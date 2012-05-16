@@ -9,23 +9,17 @@
         <p>{% box "talk-proposals" %}</p>
         
         <h3>{% trans 'To submit a talk:' %}</h3>
-        <!--h3>Pour soumettre une proposition de présentation:</h3-->
         
         <ol class="steps">
-            <!--li class="done first">enregistrez-vous et connectez-vous</li-->
-            <!--li class="done second">créez un profil de conférencier</li-->
             <li class="done first">{% trans 'sign up and log in' %}</li>
             <li class="done second">{% trans 'create a speaker profile' %}</li>
             <li class="next third"><a href="{% url proposal_submit %}">{% trans 'submit one or more proposals' %}</a></li>
         </ol>
 
-        <!--p><a href="{ url speaker_edit }">Éditer votre profil</a></p-->
         <p><a href="{% url speaker_edit %}">{% trans 'Edit your profile' %}</a></p>
         
-        <!--p>Vous pouvez éditer votre proposition jusqu'à la date butoir.</p-->
         <p>{% trans 'You will be able to come back and revise your submission until the deadline.' %}</p>
     {% else %}
-        <!--p>Les soumissions sont fermées et <a href="{ url schedule_list }">l'emploi du temps a été annoncé</a>.</p-->
         <p>{% trans 'Talk submissions are now closed and the' %}
             <a href="{% url schedule_list %}">{% trans 'schedule has been announced' %}</a>.
         </p>

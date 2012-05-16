@@ -1,6 +1,7 @@
 {% extends "speakers/base.html" %}
 
 {% load boxes_tags %}
+{% load i18n %}
 
 {% block content %}
     
@@ -8,7 +9,6 @@
         <p>{% box "talk-proposals" %}</p>
         
         <h3>{% trans 'To submit a talk:' %}</h3>
-        <!--h3>Pour soumettre une proposition de présentation:</h3-->
         
         <ol class="steps">
             <li class="next first">
@@ -16,13 +16,10 @@
                 {% trans 'or' %}
                 <a href="{% url acct_login %}?next={{ request.path }}">{% trans 'Signin' %}</a>
             </li>
-            <!--li class="second">créez votre profil de conférencier</li-->
             <li class="second">{% trans 'create a speaker profile' %}</li>
-            <!--li class="third">soumettez une proposition ou plus</li-->
             <li class="third">{% trans 'submit one or more proposals' %}</li>
         </ol>
     {% else %}
-        <!--p>Les soumissions sont fermées et <a href="{ url schedule_list }">l'emploi du temps a été annoncé</a>.</p-->
         <p>{% trans 'Talk submissions are now closed and the' %}
             <a href="{% url schedule_list %}">{% trans 'schedule has been announced' %}</a>.
         </p>
