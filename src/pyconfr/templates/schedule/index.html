@@ -1,0 +1,17 @@
+{% extends "schedule/base.html" %}
+
+{% load boxes_tags %}
+{% load i18n %}
+
+{% block body %}
+    <h1>{% trans 'Schedule' %}</h1>
+    <div>
+        {% box "schedule-intro" %}
+    </div>
+    <ul>
+        <li><a href="{% url schedule_tutorials %}">{% trans 'Tutorial Schedule' %}</a></li>
+        <li><a href="{% url schedule_conference %}">{% trans 'Conference Schedule' %}</a></li>
+        <li><a href="{% url schedule_list %}">{% trans 'List of Accepted Talks and Panels' %}</a></li>
+        <!--li><a href="{ url schedule_list_posters }">List of Accepted Posters</a></li-->
+    </ul>
+{% endblock %}
