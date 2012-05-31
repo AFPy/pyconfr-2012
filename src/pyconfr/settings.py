@@ -274,7 +274,7 @@ ANALYTICS_SETTINGS = {
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
-CONTACT_EMAIL = "afpy-membres@lists.afpy.org"
+CONTACT_EMAIL = "orga@pycon.fr"
 
 EMAIL_HOST = 'localhost'
 EMAIL_PORT = 25
