@@ -8832,11 +8832,11 @@ msgstr "Soumettre une proposition"
 
 #: src/pyconfr/templates/pycon/about.html:8
 msgid "What is <span>PyCon</span>"
-msgstr "Qu'est <span>PyConFr</span> ?"
+msgstr "Qu'est-ce que <span>PyConFr</span> ?"
 
 #: src/pyconfr/templates/pycon/about.html:16
 msgid "What is PyCon?"
-msgstr "Qu'est <span>PyConFr</span> ?"
+msgstr "Qu'est-ce que <span>PyConFr</span> ?"
 
 #: src/pyconfr/templates/pycon/sprints.html:8
 msgid "<span>PyCon</span> Sprints"
