@@ -1,0 +1,21 @@
+{% extends "pycon/base.html" %}
+
+{% load boxes_tags i18n %}
+
+{% block body_class %}sprints{% endblock %}
+
+{% block main_content %}
+    <h1 class="section-title">{% trans '<span>PyCon</span> Sprints' %}</h1>
+    {% box "sprints" %}
+{% endblock %}
+
+{% block sidenav %}
+<nav class="sidenav">
+    <ul>
+        <li>
+            <a href="{% url sprints %}" class="active">{% trans 'PyCon Sprints' %}</a>
+        </li>
+    </ul>
+</nav>
+{% endblock %}
+
