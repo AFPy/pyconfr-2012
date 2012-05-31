@@ -274,6 +274,8 @@ ANALYTICS_SETTINGS = {
 
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
+CONTACT_EMAIL = "afpy-membres@lists.afpy.org"
+
 # local_settings.py can be used to override environment-specific settings
 # like database and email that differ between development and production.
 try:
