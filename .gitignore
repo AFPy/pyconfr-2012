@@ -13,6 +13,7 @@ eggs/
 parts/
 *.egg-info/
 .installed.cfg
+local_settings.py
 src/pyconfr/static/2011/
 src/pyconfr/static/admin/
 src/pyconfr/static/ajax_validation/
@@ -22,4 +23,3 @@ src/pyconfr/static/images/
 src/pyconfr/static/markitup/
 src/pyconfr/static/pinax/
 src/pyconfr/static/uni_form/
-
