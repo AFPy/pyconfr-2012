@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-13 12:19-0400\n"
+"POT-Creation-Date: 2012-05-31 08:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,6 @@ msgstr ""
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:23
 #: clone/django-reversion/src/reversion/templates/reversion/recover_list.html:30
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:41
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:46
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:45
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/translation/trans_real.py:579
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:282
@@ -280,7 +279,6 @@ msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/revision_form.html:11
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:44
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:49
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:48
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/change_form.html:31
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:10
@@ -308,20 +306,16 @@ msgid "child models"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:8
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:8
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/admin.py:12
 msgid "Content"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:9
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:9
 msgid "Change message (optional)"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:25
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:45
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:25
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:64
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:63
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/delete_confirmation.html:10
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/submit_line.html:4
@@ -330,29 +324,24 @@ msgid "Delete"
 msgstr "Supprimer"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:34
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:34
 msgid "Delete this revision"
 msgstr "Supprimer cette révision"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:38
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:38
 msgid "Delete the page with all revisions"
 msgstr "Supprimer cette page avec toutes les révisions"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:61
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:61
 #, python-format
 msgid "The page %s was deleted"
 msgstr "La page %s a été supprimée"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:72
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:72
 #, python-format
 msgid "The revision for %s was deleted"
 msgstr "La révision pour %s a été supprimée"
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:79
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:79
 #, python-format
 msgid ""
 "You can not delete this revison for %s because it's the only one and you "
@@ -360,134 +349,109 @@ msgid ""
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/forms.py:87
-#: clone/pycon/pycon_project/apps/wakawaka/forms.py:87
 #, python-format
 msgid "The page for %s was deleted because you deleted the only revision"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/models.py:10
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:10
 msgid "slug"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/models.py:11
 #: clone/django-wakawaka/src/wakawaka/models.py:40
 #: clone/pinax/pinax/apps/waitinglist/models.py:10
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:11
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:52
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:74
 msgid "created"
 msgstr "créé"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:12
 #: clone/django-wakawaka/src/wakawaka/models.py:41
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:12
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:53
 msgid "modified"
 msgstr "modifié"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:19
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:19
 msgid "Wiki page"
 msgstr "Page Wiki"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:20
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:20
 msgid "Wiki pages"
 msgstr "pages wiki"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:36
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:48
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:9
 msgid "content"
 msgstr "sommaire"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:37
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:49
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/models.py:25
 msgid "change message"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/models.py:39
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:51
 msgid "creator ip"
 msgstr "ip du créateur"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:44
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:56
 msgid "Revision"
 msgstr "Révision"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:45
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:57
 msgid "Revisions"
 msgstr "Révisions"
 
 #: clone/django-wakawaka/src/wakawaka/models.py:50
-#: clone/pycon/pycon_project/apps/wakawaka/models.py:66
 #, python-format
 msgid "Revision %(created)s for %(page_slug)s"
 msgstr "Révision %(created)s pour %(page_slug)s"
 
 #: clone/django-wakawaka/src/wakawaka/views.py:119
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:156
 msgid "You don't have permission to edit pages."
 msgstr "Vous n'avez pas les permissions pour éditer des pages"
 
 #: clone/django-wakawaka/src/wakawaka/views.py:127
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:164
 #, python-format
 msgid "Reverted to \"%s\""
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:136
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:176
 msgid "You don't have permission to add wiki pages."
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:141
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:180
 #, python-format
 msgid "Describe your new page %s here..."
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:142
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:181
 msgid "Initial revision"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:163
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:216
 msgid "You have made no changes!"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:192
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:249
 #, python-format
 msgid "Your changes to %s were saved"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/views.py:281
-#: clone/pycon/pycon_project/apps/wakawaka/views.py:345
 msgid "No changes were made between this two files."
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/base.html:20
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/base.html:20
 msgid "Start"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/base.html:23
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/base.html:23
 msgid "Recent revisions"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/base.html:26
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/base.html:26
 msgid "All Pages"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/changes.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/changes.html:21
 #: clone/pycon/pycon_project/templates/wakawaka/changes.html:18
 #, python-format
 msgid "Changes for %(slug)s"
@@ -495,8 +459,6 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:7
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:25
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:15
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:24
 #, python-format
@@ -505,8 +467,6 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:9
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:18
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:18
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:27
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:17
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:26
 #, python-format
@@ -514,58 +474,50 @@ msgid "Edit %(slug)s"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:23
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:32
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:31
 msgid "You are editing an revision which is not the latest!"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:30
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:41
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:39
 msgid "Save changes"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:31
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/_account_bar.html:30
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:42
 #: eggs/Django-1.3.1-py2.7.egg/django/utils/text.py:136
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:16
 msgid "or"
 msgstr "ou"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:37
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/_profile_form.html:13
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/idios/profile_edit_ajax.html:17
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:48
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:46
 msgid "Cancel"
 msgstr "Annuler"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:42
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:60
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:59
 msgid "Please confirm deletion"
 msgstr "Confirmer la suppression"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/edit.html:50
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:69
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:68
 msgid "Revisions for this page"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:24
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:29
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:28
 msgid "You are viewing an older revision!"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:26
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:31
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:30
 msgid "See the latest version"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:41
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:46
 #, python-format
 msgid ""
 "\n"
@@ -575,15 +527,12 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page.html:49
 #: clone/pycon/pycon_project/apps/boxes/templatetags/boxes_tags.py:75
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:54
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:53
 msgid "Edit"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page_list.html:6
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/page_list.html:10
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page_list.html:6
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page_list.html:10
 #: clone/pycon/pycon_project/templates/wakawaka/page_list.html:6
 #: clone/pycon/pycon_project/templates/wakawaka/page_list.html:10
 msgid "All wiki pages"
@@ -591,23 +540,18 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:6
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:10
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:6
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:10
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:6
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:10
 msgid "List of all revisions"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:14
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:14
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:14
 msgid "Page"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:15
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:7
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:15
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:8
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:15
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:7
 msgid "Changed"
@@ -615,8 +559,6 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:16
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:8
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:9
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:16
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:8
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/panels/logger.html:9
@@ -625,8 +567,6 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:17
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:9
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:17
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:10
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:17
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:9
 msgid "Modified by"
@@ -634,8 +574,6 @@ msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:27
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:38
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:27
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:39
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:27
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:38
 msgid "View"
@@ -643,29 +581,23 @@ msgstr "Voir"
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_list.html:29
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:39
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_list.html:29
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:40
 #: clone/pycon/pycon_project/templates/wakawaka/revision_list.html:29
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:39
 msgid "Revert"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:6
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:7
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:6
 msgid "Compare"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revision_table.html:45
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revision_table.html:46
 #: clone/pycon/pycon_project/templates/wakawaka/revision_table.html:45
 msgid "Compare revisions"
 msgstr ""
 
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revisions.html:6
 #: clone/django-wakawaka/src/wakawaka/templates/wakawaka/revisions.html:10
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revisions.html:15
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revisions.html:19
 #: clone/pycon/pycon_project/templates/wakawaka/revisions.html:6
 #: clone/pycon/pycon_project/templates/wakawaka/revisions.html:10
 #, python-format
@@ -730,6 +662,7 @@ msgstr "Se déconnecter"
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:33
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:23
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/waitinglist/list_signup.html:19
+#: src/pyconfr/templates/sponsors/info.html:42
 msgid "Sign up"
 msgstr "S'inscrire"
 
@@ -878,7 +811,9 @@ msgstr "S'indentifier"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:14
 msgid "If you have an existing account, provide your login credentials below."
-msgstr "Si vous avez un compte existant, saisissez votre `login/mot de passe` ci dessous."
+msgstr ""
+"Si vous avez un compte existant, saisissez votre `login/mot de passe` ci "
+"dessous."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/login.html:22
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset.html:18
@@ -1095,7 +1030,8 @@ msgstr "S'inscrire"
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:13
 msgid "To sign up with a new account, use the form below."
-msgstr "Pour s'inscrire avec un nouveau compte, utilisez le formulaire suivant."
+msgstr ""
+"Pour s'inscrire avec un nouveau compte, utilisez le formulaire suivant."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/signup.html:19
 #: clone/pycon/pycon_project/templates/account/signup.html:18
@@ -1637,6 +1573,14 @@ msgstr ""
 
 #: clone/pinax/pinax/apps/account/models.py:19
 #: clone/pinax/pinax/apps/account/models.py:48
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:87
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:63
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:116
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:142
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:234
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:383
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:83
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:29
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:223
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/models.py:50
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/models.py:168
@@ -1806,13 +1750,16 @@ msgid "Start by <a href=\"%(login_url)s\">logging in</a>."
 msgstr ""
 
 #: clone/pinax/pinax/projects/basic_project/apps/profiles/models.py:8
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:18
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:164
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:18
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:164
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:12
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:25
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:17
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:33
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:11
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:36
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:19
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:213
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:77
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:105
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:26
 msgid "name"
 msgstr ""
 
@@ -1933,138 +1880,6 @@ msgstr ""
 msgid "Create"
 msgstr ""
 
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:19
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:19
-msgid "order"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:20
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:20
-msgid "cost"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:21
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:165
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:21
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:165
-msgid "description"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:21
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:21
-msgid "This is private."
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:33
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:33
-msgid "applicant"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:35
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:35
-msgid "sponsor name"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:36
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:36
-msgid "external URL"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:37
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:37
-msgid "annotation"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:38
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:38
-msgid "contact name"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:39
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:39
-msgid "Contact email"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:40
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:192
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:40
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:192
-msgid "level"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:41
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:41
-msgid "added"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:42
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:42
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:213
-msgid "active"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:167
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:167
-msgid "type"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:187
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:213
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:187
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:213
-msgid "benefit"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:194
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:218
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:194
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:218
-msgid "max words"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:195
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:219
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:195
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:219
-msgid "other limits"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:209
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:209
-msgid "sponsor"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:223
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:223
-msgid "text"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/symposion/sponsors_pro/models.py:224
-#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:224
-msgid "file"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/changes.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:10
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/page.html:16
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/revisions.html:10
-msgid "Edit this page"
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:36
-msgid "The page is locked for you."
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:52
-#, python-format
-msgid "The page is locked for %(lock_owner)s since about %(lock_timestamp)s."
-msgstr ""
-
-#: clone/pycon/pycon_project/apps/wakawaka/templates/wakawaka/edit.html:53
-#: clone/pycon/pycon_project/templates/wakawaka/edit.html:51
-msgid "Reset lock"
-msgstr ""
-
 #: clone/pycon/pycon_project/templates/base.html:31
 #: src/pyconfr/templates/base.html:31
 msgid "clear"
@@ -2100,54 +1915,6 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/account/email.html:70
 msgid "add"
 msgstr ""
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "To submit a talk:"
-msgstr "Pour soumettre une proposition de présentation:"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "sign up and log in"
-msgstr "enregistrez-vous et connectez-vous"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "create a speaker profile"
-msgstr "créez un profil de conférencier"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "submit one or more proposals"
-msgstr "soumettez une proposition ou plus"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "Talk submissions are now closed and the"
-msgstr "Les soumissions sont fermées et"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "schedule has been announced"
-msgstr "l'emploi du temps a été annoncé"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "Edit your profile"
-msgstr "Éditer votre profil"
-
-#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:20
-#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
-msgid "You will be able to come back and revise your submission until the deadline."
-msgstr "Vous pouvez éditer votre proposition jusqu'à la date butoir."
 
 #: clone/pycon/pycon_project/templates/account/logout.html:5
 #: src/pyconfr/templates/_account_bar.html:20
@@ -2192,6 +1959,7 @@ msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/signup.html:6
 #: src/pyconfr/templates/_account_bar.html:24
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:15
 msgid "Signup"
 msgstr "Inscription"
 
@@ -2256,13 +2024,13 @@ msgstr ""
 msgid "Finish Sign Up"
 msgstr ""
 
-#: clone/pycon/pycon_project/templates/registration/register.html:5
-msgid "Registration and Housing"
-msgstr ""
-
 #: clone/pycon/pycon_project/templates/wakawaka/edit.html:50
 #, python-format
 msgid "The page was locked for %(lock_owner)s about %(lock_timestamp)s ago."
+msgstr ""
+
+#: clone/pycon/pycon_project/templates/wakawaka/edit.html:51
+msgid "Reset lock"
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/wakawaka/page.html:45
@@ -2271,6 +2039,458 @@ msgid ""
 "\n"
 "                    Recently modified by <em>%(creator)s</em>: %(modified)s\n"
 "                "
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:32
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:115
+msgid "start"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:38
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:119
+#, fuzzy
+msgid "end"
+msgstr "et"
+
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:44
+msgid "closed"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/conference/models.py:48
+msgid "published"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:19
+msgid "Novice"
+msgstr "Débutant"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:20
+msgid "Intermediate"
+msgstr "Moyen"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:21
+msgid "Experienced"
+msgstr "Expert"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:25
+msgid "No preference"
+msgstr "Pas de préférence"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:26
+msgid "I prefer a 30 minute slot"
+msgstr "Je préfère une tranche de 30 minutes"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:27
+msgid "I prefer a 45 minute slot"
+msgstr "Je préfère une tranche de 45 minutes"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:31
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:108
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:210
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:299
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:339
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:8
+msgid "title"
+msgstr "titre"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:36
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:215
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:318
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:344
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:21
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:33
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:218
+msgid "description"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:38
+msgid ""
+"If your talk is accepted this will be made public and printed in the "
+"program. Should be one paragraph, maximum 400 characters."
+msgstr ""
+"Si votre présentation est acceptée ce texte sera publié et imprimé dans le "
+"programme. Il doit faire un paragraphe, 400 caratères maximum."
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:43
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:126
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:222
+msgid "kind"
+msgstr "Type de présentation"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:48
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:227
+msgid "category"
+msgstr "catégorie"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:52
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:231
+#, fuzzy
+msgid "abstract"
+msgstr "résumé"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:53
+msgid ""
+"Detailed description and outline. Will be made public if your talk is "
+"accepted. Edit using <a href='http://warpedvisions.org/projects/markdown-"
+"cheat-sheet/' target='_blank'>Markdown</a>."
+msgstr ""
+"Description détaillée et complément d'information. Sera publié si la "
+"présentation est acceptée. Edité suivant <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:57
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:236
+#, fuzzy
+msgid "audience level"
+msgstr "audience visée"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:62
+#, fuzzy
+msgid "additional notes"
+msgstr "notes additionelles"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:64
+msgid ""
+"Anything else you'd like the program committee to know when making their "
+"selection: your past speaking experience, open source community experience, "
+"etc. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-"
+"sheet/' target='_blank'>Markdown</a>."
+msgstr ""
+"Toute autre chose dont vous sauhaitez faire part au comité: vos précédentes "
+"présentations, votre expérience des communautés open-source, etc. Edité "
+"suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
+"target='_blank'>Markdown</a>"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:68
+msgid "extreme"
+msgstr "extrême"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:70
+msgid ""
+"'Extreme' talks are advanced talks with little or no introductory material. "
+"See <a href='http://us.pycon.org/2012/speaker/extreme/' "
+"target='_blank'>http://us.pycon.org/2012/speaker/extreme/</a> for details."
+msgstr "Tu bluffes Martoni !"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:74
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:241
+msgid "duration"
+msgstr "durée"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:79
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:96
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:246
+msgid "submitted"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:93
+#, fuzzy
+msgid "additional speakers"
+msgstr "notes additionelles"
+
+#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:97
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:264
+#, fuzzy
+msgid "cancelled"
+msgstr "Annuler"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:58
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:111
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:137
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:229
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:268
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:378
+msgid "proposal"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:67
+msgid "origin"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:72
+msgid "assigned at"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:77
+#, fuzzy
+msgid "opted out"
+msgstr "Se déconnecter"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:122
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:157
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:246
+#, fuzzy
+msgid "submitted at"
+msgstr "Pour soumettre une proposition de présentation:"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:148
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:240
+msgid "vote"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:272
+msgid "score"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:279
+#, fuzzy
+msgid "comment count"
+msgstr "Commentaire"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:284
+msgid "vote count"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:289
+msgid "plus one"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:294
+msgid "plus zero"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:299
+#, fuzzy
+msgid "minus zero"
+msgstr "minute"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:304
+#, fuzzy
+msgid "minus one"
+msgstr "minute"
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:309
+msgid "accepted"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:390
+msgid "public"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/review/models.py:398
+#, fuzzy
+msgid "commented at"
+msgstr "Commentaire"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:31
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:134
+#, fuzzy
+msgid "track"
+msgstr "résumé"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:78
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:142
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:49
+msgid "session"
+msgstr "session"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:87
+msgid "role"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:92
+msgid "status"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:206
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:295
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:335
+msgid "slot"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:254
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:308
+#, fuzzy
+msgid "speaker"
+msgstr "Conférenciers"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:260
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:314
+#, fuzzy
+msgid "additional speaker"
+msgstr "notes additionelles"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:269
+#, fuzzy
+msgid "extreme python"
+msgstr "extrême"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:275
+#, fuzzy
+msgid "invited"
+msgstr "email d'invitation"
+
+#: clone/symposion/symposion_project/apps/symposion/schedule/models.py:358
+#, fuzzy
+msgid "presentation"
+msgstr "Inscription"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:18
+msgid "One"
+msgstr "défaut"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:19
+#, fuzzy
+msgid "Two"
+msgstr "deux"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:38
+msgid "biography"
+msgstr "biographie"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:39
+msgid ""
+"A little bit about you. Edit using <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+msgstr ""
+"Un petit quelque chose à propos de vous. Edité suivant <a href='http://"
+"warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</"
+"a>."
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:43
+msgid "photo"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:44
+#, fuzzy
+msgid "speaker_photos"
+msgstr "Conférenciers"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:49
+msgid "twitter username"
+msgstr "pseudo twitter"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:52
+msgid "Your Twitter account, with or without the @"
+msgstr "Votre pseudo twitter, avec ou sans @"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:56
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:45
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:64
+msgid "annotation"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:60
+msgid "invite email"
+msgstr "email d'invitation"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:68
+#, fuzzy
+msgid "invite token"
+msgstr "email d'invitation"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:80
+msgid "sessions preference"
+msgstr "Je présente tout!"
+
+#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:84
+msgid ""
+"If you've submitted multiple proposals, please let us know if you only want "
+"to give one or if you'd like to give two talks. You may submit more than two "
+"proposals."
+msgstr ""
+"Si vous avez soumis plusieurs propositions, souhaitez vous présenter toutes "
+"vos propositions?"
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:16
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:24
+msgid "order"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:23
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:35
+msgid "This is private."
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:41
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:60
+msgid "external URL"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:50
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:69
+msgid "contact name"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:55
+msgid "Contact e‑mail"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:60
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:79
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:249
+msgid "level"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:64
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:84
+msgid "added"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:69
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:89
+#: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/models.py:213
+msgid "active"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:90
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:267
+msgid "sponsor"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:94
+msgid "label"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:96
+msgid "To display this logo on site use label 'website'"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors/models.py:100
+msgid "logo"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:29
+msgid "cost"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:50
+msgid "applicant"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:55
+msgid "sponsor name"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:74
+msgid "Contact email"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:223
+msgid "type"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:243
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:272
+msgid "benefit"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:252
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:278
+msgid "max words"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:253
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:279
+msgid "other limits"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:283
+msgid "text"
+msgstr ""
+
+#: clone/symposion/symposion_project/apps/symposion/sponsors_pro/models.py:284
+msgid "file"
 msgstr ""
 
 #: clone/symposion/symposion_project/templates/homepage.html:25
@@ -2696,6 +2916,7 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/templates/comments/preview.html:16
 #: eggs/Django-1.3.1-py2.7.egg/django/db/models/base.py:791
 #: eggs/Django-1.3.1-py2.7.egg/django/forms/models.py:562
+#: src/pyconfr/templates/sponsors/info.html:42
 msgid "and"
 msgstr "et"
 
@@ -3844,11 +4065,6 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/admin.py:22
 msgid "Advanced options"
 msgstr ""
-
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:8
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:31
-msgid "title"
-msgstr "titre"
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/flatpages/models.py:10
 msgid "enable comments"
@@ -6636,10 +6852,6 @@ msgstr ""
 msgid "expire date"
 msgstr "date expirée"
 
-#: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:49
-msgid "session"
-msgstr "session"
-
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/sessions/models.py:50
 msgid "sessions"
 msgstr "sessions"
@@ -7616,6 +7828,7 @@ msgid "Breakdown"
 msgstr ""
 
 #: eggs/django_debug_toolbar-0.9.4-py2.7.egg/debug_toolbar/templates/debug_toolbar/panels/cache.html:40
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:94
 msgid "Type"
 msgstr ""
 
@@ -8409,72 +8622,86 @@ msgstr ""
 msgid "Unexpected end tag (%(name)s) before html."
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:21
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:22
 #, python-format
-msgid "StartTag not in PCDATA content model flag: %s"
+msgid "StartTag not in PCDATA content model flag: %(name)s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:23
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:49
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:77
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:24
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:50
 #, python-format
 msgid "Tag name is not a string: %r"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:25
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:51
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:26
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:52
 msgid "Empty tag name"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:27
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:28
 #, python-format
-msgid "Void element reported as StartTag token: %s"
+msgid "Void element reported as StartTag token: %(name)s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:29
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:30
 #, python-format
-msgid "Non-void element reported as EmptyTag token: %s"
+msgid "Non-void element reported as EmptyTag token: %(name)s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:34
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:64
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:35
 #, python-format
-msgid "Attribute name is not a string: %r"
+msgid "Attribute name is not a string: %(name)r"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:36
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:37
 msgid "Empty attribute name"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:38
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:39
 #, python-format
-msgid "Attribute value is not a string: %r"
+msgid "Attribute value is not a string: %(value)r"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:53
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:54
 #, python-format
-msgid "Void element reported as EndTag token: %s"
+msgid "Void element reported as EndTag token: %(name)s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:59
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:57
+#, python-format
+msgid "EndTag (%(name)s) does not match StartTag (%(start_name)s)"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:62
 msgid "Comment not in PCDATA content model flag"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:66
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:67
+#, python-format
+msgid "Attribute name is not a string: %(data)r"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:69
 #, python-format
 msgid "%s token with empty data"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:70
-msgid "Non-space character(s) found in SpaceCharacters token: "
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:75
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:73
 #, python-format
-msgid "Doctype not in PCDATA content model flag: %s"
+msgid "Non-space character(s) found in SpaceCharacters token: %(data)s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:84
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:78
+#, python-format
+msgid "Doctype not in PCDATA content model flag: %(name)s"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:80
+#, python-format
+msgid "Tag name is not a string: %(name)r"
+msgstr ""
+
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:87
 #, python-format
 msgid "Unknown token type: %s"
 msgstr ""
@@ -8566,6 +8793,7 @@ msgid "Edit Content"
 msgstr "Edition"
 
 #: src/pyconfr/templates/_account_bar.html:22
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:17
 msgid "Signin"
 msgstr "Connexion"
 
@@ -8574,135 +8802,194 @@ msgid "&copy; 2011 &lt;your company here&gt;"
 msgstr "2012 AFPY"
 
 #: src/pyconfr/templates/_nav.html:6
-msgid "Schedule"
-msgstr "Agenda"
+msgid "Sprints"
+msgstr ""
 
 #: src/pyconfr/templates/_nav.html:7
 msgid "Speakers"
 msgstr "Conférenciers"
 
 #: src/pyconfr/templates/_nav.html:9
+#: src/pyconfr/templates/schedule/index.html:7
+msgid "Schedule"
+msgstr "Agenda"
+
+#: src/pyconfr/templates/_nav.html:10
 msgid "Reviewers"
 msgstr "Relecteurs"
 
-#: src/pyconfr/templates/_nav.html:14
+#: src/pyconfr/templates/_nav.html:15
 msgid "Venue"
 msgstr "Lieu"
 
-#: src/pyconfr/templates/_nav.html:15
+#: src/pyconfr/templates/_nav.html:16
 msgid "Sponsors"
 msgstr "Sponsors"
 
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:18
-msgid "Novice"
-msgstr "Débutant"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:19
-msgid "Intermediate"
-msgstr "Moyen"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:20
-msgid "Experienced"
-msgstr "Expert"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:24
-msgid "No preference"
-msgstr "Pas de préférence"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:25
-msgid "I prefer a 30 minute slot"
-msgstr "Je préfère une tranche de 30 minutes"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:26
-msgid "I prefer a 45 minute slot"
-msgstr "Je préfère une tranche de 45 minutes"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:35
-msgid "If your talk is accepted this will be made public and printed in the program. Should be one paragraph, maximum 400 characters."
-msgstr "Si votre présentation est acceptée ce texte sera publié et imprimé dans le programme. Il doit faire un paragraphe, 400 caratères maximum."
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:40
-msgid "kind"
-msgstr "Type de présentation"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:44
-msgid "category"
-msgstr "catégorie"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:47
-msgid "Detailed description and outline. Will be made public if your talk is accepted. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
-msgstr "Description détaillée et complément d'information. Sera publié si la présentation est acceptée. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:48
-msgid "abstract"
-msgstr "résumé"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:52
-msgid "audience level"
-msgstr "audience visée"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:56
-msgid "Anything else you'd like the program committee to know when making their selection: your past speaking experience, open source community experience, etc. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
-msgstr "Toute autre chose dont vous sauhaitez faire part au comité: vos précédentes présentations, votre expérience des communautés open-source, etc. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:57
-msgid "additional notes"
-msgstr "notes additionelles"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:61
-msgid "'Extreme' talks are advanced talks with little or no introductory material. See <a href='http://us.pycon.org/2012/speaker/extreme/' target='_blank'>http://us.pycon.org/2012/speaker/extreme/</a> for details."
-msgstr "Tu bluffes Martoni !"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:62
-msgid "extreme"
-msgstr "extrême"
-
-#: clone/symposion/symposion_project/apps/symposion/proposals/models.py:66
-msgid "duration"
-msgstr "durée"
-
-#: src/pyconfr/templates/proposals/proposal_submit.html
+#: src/pyconfr/templates/proposals/proposal_submit.html:50
 msgid "Submit A Proposal"
 msgstr "Soumettre une proposition"
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:15
-msgid "One"
-msgstr "défaut"
+#: src/pyconfr/templates/pycon/about.html:8
+msgid "What is <span>PyCon</span>"
+msgstr "Qu'est <span>PyConFr</span> ?"
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:29
-msgid "A little bit about you. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
-msgstr "Un petit quelque chose à propos de vous. Edité suivant <a href='http://warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
+#: src/pyconfr/templates/pycon/about.html:16
+msgid "What is PyCon?"
+msgstr "Qu'est <span>PyConFr</span> ?"
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:30
-msgid "biography"
-msgstr "biographie"
+#: src/pyconfr/templates/pycon/sprints.html:8
+msgid "<span>PyCon</span> Sprints"
+msgstr "Sprints <span>PyConFr</span>"
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:35
-msgid "photo"
+#: src/pyconfr/templates/pycon/sprints.html:16
+msgid "PyCon Sprints"
+msgstr "Sprints PyConFR"
+
+#: src/pyconfr/templates/schedule/base.html:8
+#: src/pyconfr/templates/schedule/index.html:12
+#: src/pyconfr/templates/schedule/list_tutorials.html:20
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:72
+#, fuzzy
+msgid "Tutorial Schedule"
+msgstr "Agenda"
+
+#: src/pyconfr/templates/schedule/base.html:10
+#: src/pyconfr/templates/schedule/index.html:13
+msgid "Conference Schedule"
 msgstr ""
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:40
-msgid "Your Twitter account, with or without the @"
-msgstr "Votre pseudo twitter, avec ou sans @"
+#: src/pyconfr/templates/schedule/base.html:12
+#: src/pyconfr/templates/schedule/index.html:14
+#: src/pyconfr/templates/schedule/list_tutorials.html:18
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:70
+msgid "List of Accepted Talks and Panels"
+msgstr ""
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:41
-msgid "twitter username"
-msgstr "pseudo twitter"
+#: src/pyconfr/templates/schedule/list_tutorials.html:28
+msgid "Accepted Tutorials"
+msgstr ""
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:49
-msgid "invite email"
-msgstr "email d'invitation"
+#: src/pyconfr/templates/schedule/list_tutorials.html:38
+msgid "by"
+msgstr ""
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:63
-msgid "If you've submitted multiple proposals, please let us know if you only want to give one or if you'd like to give two talks. You may submit more than two proposals."
-msgstr "Si vous avez soumis plusieurs propositions, souhaitez vous présenter toutes vos propositions?"
+#: src/pyconfr/templates/schedule/list_tutorials.html:41
+msgid "with"
+msgstr ""
 
-#: clone/symposion/symposion_project/apps/symposion/speakers/models.py:64
-msgid "sessions preference"
-msgstr "Je présente tout!"
+#: src/pyconfr/templates/schedule/list_tutorials.html:47
+msgid "No accepted tutorials yet."
+msgstr ""
 
-#~ msgid "Registration"
-#~ msgstr "Inscription"
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:96
+#, fuzzy
+msgid "Abstract"
+msgstr "résumé"
+
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:101
+#, fuzzy
+msgid "Audience level"
+msgstr "audience visée"
+
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:103
+#, fuzzy
+msgid "Speaker"
+msgstr "Conférenciers"
+
+#: src/pyconfr/templates/schedule/tmp_session_detail.html:107
+#, fuzzy
+msgid "Additional speakers"
+msgstr "notes additionelles"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:11
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:11
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:11
+msgid "To submit a talk:"
+msgstr "Pour soumettre une proposition de présentation:"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:14
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:14
+msgid "sign up and log in"
+msgstr "enregistrez-vous et connectez-vous"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:15
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:15
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:19
+msgid "create a speaker profile"
+msgstr "créez un profil de conférencier"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:16
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:16
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:20
+msgid "submit one or more proposals"
+msgstr "soumettez une proposition ou plus"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:18
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:21
+msgid ""
+"You will be able to come back and revise your submission until the deadline."
+msgstr "Vous pouvez éditer votre proposition jusqu'à la date butoir."
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:20
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:23
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:23
+msgid "Talk submissions are now closed and the"
+msgstr "Les soumissions sont fermées et"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_nospeaker.html:21
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:24
+#: src/pyconfr/templates/speakers/dashboard_noauth.html:24
+msgid "schedule has been announced"
+msgstr "l'emploi du temps a été annoncé"
+
+#: src/pyconfr/templates/speakers/dashboard_auth_speaker.html:19
+msgid "Edit your profile"
+msgstr "Éditer votre profil"
+
+#: src/pyconfr/templates/sponsors/base.html:9
+#: src/pyconfr/templates/sponsors/info.html:8
+msgid "PyCon <span>Sponsors</span>"
+msgstr "PyConFR <span>Sponsors</span>"
+
+#: src/pyconfr/templates/sponsors/info.html:10
+msgid "Sponsor PyCon 2012"
+msgstr "Sponsor PyConFR 2012"
+
+#: src/pyconfr/templates/sponsors/info.html:16
+#: src/pyconfr/templates/sponsors/info.html:23
+#: src/pyconfr/templates/sponsors/info.html:32
+msgid "Sign up and log in"
+msgstr "enregistrez-vous et connectez-vous"
+
+#: src/pyconfr/templates/sponsors/info.html:17
+#: src/pyconfr/templates/sponsors/info.html:24
+#: src/pyconfr/templates/sponsors/info.html:33
+#: src/pyconfr/templates/sponsors/info.html:43
+msgid "Apply to be a sponsor"
+msgstr "Devenir un sponsor..."
+
+#: src/pyconfr/templates/sponsors/info.html:18
+msgid "Manage sponsorship details"
+msgstr "Gestion des sponsors"
+
+#: src/pyconfr/templates/sponsors/info.html:25
+#: src/pyconfr/templates/sponsors/info.html:34
+#: src/pyconfr/templates/sponsors/info.html:44
+msgid "Await application processing"
+msgstr ""
+
+#: src/pyconfr/templates/sponsors/info.html:42
+msgid "log in"
+msgstr "Connexion"
+
+#: src/pyconfr/templates/sponsors/list.html:11
+msgid "What is <span>PyCon</span> ?"
+msgstr "Qu'est <span>PyConFr</span> ?"
+
+#, fuzzy
+#~ msgid "speaker_profile"
+#~ msgstr "créez un profil de conférencier"
 
 #~ msgid "Blog"
 #~ msgstr "Blog"
@@ -8718,12 +9005,6 @@ msgstr "Je présente tout!"
 
 #~ msgid "Presented by"
 #~ msgstr "Présenté par"
-
-#~ msgid "Learn how to become a sponsor..."
-#~ msgstr "Devenir un sponsor..."
-
-#~ msgid "What is <span>PyCon</span>?"
-#~ msgstr "Qu'est <span>PyConFr</span> ?"
 
 #~ msgid "Learn more..."
 #~ msgstr "Apprenez-en plus..."
