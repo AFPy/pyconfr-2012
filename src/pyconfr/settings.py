@@ -276,6 +276,12 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 CONTACT_EMAIL = "afpy-membres@lists.afpy.org"
 
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 25
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS = False
+
 # local_settings.py can be used to override environment-specific settings
 # like database and email that differ between development and production.
 try:
