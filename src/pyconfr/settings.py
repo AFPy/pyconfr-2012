@@ -198,7 +198,6 @@ INSTALLED_APPS = [
     "about",
 
     # pycon
-    "wiki",
     "pycon_project",
     "pyconfr",
 
