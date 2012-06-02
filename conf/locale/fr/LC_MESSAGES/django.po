@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-06-01 06:38-0400\n"
+"POT-Creation-Date: 2012-06-02 05:10-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,6 +26,8 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:22
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:15
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:23
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:15
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:23
 msgid "Date/time"
 msgstr "Date/heure"
 
@@ -149,11 +151,13 @@ msgstr "Connexion avec OpenID"
 
 #: clone/django-reversion/src/reversion/admin.py:139
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:129
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:140
 msgid "Initial version."
 msgstr ""
 
 #: clone/django-reversion/src/reversion/admin.py:161
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:153
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:162
 #, python-format
 msgid "Deleted %(verbose_name)s."
 msgstr ""
@@ -166,12 +170,17 @@ msgstr ""
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/change_list.html:7
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_form.html:10
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:10
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:182
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/change_list.html:7
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_form.html:10
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:10
 #, python-format
 msgid "Recover deleted %(name)s"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/admin.py:292
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:282
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:293
 #, python-format
 msgid "Reverted to previous version, saved on %(datetime)s"
 msgstr ""
@@ -188,11 +197,16 @@ msgstr ""
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:445
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:23
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:30
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:293
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:457
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:23
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:30
 msgid "DATETIME_FORMAT"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/admin.py:294
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:284
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:295
 #, python-format
 msgid ""
 "The %(model)s \"%(name)s\" was reverted successfully. You may edit it again "
@@ -201,18 +215,21 @@ msgstr ""
 
 #: clone/django-reversion/src/reversion/admin.py:377
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:366
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:378
 #, python-format
 msgid "Recover %(name)s"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/admin.py:388
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/admin.py:377
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/admin.py:389
 #, python-format
 msgid "Revert %(name)s"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:8
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:8
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:8
 msgid ""
 "Choose a date from the list below to revert to a previous version of this "
 "object."
@@ -221,18 +238,21 @@ msgstr ""
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:16
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:23
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:16
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:16
 msgid "User"
 msgstr "Utilisateur"
 
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:17
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/forms.py:112
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:17
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:17
 msgid "Comment"
 msgstr "Commentaire"
 
 #: clone/django-reversion/src/reversion/templates/reversion/object_history.html:36
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:38
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/object_history.html:36
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/object_history.html:36
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
@@ -263,22 +283,28 @@ msgstr ""
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_form.html:7
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:7
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:7
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_form.html:7
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:7
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/revision_form.html:7
 msgid "Home"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/recover_form.html:17
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_form.html:17
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_form.html:17
 msgid "Press the save button below to recover this version of the object."
 msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/recover_list.html:17
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:17
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:17
 msgid ""
 "Choose a date from the list below to recover a deleted version of an object."
 msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/recover_list.html:37
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/recover_list.html:37
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/recover_list.html:37
 msgid "There are no deleted objects to recover."
 msgstr ""
 
@@ -289,17 +315,20 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/change_form.html:31
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/object_history.html:10
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:11
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/revision_form.html:11
 msgid "History"
 msgstr "Historique"
 
 #: clone/django-reversion/src/reversion/templates/reversion/revision_form.html:12
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:12
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/revision_form.html:12
 #, python-format
 msgid "Revert %(verbose_name)s"
 msgstr ""
 
 #: clone/django-reversion/src/reversion/templates/reversion/revision_form.html:25
 #: eggs/django_reversion-1.5.2-py2.7.egg/reversion/templates/reversion/revision_form.html:25
+#: eggs/django_reversion-1.6.0-py2.7.egg/reversion/templates/reversion/revision_form.html:25
 msgid "Press the save button below to revert to this version of the object."
 msgstr ""
 
@@ -750,12 +779,12 @@ msgstr "S'inscrire"
 #, python-format
 msgid ""
 "By clicking \"Sign Up\", you are indicating that you have read and agree to "
-"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a "
-"href=\"%(privacy_url)s\">Privacy Policy</a>."
+"the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href=\"%(privacy_url)s"
+"\">Privacy Policy</a>."
 msgstr ""
 "En cliquant sur \"S'inscrire\", vous indiquez que vous avez lu et accepté "
-"les <a href=\"%(terms_url)s\">conditions d'utilisation</a> et <a "
-"href=\"%(privacy_url)s \">la politique de confidentialité</a>."
+"les <a href=\"%(terms_url)s\">conditions d'utilisation</a> et <a href="
+"\"%(privacy_url)s \">la politique de confidentialité</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/base.html:12
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/email.html:10
@@ -947,8 +976,8 @@ msgstr "Identifiant OpenID"
 #: clone/pycon/pycon_project/templates/account/login.html:57
 #, python-format
 msgid ""
-"If you have any trouble logging in to your account, contact us at <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"If you have any trouble logging in to your account, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
 "Si vous avez des problèmes pour vous connecter, merci de nous contacter à <a "
 "href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>"
@@ -1034,12 +1063,12 @@ msgstr "Réinitialiser mon mot de passe"
 #: clone/pycon/pycon_project/templates/account/password_reset.html:29
 #, python-format
 msgid ""
-"If you have any trouble resetting your password, contact us at <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"If you have any trouble resetting your password, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
 "Si vous rencontrez des difficultés dans le changement de votre mot de passe, "
-"contactez-nous par courriel à <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"contactez-nous par courriel à <a href=\"mailto:%(CONTACT_EMAIL)s\">"
+"%(CONTACT_EMAIL)s</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_done.html:10
 msgid "Reset Email Sent"
@@ -1060,8 +1089,8 @@ msgid ""
 "<a href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
 "Si vous ne receviez pas le courriel de réinitialisation de mot de passe dans "
-"les prochaines minutes, contactez-nous par courriel à <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"les prochaines minutes, contactez-nous par courriel à <a href=\"mailto:"
+"%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/password_reset_from_key.html:12
 msgid "Expired or Invalid Reset"
@@ -1147,8 +1176,8 @@ msgstr "Se connecter avec OpenID"
 #: clone/pycon/pycon_project/templates/oauth_access/finish_signup.html:28
 #, python-format
 msgid ""
-"If you have any trouble creating your account, contact us at <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"If you have any trouble creating your account, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
 "Si vous avez des problèmes pour vous inscrire, merci de nous contacter à <a "
 "href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
@@ -1189,8 +1218,8 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/account/verification_sent.html:17
 #, fuzzy, python-format
 msgid ""
-"If you do not receive it within a few minutes, contact us at <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"If you do not receive it within a few minutes, contact us at <a href="
+"\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
 msgstr ""
 "Si vous avez des problèmes pour vous inscrire, merci de nous contacter à <a "
 "href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
@@ -1293,17 +1322,16 @@ msgstr ""
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:31
 #, python-format
 msgid ""
-"<strong>Already have an account?</strong> <a "
-"href=\"%(acct_login_openid_url)s\">Log in</a> to associate your OpenID with "
-"your existing account."
+"<strong>Already have an account?</strong> <a href=\"%(acct_login_openid_url)s"
+"\">Log in</a> to associate your OpenID with your existing account."
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/register.html:32
 #, python-format
 msgid ""
 "By clicking &quot;Sign Up&quot;, you are indicating that you have read and "
-"agree to the <a href=\"%(terms_url)s\">Terms of Use</a> and <a "
-"href=\"%(privacy_url)s\">Privacy Policy</a>."
+"agree to the <a href=\"%(terms_url)s\">Terms of Use</a> and <a href="
+"\"%(privacy_url)s\">Privacy Policy</a>."
 msgstr ""
 
 #: clone/pinax-theme-bootstrap/pinax_theme_bootstrap/templates/django_openid/registration_closed.html:5
@@ -1452,8 +1480,8 @@ msgid ""
 "\n"
 "                You do not have a verified email address to which notices "
 "can be sent.\n"
-"                You can add one by going to <a "
-"href=\"%(email_url)s\">Account</a>.\n"
+"                You can add one by going to <a href=\"%(email_url)s"
+"\">Account</a>.\n"
 "                "
 msgstr ""
 
@@ -1829,17 +1857,16 @@ msgstr ""
 #: clone/pinax/pinax/projects/account_project/templates/homepage.html:34
 #, python-format
 msgid ""
-"Wondering <a href=\"%(what_next_url)s\" class=\"btn btn-primary "
-"btn-large\">What Next</a>?"
+"Wondering <a href=\"%(what_next_url)s\" class=\"btn btn-primary btn-large"
+"\">What Next</a>?"
 msgstr ""
 
 #: clone/pinax/pinax/projects/account_project/templates/homepage.html:39
 #: clone/pinax/pinax/projects/basic_project/templates/homepage.html:38
 #, python-format
 msgid ""
-"You can <a href=\"%(login_url)s\" class=\"btn\">Log In</a> or <a "
-"href=\"%(signup_url)s\" class=\"btn btn-primary\">Sign Up</a> to try out the "
-"site."
+"You can <a href=\"%(login_url)s\" class=\"btn\">Log In</a> or <a href="
+"\"%(signup_url)s\" class=\"btn btn-primary\">Sign Up</a> to try out the site."
 msgstr ""
 
 #: clone/pinax/pinax/projects/account_project/templates/homepage.html:41
@@ -1864,8 +1891,8 @@ msgstr ""
 #: clone/symposion/symposion_project/templates/about/what_next.html:32
 #, python-format
 msgid ""
-"Start by <a href=\"%(signup_url)s\">signing up</a> and <a "
-"href=\"%(login_url)s\">logging in</a>."
+"Start by <a href=\"%(signup_url)s\">signing up</a> and <a href="
+"\"%(login_url)s\">logging in</a>."
 msgstr ""
 
 #: clone/pinax/pinax/projects/account_project/templates/about/what_next.html:34
@@ -2147,14 +2174,12 @@ msgstr "résumé"
 #: clone/symposion/symposion_project/apps/symposion/proposals/models.py:53
 msgid ""
 "Detailed description and outline. Will be made public if your talk is "
-"accepted. Edit using <a "
-"href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
-"target='_blank'>Markdown</a>."
+"accepted. Edit using <a href='http://warpedvisions.org/projects/markdown-"
+"cheat-sheet/' target='_blank'>Markdown</a>."
 msgstr ""
 "Description détaillée et complément d'information. Sera publié si la "
-"présentation est acceptée. Edité suivant <a "
-"href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
-"target='_blank'>Markdown</a>."
+"présentation est acceptée. Edité suivant <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
 
 #: clone/pycon/pycon_project/apps/symposion/proposals/models.py:56
 #: clone/pycon/pycon_project/apps/symposion/schedule/models.py:274
@@ -2173,9 +2198,8 @@ msgstr "notes additionelles"
 msgid ""
 "Anything else you'd like the program committee to know when making their "
 "selection: your past speaking experience, open source community experience, "
-"etc. Edit using <a "
-"href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
-"target='_blank'>Markdown</a>."
+"etc. Edit using <a href='http://warpedvisions.org/projects/markdown-cheat-"
+"sheet/' target='_blank'>Markdown</a>."
 msgstr ""
 "Toute autre chose dont vous sauhaitez faire part au comité: vos précédentes "
 "présentations, votre expérience des communautés open-source, etc. Edité "
@@ -2507,13 +2531,12 @@ msgstr "biographie"
 #: clone/pycon/pycon_project/apps/symposion/speakers/models.py:34
 #: clone/symposion/symposion_project/apps/symposion/speakers/models.py:34
 msgid ""
-"A little bit about you. Edit using <a "
-"href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
-"target='_blank'>Markdown</a>."
+"A little bit about you. Edit using <a href='http://warpedvisions.org/"
+"projects/markdown-cheat-sheet/' target='_blank'>Markdown</a>."
 msgstr ""
-"Un petit quelque chose à propos de vous. Edité suivant <a "
-"href='http://warpedvisions.org/projects/markdown-cheat-sheet/' "
-"target='_blank'>Markdown</a>."
+"Un petit quelque chose à propos de vous. Edité suivant <a href='http://"
+"warpedvisions.org/projects/markdown-cheat-sheet/' target='_blank'>Markdown</"
+"a>."
 
 #: clone/pycon/pycon_project/apps/symposion/speakers/models.py:38
 #: clone/symposion/symposion_project/apps/symposion/speakers/models.py:38
@@ -2820,8 +2843,8 @@ msgstr ""
 #, python-format
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
-"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password "
-"reset</a>."
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/account/password_set.html:16
@@ -2850,8 +2873,8 @@ msgstr ""
 msgid ""
 "We have sent you an email to <b>%(email)s</b> for verification. Follow the "
 "link provided to finalize the signup process. If you do not receive it "
-"within a few minutes, contact us at <a "
-"href=\"mailto:%(CONTACT_EMAIL)s\">%(CONTACT_EMAIL)s</a>."
+"within a few minutes, contact us at <a href=\"mailto:%(CONTACT_EMAIL)s\">"
+"%(CONTACT_EMAIL)s</a>."
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/django_openid/already_logged_in.html:11
@@ -2875,9 +2898,8 @@ msgstr ""
 #: clone/pycon/pycon_project/templates/django_openid/register.html:24
 #, python-format
 msgid ""
-"<strong>Already have an account?</strong> <a "
-"href=\"%(acct_login_openid_url)s\">Log in here</a> to associate your OpenID "
-"with your existing account."
+"<strong>Already have an account?</strong> <a href=\"%(acct_login_openid_url)s"
+"\">Log in here</a> to associate your OpenID with your existing account."
 msgstr ""
 
 #: clone/pycon/pycon_project/templates/emailconfirmation/confirm_email.html:7
@@ -2933,8 +2955,8 @@ msgstr ""
 #: clone/symposion/symposion_project/templates/homepage.html:49
 #, python-format
 msgid ""
-"You can <a href=\"%(signup_url)s\">Sign up</a> and <a "
-"href=\"%(login_url)s\">Log in</a> to try out the site."
+"You can <a href=\"%(signup_url)s\">Sign up</a> and <a href=\"%(login_url)s"
+"\">Log in</a> to try out the site."
 msgstr ""
 
 #: clone/symposion/symposion_project/templates/homepage.html:51
@@ -3283,8 +3305,8 @@ msgstr "Cette année"
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/forms.py:9
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/auth/forms.py:87
 msgid ""
-"Please enter a correct username and password. Note that both fields are "
-"case-sensitive."
+"Please enter a correct username and password. Note that both fields are case-"
+"sensitive."
 msgstr ""
 "Entrez un login et mot de passe valides. Notez que les deux champssont "
 "sensibles à la casse."
@@ -3488,8 +3510,8 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/500.html:10
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"e-mail and should be fixed shortly. Thanks for your patience."
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/admin/templates/admin/actions.html:4
@@ -4333,14 +4355,14 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/models.py:119
 msgid ""
-"This comment was posted by an authenticated user and thus the name is "
-"read-only."
+"This comment was posted by an authenticated user and thus the name is read-"
+"only."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/models.py:128
 msgid ""
-"This comment was posted by an authenticated user and thus the email is "
-"read-only."
+"This comment was posted by an authenticated user and thus the email is read-"
+"only."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/comments/models.py:153
@@ -4785,8 +4807,8 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/localflavor/be/forms.py:46
 msgid ""
 "Enter a valid phone number in one of the formats 0x xxx xx xx, 0xx xx xx xx, "
-"04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx.xx, "
-"0xx.xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
+"04xx xx xx xx, 0x/xxx.xx.xx, 0xx/xx.xx.xx, 04xx/xx.xx.xx, 0x.xxx.xx.xx, 0xx."
+"xx.xx.xx, 04xx.xx.xx.xx, 0xxxxxxxx or 04xxxxxxxx."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/localflavor/br/forms.py:17
@@ -7228,8 +7250,8 @@ msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/redirects/models.py:8
 msgid ""
-"This should be an absolute path, excluding the domain name. Example: "
-"'/events/search/'."
+"This should be an absolute path, excluding the domain name. Example: '/"
+"events/search/'."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/contrib/redirects/models.py:9
@@ -8079,8 +8101,8 @@ msgstr ""
 #: eggs/Django-1.3.1-py2.7.egg/django/views/generic/dates.py:466
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because "
-"%(class_name)s.allow_future is False."
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
 msgstr ""
 
 #: eggs/Django-1.3.1-py2.7.egg/django/views/generic/dates.py:500
@@ -8492,8 +8514,8 @@ msgstr ""
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/constants.py:25
 #, python-format
 msgid ""
-"Numeric entity couldn't be converted to character (codepoint "
-"U+%(charAsInt)08x)."
+"Numeric entity couldn't be converted to character (codepoint U+"
+"%(charAsInt)08x)."
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/constants.py:28
@@ -9028,14 +9050,14 @@ msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:21
 #, python-format
-msgid "StartTag not in PCDATA content model flag: %(name)s"
+msgid "StartTag not in PCDATA content model flag: %s"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:23
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:49
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:82
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:79
 #, python-format
-msgid "Tag name is not a string: %(name)r"
+msgid "Tag name is not a string: %r"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:25
@@ -9045,17 +9067,18 @@ msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:27
 #, python-format
-msgid "Void element reported as StartTag token: %(name)s"
+msgid "Void element reported as StartTag token: %s"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:29
 #, python-format
-msgid "Non-void element reported as EmptyTag token: %(name)s"
+msgid "Non-void element reported as EmptyTag token: %s"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:34
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:66
 #, python-format
-msgid "Attribute name is not a string: %(name)r"
+msgid "Attribute name is not a string: %r"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:36
@@ -9064,46 +9087,35 @@ msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:38
 #, python-format
-msgid "Attribute value is not a string: %(value)r"
+msgid "Attribute value is not a string: %r"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:53
 #, python-format
-msgid "Void element reported as EndTag token: %(name)s"
+msgid "Void element reported as EndTag token: %s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:56
-#, python-format
-msgid "EndTag (%(name)s) does not match StartTag (%(start_name)s)"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:64
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:61
 msgid "Comment not in PCDATA content model flag"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:69
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:68
 #, python-format
-msgid "Attribute name is not a string: %(data)r"
+msgid "%s token with empty data"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:71
-#, python-format
-msgid "%(type)s token with empty data"
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:72
+msgid "Non-space character(s) found in SpaceCharacters token: "
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:75
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:77
 #, python-format
-msgid "Non-space character(s) found in SpaceCharacters token: %(data)s"
+msgid "Doctype not in PCDATA content model flag: %s"
 msgstr ""
 
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:80
+#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:86
 #, python-format
-msgid "Doctype not in PCDATA content model flag: %(name)s"
-msgstr ""
-
-#: eggs/html5lib-0.95-py2.7.egg/html5lib/filters/lint.py:89
-#, python-format
-msgid "Unknown token type: %(type)s"
+msgid "Unknown token type: %s"
 msgstr ""
 
 #: eggs/html5lib-0.95-py2.7.egg/html5lib/serializer/htmlserializer.py:204
@@ -9210,7 +9222,8 @@ msgstr "Sprints"
 msgid "Speakers"
 msgstr "Conférenciers"
 
-#: src/pyconfr/templates/_nav.html:9 src/pyconfr/templates/schedule/index.html:7
+#: src/pyconfr/templates/_nav.html:9
+#: src/pyconfr/templates/schedule/index.html:7
 msgid "Schedule"
 msgstr "Agenda"
 
@@ -9225,6 +9238,11 @@ msgstr "Lieu"
 #: src/pyconfr/templates/_nav.html:16
 msgid "Sponsors"
 msgstr "Sponsors"
+
+#: src/pyconfr/templates/proposals/proposal_detail.html:17
+#, fuzzy
+msgid "Cancelled"
+msgstr "Annuler"
 
 #: src/pyconfr/templates/proposals/proposal_submit.html:50
 msgid "Submit A Proposal"
