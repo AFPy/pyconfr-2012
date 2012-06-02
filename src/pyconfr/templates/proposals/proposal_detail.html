@@ -4,7 +4,7 @@
 
 {% block content %}
     <h1>{{ proposal.title }}</h1>
-    
+
     <p>
         {% if not proposal.cancelled %}
             {% if request.user == proposal.speaker.user %}
@@ -14,24 +14,25 @@
                 <a href="{% url proposal_leave proposal.pk %}">Quitter</a>
             {% endif %}
         {% else %}
+	    {% trans "Cancelled" %}
             Annulée
         {% endif %}
     </p>
-    
+
     <div>
         {{ proposal.description }}
     </div>
-    
+
     <p><b>Type</b>: {{ proposal.kind.name }}</p>
-    
+
     <div>
         {{ proposal.abstract|safe }}
     </div>
-    
+
     <p><b>Niveau de l'audience</b>: {{ proposal.get_audience_level_display }}</p>
-    
+
     <p><b>Conférencier responsable de la soumission</b>: {{ proposal.speaker }}</p>
-    
+
     {% if proposal.additional_speakers.all %}
         <p><b>Conférenciers supplémentaires</b>:</p>
         <ul>
@@ -44,15 +45,15 @@
         {% endfor %}
         </ul>
     {% endif %}
-    
+
     {% if request.user == proposal.speaker.user %}
         <p><b>Informations supplémentaires:</b></p>
-    
+
         <p>{{ proposal.additional_notes }}</p>
     {% endif %}
-    
+
     <h2>Discussions avec les relecteurs</h2>
-    
+
     {% for message in proposal.messages.all %}
         <div class="review-box">
             <div class="comment">{{ message.message|safe }}</div>
@@ -60,11 +61,11 @@
         </div>
         <div class="clear"></div>
     {% endfor %}
-    
+
     <h3>Laisser un message</h3>
-    
+
     <p>Vous pouvez laisser un message pour les relecteurs.</p>
-    
+
     <form action="" method="POST" class="uniForm" accept-charset="utf-8">
         {% csrf_token %}
         <fieldset>
