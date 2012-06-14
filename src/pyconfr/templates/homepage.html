@@ -2,7 +2,7 @@
 
 {% load boxes_tags %}
 {% load biblion_tags %}
-{% load sponsors_pro_tags %}
+{% load sponsors_tags %}
 {% load thumbnail %}
 
 {% block body_class %}home{% endblock %}
@@ -21,11 +21,10 @@
             <h4>Conférences: 15&ndash;17 September</h4>
         </div>
     </div>
-    {% sponsors header as header_sponsors %}
+    {% sponsors "diamond" as diamond_sponsors %}
     <div class="diamond-sponsors">
         <span>Présenté par</span>
-        {% for sponsor in header_sponsors reversed %}
-
+        {% for sponsor in diamond_sponsors reversed %}
         <a href="{% url sponsor_list %}">
             {% thumbnail sponsor.website_logo "130" format="PNG" as logo %}
                 <img src="{{ logo.url }}" alt="{{ sponsor.name }}" />
@@ -37,7 +36,6 @@
 
 {% block body %}
 
-    {% sponsors as sponsors %}
     {#  SECTION: our platinum and gold sponsors #}
     <div class="span-24 last">
         <h1 class="hidden">Nos sponsors "Gold"</h1>
@@ -78,7 +76,8 @@
         <div class="other-sponsors">
             <!--h6>Sponsors</h6-->
             <a href="{% url sponsor_list %}">
-            {% for sponsor in sponsors %}
+            {% sponsors "gold" as gold_sponsor %}
+            {% for sponsor in gold_sponsor %}
                 {% thumbnail sponsor.website_logo "100x60" format="PNG" as logo %}
                     <span><img src="{{ logo.url }}" style="margin:{{ logo|margin:"100x60" }}" alt="{{ sponsor.name }}" width="{{ logo.x }}" height="{{ logo.y }}" /></span>
                 {% endthumbnail %}
