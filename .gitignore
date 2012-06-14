@@ -14,6 +14,7 @@ parts/
 *.egg-info/
 .installed.cfg
 local_settings.py
+src/pyconfr/media/
 src/pyconfr/static/2011/
 src/pyconfr/static/admin/
 src/pyconfr/static/ajax_validation/
