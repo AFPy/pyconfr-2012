@@ -6,13 +6,13 @@ import posixpath
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 PYCON_YEAR = 2012
 
 # tells Pinax to serve media through the staticfiles app.
-SERVE_MEDIA = DEBUG
+SERVE_MEDIA = True
 
 # django-compressor is turned off by default due to deployment overhead for
 # most users. See <URL> for more information
@@ -23,7 +23,7 @@ INTERNAL_IPS = [
 ]
 
 ADMINS = [
-    # ("Your Name", "your_email@domain.com"),
+    # ("Orga PyconFR", "orga@pycon.fr"),
 ]
 
 MANAGERS = ADMINS
