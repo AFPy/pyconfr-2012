@@ -26,7 +26,7 @@
         <span>Présenté par</span>
         {% for sponsor in diamond_sponsors reversed %}
         <a href="{% url sponsor_list %}">
-            {% thumbnail sponsor.website_logo "130" format="PNG" as logo %}
+            {% thumbnail sponsor.website_logo "120" format="PNG" as logo %}
                 <img src="{{ logo.url }}" alt="{{ sponsor.name }}" />
             {% endthumbnail %}
         </a>
@@ -73,12 +73,23 @@
     {#  SECTION: silver and media sponsors #}
     <div class="span-24 last">
         <hr />
-        <div class="other-sponsors">
-            <!--h6>Sponsors</h6-->
+        <div class="gold-sponsors">
+            <!--h6>Sponsors Gold</h6-->
             <a href="{% url sponsor_list %}">
             {% sponsors "gold" as gold_sponsor %}
             {% for sponsor in gold_sponsor %}
-                {% thumbnail sponsor.website_logo "100x60" format="PNG" as logo %}
+                {% thumbnail sponsor.website_logo "100x50" format="PNG" as logo %}
+                    <span><img src="{{ logo.url }}" style="margin:{{ logo|margin:"100x60" }}" alt="{{ sponsor.name }}" width="{{ logo.x }}" height="{{ logo.y }}" /></span>
+                {% endthumbnail %}
+            {% endfor %}
+            </a>
+        </div>
+        <div class="bronze-sponsors">
+            <!--h6>Sponsors Bronze</h6-->
+            <a href="{% url sponsor_list %}">
+            {% sponsors "bronze" as gold_sponsor %}
+            {% for sponsor in gold_sponsor %}
+                {% thumbnail sponsor.website_logo "80x40" format="PNG" as logo %}
                     <span><img src="{{ logo.url }}" style="margin:{{ logo|margin:"100x60" }}" alt="{{ sponsor.name }}" width="{{ logo.x }}" height="{{ logo.y }}" /></span>
                 {% endthumbnail %}
             {% endfor %}
