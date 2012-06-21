@@ -1,35 +1,24 @@
 {% extends "sponsors/base.html" %}
 
 {% load boxes_tags %}
-{% load sponsors_pro_tags %}
+{% load sponsors_tags %}
 {% load thumbnail %}
 {% load i18n %}
+{% load pyconfr_tags %}
 
 {% block body %}
-    {% sponsors as sponsors %}
+
+    {% sponsors "diamond" as diamond_sponsors %}
+    {% sponsors "gold" as gold_sponsors %}
+    {% sponsors "bronze" as bronze_sponsors %}
+
     <div class="span-17 spacer main-content">
         <h1 class="section-title">{% block subpage_title %}{% trans 'À propos des sponsors <span>PyConFr</span>' %}{% endblock %}</h1>
         <p>{% box "sponsorship" %}</p> 
         <div class="sponsor-list">
-            {% regroup sponsors by level as level_list %}
-            {% for level in level_list %}
-                <h5 class="sponsor-level">{{ level.grouper }}</h5>
-                {% for sponsor in level.list %}
-                {% thumbnail sponsor.website_logo "160x80" format="PNG" as logo %}
-                <div class="sponsor-details">
-                    <div class="col-1">
-                        <a href="{{ sponsor.external_url }}">
-                            <img src="{{ logo.url }}" alt="" />
-                        </a>
-                    </div>
-                    <div class="col-2">
-                        <!--h2>{{ sponsor.name }}<a name="sponsor-{{ sponsor.id }}">&nbsp;</a></h2-->
-                        <!--p class="site-link"><a href="{{ sponsor.external_url }}">{{ sponsor.external_url }}</a></p-->
-                    </div>
-                </div>
-                {% endthumbnail %}
-                {% endfor %}
-            {% endfor %}
+            {% sponsor_infos 'diamond' diamond_sponsors %}
+            {% sponsor_infos 'gold' gold_sponsors %}
+            {% sponsor_infos 'bronze' bronze_sponsors %}
         </div>
     </div>
     <div class="span-7 last">
@@ -37,9 +26,9 @@
         <p><a href="{% url sponsor_info %}" class="btn-sponsor"><span>En savoir plus <br/><b>→ Sponsor</b></span></a></p>
         <nav class="sidenav sponsor-sidenav">
             <ul>
-                {% for sponsor in sponsors %}
-                    <li><a href="#sponsor-{{ sponsor.id }}">{{ sponsor.name }}</a></li>
-                {% endfor %}
+                {% for s in diamond_sponsors %}<li class='diamond'><a href="#sponsor-diamond-{{ s.id }}">{{ s.name }}</a></li>{% endfor %}
+                {% for s in gold_sponsors %}<li class='gold'><a href="#sponsor-gold-{{ s.id }}">{{ s.name }}</a></li>{% endfor %}
+                {% for s in bronze_sponsors %}<li class='bronze'><a href="#sponsor-bronze-{{ s.id }}">{{ s.name }}</a></li>{% endfor %}
             </ul>
         </nav>
     </div>

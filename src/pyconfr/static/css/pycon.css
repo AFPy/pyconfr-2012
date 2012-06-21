@@ -1287,7 +1287,6 @@ h5.sponsor-level {
   font-weight:bold;
   color:#FCB500;
   margin-top:30px;
-  margin-left:180px;
 }
 
 .sponsor-details {
@@ -1314,7 +1313,7 @@ h5.sponsor-level {
 
 .sponsor-details .col-2 {
   float:left;
-  width:560px;
+  width:440px;
   display:inline;
 }
 
