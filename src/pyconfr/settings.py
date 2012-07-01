@@ -44,7 +44,7 @@ DATABASES = {
 # although not all choices may be available on all operating systems.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = "US/Eastern"
+TIME_ZONE = "Europe/Paris"
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
@@ -280,6 +280,26 @@ EMAIL_PORT = 25
 EMAIL_HOST_USER = ''
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = False
+
+# from http://www.djm.org.uk/how-to-log-file-django-13-and-above/
+# - stripped down.
+here = lambda *x: os.path.join(os.path.dirname(
+                               os.path.realpath(__file__)), *x)
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'mail_admins': {
+            'level': 'ERROR',
+            'class': 'django.utils.log.AdminEmailHandler'
+        },
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': here('django-pyconfr.log'),
+        },
+    },
+}
 
 # local_settings.py can be used to override environment-specific settings
 # like database and email that differ between development and production.
