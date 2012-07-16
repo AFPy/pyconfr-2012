@@ -132,12 +132,12 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "django.core.context_processors.media",
     "django.core.context_processors.request",
     "django.contrib.messages.context_processors.messages",
-    
+
     "staticfiles.context_processors.static",
-    
+
     "pinax.core.context_processors.pinax_settings",
     "pinax.apps.account.context_processors.account",
-    
+
     "symposion.review.context_processors.permissions",
 ]
 
@@ -150,12 +150,12 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.humanize",
-    
+
     "pinax.templatetags",
-    
+
     # theme
     "pinax_theme_bootstrap",
-    
+
     # external
     "south",
     "staticfiles",
@@ -178,13 +178,13 @@ INSTALLED_APPS = [
     "fixture_generator",
     "mailout",
     "django_forms_bootstrap",
-    
+
     # Pinax
     "pinax.apps.account",
     # "pinax.apps.analytics",
     "pinax.apps.signup_codes",
     "pinax.apps.waitinglist",
-    
+
     # symposion
     "symposion.conference",
     "symposion.proposals",
@@ -193,7 +193,7 @@ INSTALLED_APPS = [
     "symposion.review",
     "symposion.schedule",
     "symposion.sponsors_pro",
-    
+
     # project
     "about",
 
@@ -288,6 +288,15 @@ here = lambda *x: os.path.join(os.path.dirname(
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
+     'formatters': {
+        'verbose': {
+            'format': '%(asctime)s [%(module)s %(filename)s:%(lineno)s] '
+            '%(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
     'handlers': {
         'mail_admins': {
             'level': 'ERROR',
@@ -297,8 +306,16 @@ LOGGING = {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'filename': here('django-pyconfr.log'),
+            'formatter': 'verbose',
         },
     },
+    'loggers': {
+        'django': {
+            'level': 'DEBUG',
+            'propagate': True,
+            'handlers': ['mail_admins', 'file'],
+            }
+    }
 }
 
 # local_settings.py can be used to override environment-specific settings
