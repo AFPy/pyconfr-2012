@@ -4,6 +4,8 @@
 import os.path
 import posixpath
 
+ADMINS = (('nelle', 'nelle.varoquaux@gmail.com'), ('alexis', 'alexis@notmyidea.org'))
+
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 DEBUG = False
@@ -211,7 +213,8 @@ FIXTURE_DIRS = [
 
 MESSAGE_STORAGE = "django.contrib.messages.storage.session.SessionStorage"
 
-EMAIL_BACKEND = "mailer.backend.DbBackend"
+#EMAIL_BACKEND = "mailer.backend.DbBackend"
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 ACCOUNT_OPEN_SIGNUP = True
 ACCOUNT_REQUIRED_EMAIL = False
@@ -270,8 +273,6 @@ ANALYTICS_SETTINGS = {
             "3": "UA-XXXXXXX-XX", # production
             }
         }
-
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 CONTACT_EMAIL = "orga@pycon.fr"
 
