@@ -1,4 +1,3 @@
-import random
 from django.template import Library
 
 
@@ -12,14 +11,3 @@ def sponsor_infos(level, sponsors):
             'level': level,
             'sponsors': sponsors
             }
-
-
-@register.filter
-def shuffle(arg):
-    """
-    shuffle filter for templates.
-    http://stackoverflow.com/questions/7162629/django-shuffle-in-templates
-    """
-    tmp = arg[:]
-    random.shuffle(tmp)
-    return tmp

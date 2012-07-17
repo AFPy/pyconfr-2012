@@ -1,10 +1,9 @@
 {% load sponsors_pro_tags %}
 {% load thumbnail %}
-{% load shuffle %}
 
 <ul id="slider">
 {% sponsors all as all_sponsors %}
-{% for sponsor in all_sponsors|shuffle %}
+{% for sponsor in all_sponsors%}
     {% if forloop.first or forloop.counter0|divisibleby:"6" %}
         <li {% if forloop.first %}class="first"{% endif %}>
     {% endif %}
