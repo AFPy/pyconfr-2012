@@ -23,13 +23,18 @@
         <p><b>Type</b>: {{ proposal.get_session_type_display }}</p>
         
         <h3>Abstract</h3>
-        <div class="abstract">
-            {{ proposal.abstract_html|safe }}
+        <div class="desc">
+            {{ proposal.abstract }}
         </div>
         
         <p><b>Audience level</b>: {{ proposal.get_audience_level_display }}</p>
         
         <p><b>Submitting speaker</b>: {{ proposal.speaker }}</p> {# @@@ bio? #}
+
+        <div class="desc">
+            {{ proposal.description }}
+        </div>
+        
         
         {% if proposal.additional_speakers.all %}
             <p><b>Additional speakers</b>:</p>
