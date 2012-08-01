@@ -8,7 +8,7 @@ setup(name="django-pyconfr",
       """,
       author="Florent Pigout",
       author_email="florent@toopy.org",
-      url="http://github.com/toopy/django-pyconfr",
+      url="http://github.com/pyconfr/django-pyconfr",
       install_requires = [
             "django",
             "south",
