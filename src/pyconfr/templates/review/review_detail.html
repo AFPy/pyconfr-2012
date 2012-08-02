@@ -120,6 +120,8 @@
         </div>
         
         <p><b>Audience level</b>: {{ proposal.get_audience_level_display }}</p>
+        <p><b>Category</b>: {{ proposal.category }}</p>
+
         
         <p><b>Submitting speaker</b>: {{ proposal.speaker }}</p>
         <p>{{ proposal.speaker.biography_html|safe }}</p>
