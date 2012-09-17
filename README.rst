@@ -6,8 +6,8 @@ Install & Run
 
 Clone it::
 
-    git clone https://NelleV@github.com/NelleV/django-pyconfr.git
-    cd django-pyconfr/
+    git clone git://github.com/PyConFr/Pyconfr.git
+    cd Pyconfr/
 
 Buildout it::
 
@@ -31,4 +31,3 @@ Start it in dev mode::
 Gunicorn start for prod::
 
     ./bin/django run_gunicorn -b 127.0.0.1:8001
-
