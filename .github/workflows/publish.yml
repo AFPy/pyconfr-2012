@@ -18,4 +18,4 @@ jobs:
         chmod 600 ${HOME}/.ssh/id_ed25519
         eval $(ssh-agent)
         ssh-add
-        rsync -a ./ deb.afpy.org:/var/www/2012.pycon.fr/
+        rsync -a ./ pyconfr2012@deb.afpy.org:/var/www/2012.pycon.fr/
