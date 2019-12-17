@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link href="/img/favicon.ico" rel="shortcut icon" />
+        <title>PyConFR 2012</title>
+        <!--  hack to make IE able to apply CSS to elements that it doesn't usually know about. See http://code.google.com/p/html5shim/ -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+        <link rel="stylesheet" href="/css/facebox.css" />
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+        <link href="/markitup/skins/simple/style.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="/markitup/sets/markdown/style.css" type="text/css" media="screen" rel="stylesheet" />
+
+        
+    <!-- Framework CSS -->
+<link rel="stylesheet" href="/css/blueprint/grid.css" media="screen, projection" />
+<link rel="stylesheet" href="/css/blueprint/print.css" media="print" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/css/blueprint/ie.css" media="screen, projection" />
+<![endif]-->
+
+        
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/pycon.css@6.css" />
+    <link rel="stylesheet" href="/css/site_tabs.css@6.css" />
+    <link rel="stylesheet" href="/uni_form/uni-form.css" />
+    <link rel="alternate" type="application/atom+xml" href="http://www.pycon.fr/2012/feed/general/" title="blog feed"/>
+    
+
+    </head>
+
+    <body class="sprints " id="">
+        <div class="wrapper">
+
+            <div class="msg-container">
+                
+            </div>
+
+            <header>
+                <div class="container">
+                    
+                        <h1 id="logo"><a href="../index.html">PyConFR 2012</a></h1>
+                        
+                        <div id="left_tabs"></div>
+                        <div id="right_tabs"></div>
+                        <div class="login">
+    
+
+
+<div class="account-bar">
+
+    <a href="http://www.pycon.fr/2012/account/login/">Connexion</a>
+    ou
+    <a href="http://www.pycon.fr/2012/account/signup/">Inscription</a>
+
+</div>
+<div class="clear"></div>
+
+</div>
+                        
+    
+
+<nav id="main-nav">
+    <ul>
+        <li><a href="../about/index.html" id="link-about">À propos</a></li>
+        <li><a href="index.html" id="link-sprints">Sprints</a></li>
+        <li><a href="../speaker/index.html" id="link-speakers">Conférenciers</a></li>
+        <li><a href="../schedule/index.html" id="link-schedule">Agenda</a></li>
+        
+        
+        
+        
+        <li><a href="../venue/index.html" id="link-venue">Lieu</a></li>
+        <li><a href="../sponsors/index.html" id="link-sponsors">Sponsors</a></li>
+        
+        
+    </ul>
+</nav>
+
+
+                        
+                    
+                </div>
+            </header>
+
+            <!--section id="subnav">
+                <div class="container">
+                    { block subnav_base }{ block subnav }{ endblock }{ endblock }
+                </div>
+            </section-->
+
+            
+                
+                <section id="body">
+                    <div class="container">
+
+                        
+    <div class="span-17">
+        
+    <h1 class="section-title">Sprints <span>PyConFr</span></h1>
+    <h1>Sprints</h1>
+<ul>
+<li>Newebe</li>
+<li>PyAjam</li>
+<li>www.afpy.org</li>
+<li>ANNULÉ (Porter vos applications et autres projets sur Python 3)</li>
+<li>OpenERP</li>
+<li>Pylint</li>
+<li>Traduction de la documentation de python.org</li>
+<li>dipplanner</li>
+<li>Tryton</li>
+<li>Scikit-learn</li>
+<li>Circus</li>
+</ul>
+<h2>Newebe</h2>
+<p>Newebe est un réseau social distribué où tous les utilisateurs auto-hébergent leur node. Ici, il n'y a pas besoin de serveurs tiers pour échanger avec ses contacts. On reste donc totalement maitre de ses données. </p>
+<p>L'objectif de ce sprint sera d'aboutir à la version 0.6.0 de Newebe qui comprend notamment l'indexation des contenus reçus et envoyés (avec whoosh) et le partage de fichiers.</p>
+<p><strong>responsable</strong> Frank Rousseau, <a href="mailto:gelnior@free.fr">gelnior@free.fr</a></p>
+<p><strong>source</strong> <a href="https://github.com/gelnior/newebe">https://github.com/gelnior/newebe</a></p>
+<p><strong>Inscription</strong> <a href="https://github.com/gelnior/newebe/wiki/Inscriptions-sprint-pyconfr-2012">https://github.com/gelnior/newebe/wiki/Inscriptions-sprint-pyconfr-2012</a></p>
+<h2>PyAjam</h2>
+<p><strong>Description</strong> : PyAjam permet d'intéragir avec les WebServices REST/XML intégrés à Asterisk en fournissant une API pythonique aux développeurs.
+Le but de ce sprint code est de moderniser l'architecture interne de PyAjam puis d'ajouter le support d'Asterisk 1.6 et 1.8.</p>
+<p><strong>Responsable</strong> : Ludovic Gasc <a href="mailto:gmludo@gmail.com">gmludo@gmail.com</a></p>
+<p><strong>code source</strong> : <a href="http://https://github.com/gbour/PyAjam">https://github.com/gbour/PyAjam</a></p>
+<p>S'inscrire en envoyant un e-mail sur <a href="mailto:gmludo@gmail.com">gmludo@gmail.com</a></p>
+<h2>www.afpy.org</h2>
+<p>Sprint pour faire avancer le nouveau site afpy.org (dont une version en dev est sur dev.afpy.org). Il s'agit de techno Plone, mais il est possible de participer sans connaître plone, par exemple pour améliorer la CSS de base.</p>
+<p>Parmis les tâches prévues :</p>
+<ul>
+<li>améliorer le style (principalement de la CSS)</li>
+<li>reporter la conf déjà faite en cliquant vers une conf XML (logo, portlets, ldap, etc.)</li>
+<li>migrer l'ancien contenu (plone 2.0 → Plone 4.2)</li>
+<li>améliorer la conf le LDAP et le SSO</li>
+</ul>
+<p><strong>Responsable</strong>: Christophe Combelles <a href="mailto:ccomb@afpy.org">ccomb@afpy.org</a></p>
+<p><strong>Project page</strong>: <a href="http://www.afpy.org">http://www.afpy.org</a></p>
+<p><strong>Repo source</strong>: <a href="http://hg.afpy.org/afpy.org/">http://hg.afpy.org/afpy.org/</a></p>
+<p><strong>Inscription</strong>: <a href="http://doodle.com/wkr9vi5gg6wztvuk">http://doodle.com/wkr9vi5gg6wztvuk</a></p>
+<h2>Porter vos applications et autres projets sur Python 3</h2>
+<p><strong>ANNULÉ</strong></p>
+<h2>OpenERP</h2>
+<p>Selon les personnes présentes il pourra être orienté vers n'importe quel sujet, on précisera sur place. Un premier sujet quasi-sûr est de bosser sur le connecteur Magento et/ou Prestashop. Il y a d'autres sujets possibles, il suffit de proposer.</p>
+<p><strong>Responsable:</strong> Georges Racinet &amp; Christophe Combelles</p>
+<p><strong>Inscription:</strong> <a href="http://www.doodle.com/zn2usxsu9pa88z7z">http://www.doodle.com/zn2usxsu9pa88z7z</a></p>
+<h2>Pylint</h2>
+<p>Pylint is a python tool that checks if a module satisfies a coding standard. Pylint is similar to PyChecker but offers more features, like checking line-code's length, checking if variable names are well-formed according to your coding standard, or checking if declared interfaces are truly implemented, and much more (see the complete check list).</p>
+<p><strong>Responsable</strong>: FELD Boris <a href="mailto:lothiraldan@gmail.com">lothiraldan@gmail.com</a></p>
+<p><strong>Project page</strong>: <a href="http://www.logilab.org/project/pylint">http://www.logilab.org/project/pylint</a></p>
+<p><strong>Repo source</strong>: <a href="http://hg.logilab.org/pylint/">http://hg.logilab.org/pylint/</a></p>
+<p><strong>Inscription</strong>: <a href="http://pylint-sprint-pyconfr2012.eventbrite.com/">http://pylint-sprint-pyconfr2012.eventbrite.com/</a> .</p>
+<h2>Traduction de la documentation de python.org</h2>
+<p>Aider à la traduction progressive des documentations disponibles sur python.org.</p>
+<p><em>La responsable du sprint ne sera présente que vendredi</em></p>
+<p><strong>Responsable</strong> : Claire Revillet : <code>grenoya at zarb dot org</code></p>
+<p><strong>Dépôt</strong> : <a href="http://pootle.python.org/pootle">http://pootle.python.org/pootle</a></p>
+<h2>dipplanner</h2>
+<p>dipplanner est un programme de planification de plongée et de calcul de décompression écrit en python et sous licence GPLv3</p>
+<p><strong>description</strong>: dipplanner utilise aujourd'hui un modèle de décompression Bülhmann ZH-L16B ou C avec Gradient Factor.
+Il permet des planifications en utilisant n'importe quel(s) mélange(s) de gaz (% oxygène, % helium, % azote) 
+et gère également les plongées en recycleur à circuit fermé (CCR:setpoint, passage en bailout, ...)</p>
+<p>Quelques autres fonctionnalités:</p>
+<ul>
+<li>multigaz, sélection automatique du meilleur gaz</li>
+<li>gestion des bouteilles en circuit ouvert (consommation, warnings en cas de dépassement, etc...)</li>
+<li>templates pour l'affichage des résultats des planifications et export en différents formats (utilise jinja2) </li>
+<li>gestion plongées successives</li>
+<li>gestion plongées multiniveaux</li>
+<li>gestion plongées en altitude</li>
+<li>calcul du no flight time</li>
+<li>calculs CNS et OTU</li>
+<li>tous les calculs internes en unités SI</li>
+<li>calculs "precis" : décompressions à la seconde, utilise un maximum   d'algorithmes "précis" en évitant toute approximation (densité réélle de l'eau pour les pressions sous-marines, van der waals pour les pressions bouteille, etc..)
+...</li>
+</ul>
+<p><strong>responsable</strong>: Thomas Chiroux (<code>thomas@chiroux.com</code>)</p>
+<p><strong>page du projet</strong> : <a href="http://dipplanner.org" title="http://dipplanner.org">http://dipplanner.org</a></p>
+<p><strong>dépot</strong> : <a href="https://github.com/ThomasChiroux/dipplanner" title="https://github.com/ThomasChiroux/dipplanner">https://github.com/ThomasChiroux/dipplanner</a></p>
+<p><strong>wiki</strong> : <a href="https://github.com/ThomasChiroux/dipplanner/wiki/PyConFR-2012-Sprint" title="https://github.com/ThomasChiroux/dipplanner/wiki/PyConFR-2012-Sprint">https://github.com/ThomasChiroux/dipplanner/wiki/PyConFR-2012-Sprint</a>
+(avec un peu plus d'info sur les objectifs du sprint dans le wiki)</p>
+<h2>Tryton</h2>
+<p><strong>Description</strong> : Tryton est une plate-forme applicative de haut-niveau,
+d'architecture trois tiers, sous licence GPL-3, écrite en Python
+et utilisant PostgreSQL comme moteur de base de données.</p>
+<p><strong>Responsables</strong>:</p>
+<pre><code>    - Cédric Krier: ``cedric dot krier at b2ck dot com``
+    - Nicolas Évrard: ``nicolas dot evrard at b2ck dot com``
+</code></pre>
+<p><strong>Dépôt</strong>: <a href="http://hg.tryton.org" title="http://hg.tryton.org">http://hg.tryton.org/</a></p>
+<p><strong>Wiki</strong>:</p>
+<ul>
+<li><a href="http://code.google.com/p/tryton/wiki/SprintPyConFR2012" title="http://code.google.com/p/tryton/wiki/SprintPyConFR2012">http://code.google.com/p/tryton/wiki/SprintPyConFR2012</a></li>
+<li><a href="http://groups-fr.tryton.org/" title="http://groups-fr.tryton.org/">http://groups-fr.tryton.org/</a></li>
+</ul>
+<h2>Scikit-learn</h2>
+<p><strong>Description</strong> : scikit-learn est un module Python intégrant des algorithmes d'apprentissage statistiques classiques dans l'univers de Python scientifique (numpy, scipy, matplotlib). Il offre des solutions simples et efficaces pour résoudre des problèmes d'apprentissage, accessible à tous, utilisable dans des domaines variés.</p>
+<p><strong>Responsable</strong> : Nelle Varoquaux <code>nelle.varoquaux@gmail.com</code></p>
+<p><strong>Site</strong> : <a href="http://scikit-learn.org" title="http://scikit-learn.org">http://scikit-learn.org/</a></p>
+<p><strong>Informations supplémentaires sur le sprint</strong> : (<a href="https://github.com/scikit-learn/scikit-learn/wiki/Upcoming-events" title="lien">lien</a>)</p>
+<h2>Circus</h2>
+<p><a href="http://etherpad.mozilla.com/pyconfr-circus">Informations sur le sprint</a></p>
+<p><strong>Description</strong> : Circus est un superviseur et un lanceur de processus écrit en python. Il peut être piloté depuis une interface web, une ligne de commande, via des messages json envoyés par ZeroMQ ou depuis ses API en python. Circus est utilisé en production chez Mozilla pour superviser des services web.</p>
+<p><strong>Dresseurs de python</strong> : Alexis Metaireau <code>alexis@notmyidea.org</code> &amp; Tarek Ziadé <code>tarek@ziade.org</code></p>
+<p><strong>Site du projet</strong>: <a href="http://circus.io">http://circus.io</a> </p>
+
+    </div>
+    <div class="span-7 last">
+    	
+        <nav class="sidenav">
+<ul>
+   <li>
+      <a href="../about/index.html" class="active">Qu'est-ce que PyconFR ?</a>
+   </li>
+   <li>
+      <a href="../about/coc.html" class="active">Code de Conduite</a>
+  </li>
+</ul> 
+</nav>
+<div class="spacer"></div> 
+
+        
+
+
+
+
+
+<div class="sponsors-side">
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="http://www.cite-sciences.fr/fr/cite-des-sciences/">
+                
+                    <img style="margin:0px 13px 0px 12px" src="../../2012_media/cache/05/90/059009f3d0ff3de1fb733a75af1c83b5.png" width="50" height="50" alt="Cité des Sciences" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level bronze">
+            <h6>Bronze</h6>
+            
+            <a href="http://www.appartinfo.com/">
+                
+                    <img style="margin:9px 0px 9px 0px" src="../../2012_media/cache/1e/79/1e794261501b37ad2f0869e83d8e72dd.png" width="75" height="32" alt="AppartInfo" />
+                
+            </a>
+            
+            <a href="http://www.net-ng.com/">
+                
+                    <img style="margin:0px 15px 0px 14px" src="../../2012_media/cache/6f/94/6f940137b37d6bd9b04a507d61d50243.png" width="46" height="50" alt="Net-ng" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="https://www.alwaysdata.com/">
+                
+                    <img style="margin:16px 0px 17px 0px" src="../../2012_media/cache/13/c4/13c46695e087b097fa171b15d22d319e.png" width="75" height="17" alt="Alwaysdata" />
+                
+            </a>
+            
+            <a href="http://majerti.fr/">
+                
+                    <img style="margin:19px 0px 20px 0px" src="../../2012_media/cache/83/35/8335a978839216ec39df070a78693f40.png" width="75" height="11" alt="Majerti" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level bronze">
+            <h6>Bronze</h6>
+            
+            <a href="http://wingware.com/">
+                
+                    <img style="margin:6px 0px 6px 0px" src="../../2012_media/cache/bf/ae/bfae4c84bc309de99250cd2ed9958802.png" width="75" height="38" alt="Wingware" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="http://bearstech.com/">
+                
+                    <img style="margin:19px 0px 19px 0px" src="../../2012_media/cache/0a/b2/0ab2d03a67f3d95905e5fdfebb881dc7.png" width="75" height="12" alt="Bearstech" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level bronze">
+            <h6>Bronze</h6>
+            
+            <a href="http://emencia.fr/">
+                
+                    <img style="margin:0px 0px 0px 0px" src="../../2012_media/cache/ff/1d/ff1d0de9998983746cf7474fd1c4827e.png" width="75" height="50" alt="Emencia" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="http://www.xcg-consulting.fr/">
+                
+                    <img style="margin:16px 0px 16px 0px" src="../../2012_media/cache/2d/03/2d03ff0b1d36013932373777d92adee3.png" width="75" height="18" alt="XCG Consulting" />
+                
+            </a>
+            
+            <a href="http://tinyclues.com/">
+                
+                    <img style="margin:15px 0px 16px 0px" src="../../2012_media/cache/83/9d/839dd8bcad00aa73c2ab6a875277ee5c.png" width="75" height="19" alt="tinyclues" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level bronze">
+            <h6>Bronze</h6>
+            
+            <a href="http://anybox.fr/">
+                
+                    <img style="margin:14px 0px 14px 0px" src="../../2012_media/cache/cb/f7/cbf7bbea50e7141b1fb27488ac2afd84.png" width="75" height="22" alt="Anybox" />
+                
+            </a>
+            
+            <a href="http://greenbureau.fr/">
+                
+                    <img style="margin:17px 0px 18px 0px" src="../../2012_media/cache/4b/db/4bdb056ba8ceac33f1b36d374c138bbe.png" width="75" height="15" alt="Greenbureau" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="http://www.logilab.fr/">
+                
+                    <img style="margin:8px 0px 8px 0px" src="../../2012_media/cache/20/b8/20b8c9ef650b2ab9327c17a8036a589f.png" width="75" height="34" alt="Logilab" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level bronze">
+            <h6>Bronze</h6>
+            
+            <a href="http://makina-corpus.com/">
+                
+                    <img style="margin:12px 0px 12px 0px" src="../../2012_media/cache/4f/f3/4ff3d369534f6fcf66287543b69b37a1.png" width="75" height="26" alt="Makina-Corpus" />
+                
+            </a>
+            
+            
+        </div>
+    
+        <div class="level or">
+            <h6>Or</h6>
+            
+            <a href="http://www.novapost.fr/">
+                
+                    <img style="margin:10px 0px 10px 0px" src="../../2012_media/cache/9a/71/9a71e246014faa84197e1a1e6581fb8f.png" width="75" height="30" alt="Novapost" />
+                
+            </a>
+            
+            
+        </div>
+    
+</div>
+    </div>
+    <div class="span-24 last">
+        <hr />
+        <div class="other-sponsors">
+            <h6>Sponsors</h6>
+        </div>
+    </div>
+
+
+                    </div>
+
+                </section>
+            
+            <div class="push"></div>
+        </div>
+
+        <footer>
+            <div class="container">
+    <p>
+        PyConFR 2012 est organisé par <a href="http://afpy.org/">l'AFPY</a>.
+    <br />
+        Site construit par <a href="http://eldarion.com">Eldarion</a> et <a href="http://afpy.org/">l'AFPY</a>
+	avec <a href="http://djangoproject.com">Django</a> et <a href="http://pinaxproject.com">Pinax</a>.
+   <br />
+        Questions ? Commentaires ? Contactez <a href="mailto:orga@pycon.fr">orga@pycon.fr</a>
+   <br />
+	Forkez moi sur <a href="https://github.com/PyConFr/Pyconfr">Github</a>
+    </p>
+</div>
+        </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="/js/base.js" type="text/javascript"></script>
+        <script src="/uni_form/uni-form.jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://www.pycon.fr/static/markitup/jquery.markitup.js"></script>
+        <script type="text/javascript" src="http://www.pycon.fr/static/markitup/sets/markdown/set.js"></script>
+        <script src="/js/facebox.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox({
+            loadingImage: '/img/facebox/loading.gif',
+            closeImage: '/img/facebox/closelabel.png'
+        });
+        $(document).bind('reveal.facebox', function() {
+            $("form.in_facebox").submit(function() {
+                form = this;
+                jQuery.facebox(function($) {
+                    fields = jQuery(form).find("input[type='text']").filter(":enabled");
+                    params = {}
+                    fields.each(function() {
+                        params[this.name] = this.value;
+                    });
+                    jQuery.post(form.action, params,
+                        function(data, textStatus) {
+                            jQuery.facebox(data);
+                        }
+                    );
+                });
+                return false;
+            });
+        });
+        $(document).bind('close.facebox', function() {
+           location.reload();
+          });
+     });
+</script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ajaxSend(function(event, xhr, settings) {
+                function getCookie(name) {
+                    var cookieValue = null;
+                    if (document.cookie && document.cookie != '') {
+                        var cookies = document.cookie.split(';');
+                        for (var i = 0; i < cookies.length; i++) {
+                            var cookie = jQuery.trim(cookies[i]);
+                            // Does this cookie string begin with the name we want?
+                            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                                break;
+                            }
+                        }
+                    }
+                    return cookieValue;
+                }
+                function sameOrigin(url) {
+                    // url could be relative or scheme relative or absolute
+                    var host = document.location.host; // host + port
+                    var protocol = document.location.protocol;
+                    var sr_origin = '//' + host;
+                    var origin = protocol + sr_origin;
+                    // Allow absolute or scheme relative URLs to same origin
+                    return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+                        (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+                        // or any other URL that isn't scheme relative or absolute i.e relative.
+                        !(/^(\/\/|http:|https:).*/.test(url));
+                }
+                function safeMethod(method) {
+                    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+                }
+
+                if (!safeMethod(settings.type) && sameOrigin(settings.url)) {
+                    xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+                }
+            });
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function($) {
+                $("a.boxes-edit-link").click(function() {
+                    $.facebox.settings.loadingImage = "/site_media/static/img/loading.gif";
+                    $.facebox.settings.closeImage = "/site_media/static/img/closelabel.png";
+                    $(document).bind("beforeReveal.facebox", function() {
+                        $("#facebox .content").css("width", "600px");
+                    });
+                    var editable = this;
+                    $(document).bind("reveal.facebox", function() {
+                        $("#edit_form").submit(function() {
+                            $.post(editable.href, $(this).serialize(), function(data) {
+                                $(document).trigger("close.facebox");
+                                $(editable).load(data);
+                                $(document).unbind("reveal.facebox");
+                            });
+                            return false;
+                        });
+                    });
+                    $.facebox({ajax: this.href});
+                    return false;
+                });
+            });
+        </script>
+        
+        
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+          $("#id_email").focus();
+          $(function () {
+              if(('ul#messages').length > 0) {
+                  setTimeout(function() {
+                      $('ul#messages').fadeOut(3000);
+                  }, 2000 );
+              }
+          });
+      });
+    </script>
+    
+
+    </body>
+</html>
