@@ -1,0 +1,1727 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <link href="../../2012_static/img/favicon.ico" rel="shortcut icon" />
+        <title>PyConFR 2012</title>
+        <!--  hack to make IE able to apply CSS to elements that it doesn't usually know about. See http://code.google.com/p/html5shim/ -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+        <link rel="stylesheet" href="../../2012_static/css/facebox.css" />
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet" type="text/css">
+        <link href="../../2012_static/markitup/skins/simple/style.css" type="text/css" media="screen" rel="stylesheet" />
+<link href="../../2012_static/markitup/sets/markdown/style.css" type="text/css" media="screen" rel="stylesheet" />
+
+        
+    <!-- Framework CSS -->
+<link rel="stylesheet" href="../../2012_static/css/blueprint/grid.css" media="screen, projection" />
+<link rel="stylesheet" href="../../2012_static/css/blueprint/print.css" media="print" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="/2012_static/css/blueprint/ie.css" media="screen, projection" />
+<![endif]-->
+
+        
+    <link rel="stylesheet" href="../../2012_static/css/reset.css" />
+    <link rel="stylesheet" href="../../2012_static/css/pycon.css@6.css" />
+    <link rel="stylesheet" href="../../2012_static/css/site_tabs.css@6.css" />
+    <link rel="stylesheet" href="../../2012_static/uni_form/uni-form.css" />
+    <link rel="alternate" type="application/atom+xml" href="http://www.pycon.fr/2012/feed/general/" title="blog feed"/>
+    
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Helvetica";
+        }
+        #wrapper {
+            width: 960px;
+        }
+        table {
+            border-collapse: collapse;
+            font-weight: normal;
+            line-height: 1.1em;
+        }
+        td {
+            padding: 4px 8px;
+            border: 1px solid #666;
+            vertical-align: top;
+        }
+        td.slot {
+            text-align: center;
+            background: #FFF;
+            font-size: 10pt;
+            width: 180px;
+        }
+        td.slot.recess,
+        td.slot.recess.colspan-1.rowspan-1,
+        td.slot.recess.colspan-1.rowspan-2 {
+            background: #ECFFFF;
+        }
+        td.slot.plenary {
+            background: #DCDCFF;
+        }
+        td.slot div.title {
+            font-weight: bold;
+        }
+        td.slot div.speaker {
+            font-style: italic;
+            font-size: 8pt;
+        }
+        th {
+            font-size: 12pt;
+            background: #FFF;
+            padding: 2px 4px;
+            border: none;
+            border-right: 1px solid #666;
+        }
+        td.time {
+            width: 50px;
+            font-size: 8pt;
+            border: none;
+            border-top: 1px solid #666;
+            vertical-align: top;
+            text-align: right;
+        }
+        td.colspan-1.rowspan-1 {
+            background: #FFFCC9;
+        }
+        td.colspan-1.rowspan-1.bookmarked {
+            background: #FE7;
+        }
+        td.colspan-1.rowspan-2 {
+            background: #FDA;
+        }
+        td.colspan-1.rowspan-2.bookmarked {
+            background: #F95;
+        }
+        .slot div.badges {
+            float: left;
+        }
+        .slot div.badges .badge {
+            float: none;
+            width: 15px;
+            height: 15px;
+            font-size: 7pt;
+            line-height: 15px;
+        }
+        .slot div.badges .bookmark a {
+            display: block;
+            width: 16px;
+            height: 16px;
+            text-decoration: none;
+            background-image: url(../../2012_static/img/star_unselected.png);
+        }
+        .slot div.badges .bookmarked a {
+            display: block;
+            width: 16px;
+            height: 16px;
+            text-decoration: none;
+            background-image: url(../../2012_static/img/star.png);
+        }
+        div.badges .session {
+            display: block;
+            background-color: navy;
+            color: #fff;
+        }
+        div.badges .session a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+
+
+    </head>
+
+    <body class="full schedule " id="">
+        <div class="wrapper">
+
+            <div class="msg-container">
+                
+            </div>
+
+            <header>
+                <div class="container">
+                    
+                        <h1 id="logo"><a href="../index.html">PyConFR 2012</a></h1>
+                        
+                        <div id="left_tabs"></div>
+                        <div id="right_tabs"></div>
+                        <div class="login">
+    
+
+
+<div class="account-bar">
+
+    <a href="http://www.pycon.fr/2012/account/login/">Connexion</a>
+    ou
+    <a href="http://www.pycon.fr/2012/account/signup/">Inscription</a>
+
+</div>
+<div class="clear"></div>
+
+</div>
+                        
+    
+
+<nav id="main-nav">
+    <ul>
+        <li><a href="../about/index.html" id="link-about">À propos</a></li>
+        <li><a href="../sprints/index.html" id="link-sprints">Sprints</a></li>
+        <li><a href="../speaker/index.html" id="link-speakers">Conférenciers</a></li>
+        <li><a href="index.html" id="link-schedule">Agenda</a></li>
+        
+        
+        
+        
+        <li><a href="../venue/index.html" id="link-venue">Lieu</a></li>
+        <li><a href="../sponsors/index.html" id="link-sponsors">Sponsors</a></li>
+        
+        
+    </ul>
+</nav>
+
+
+                        
+                    
+                </div>
+            </header>
+
+            <!--section id="subnav">
+                <div class="container">
+                    { block subnav_base }{ block subnav }{ endblock }{ endblock }
+                </div>
+            </section-->
+
+            
+                
+                <section id="body">
+                    <div class="container">
+
+                        
+    
+    <div class="span-17">
+        <h1 class="section-title">Conference <span>Schedule</span></h1>
+        <div class="badges legend">
+            <div class="badge extreme">E</div><div class="label"> = EXTREME PyCon</div>
+            <div class="clear"></div>
+            <div class="badge session">S</div><div class="label"> = Session link (for volunteering; click it to view the session)</div>
+            <div class="clear"></div>
+        </div>
+        
+            <div><a href="http://www.pycon.fr/2012/account/login/?next=/2012/schedule/">Log in</a> to be able to bookmark talks and panels that interest you</div>
+        
+    </div>
+    <div class="span-7 last">
+        <nav class="sidenav schedule-sidenav">
+    <ul>
+        <li>
+            <a href="index.html" id="l-schedule">Conference Schedule</a>
+        </li>
+        
+    </ul>
+</nav>
+
+    </div>
+    <div class="clear"></div>
+    <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='437de46344f9f9588759b74cfa18e9bd' /></div>
+    
+    
+        <h2>Wednesday</h2>
+        
+        
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        
+    </tr>
+    
+</table>
+
+        
+        <h2>Thursday</h2>
+        
+        
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        
+    </tr>
+    
+        <tr>
+            <td class="time">10:00Matin</td>
+            
+                <td colspan="0" rowspan="1" class="slot plenary rowspan-1 colspan-0">
+                    
+                        
+                            <div class="title">Accueil</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">10:15Matin</td>
+            
+                <td colspan="0" rowspan="1" class="slot plenary rowspan-1 colspan-0">
+                    
+                        
+                            <div class="title">Sprints</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:30Après-midi</td>
+            
+                <td colspan="0" rowspan="1" class="slot recess rowspan-1 colspan-0">
+                    
+                        <div class="title">Lunch Break</div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:00Après-midi</td>
+            
+                <td colspan="0" rowspan="1" class="slot plenary rowspan-1 colspan-0">
+                    
+                        
+                            <div class="title">Sprints</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">06:00Après-midi</td>
+            
+        </tr>
+    
+</table>
+
+        
+        <h2>Friday</h2>
+        
+        
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        
+    </tr>
+    
+        <tr>
+            <td class="time">10:00Matin</td>
+            
+                <td colspan="0" rowspan="1" class="slot plenary rowspan-1 colspan-0">
+                    
+                        
+                            <div class="title">Sprints</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:30Après-midi</td>
+            
+                <td colspan="0" rowspan="1" class="slot recess rowspan-1 colspan-0">
+                    
+                        <div class="title">Lunch Break</div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:00Après-midi</td>
+            
+                <td colspan="0" rowspan="1" class="slot plenary rowspan-1 colspan-0">
+                    
+                        
+                            <div class="title">Sprints</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">06:00Après-midi</td>
+            
+        </tr>
+    
+</table>
+
+        
+        <h2>Saturday</h2>
+        
+        
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        
+            <th>Agora</th>
+        
+            <th>Classe Numérique</th>
+        
+            <th>L&#39;atelier</th>
+        
+    </tr>
+    
+        <tr>
+            <td class="time">09:30Matin</td>
+            
+                <td colspan="3" rowspan="1" class="slot plenary rowspan-1 colspan-3">
+                    
+                        
+                            <div class="title">Introduction &amp; Accueil</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">10:00Matin</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/1/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/49/index.html"> Processus de développement de CPython</a></div>
+                                
+                                    <div class="speaker">Antoine Pitrou</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/21/index.html">Django, une présentation du framework que l&#39;on ne présente plus</a></div>
+                                
+                                    <div class="speaker">Jean-Michel ARMAND</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="2" class="slot presentation rowspan-2 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/42/index.html">logging : standard, simple et versatile</a></div>
+                                
+                                    <div class="speaker">Arezki Feth</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">10:30Matin</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/1/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/7/index.html">Développement communautaire: le succès de Scikit-learn</a></div>
+                                
+                                    <div class="speaker">Gael Varoquaux</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/40/index.html"> La boite à outils pour Django</a></div>
+                                
+                                    <div class="speaker">Ordoquy Xavier</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">11:00Matin</td>
+            
+                <td colspan="3" rowspan="1" class="slot recess rowspan-1 colspan-3">
+                    
+                        <div class="title">Pause</div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">11:30Matin</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/6/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/14/index.html">Picasso, le polyglotte et le philosophe</a></div>
+                                
+                                    <div class="speaker">Marc Chantreux</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="3" class="slot presentation rowspan-3 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/70/index.html">Atelier &amp; Django speech</a></div>
+                                
+                                    <div class="speaker">Benoit Calvez</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="3" class="slot presentation rowspan-3 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/30/index.html">Introduction à Mercurial Partie 1</a></div>
+                                
+                                    <div class="speaker">Pierre-Yves David</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/6/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/15/index.html">Je configure mes serveurs avec fabric et fabtools</a></div>
+                                
+                                    <div class="speaker">Ronan Amicel</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot  rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/6/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/11/index.html">(annulé) Valorisez votre documentation</a></div>
+                                
+                                    <div class="speaker">Benoît Bryon</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot  rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">01:00Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot recess rowspan-1 colspan-3">
+                    
+                        <div class="title">Déjeuner</div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/7/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/5/index.html">Le développement de jeu avec Blender et Panda3D</a></div>
+                                
+                                    <div class="speaker">David Corticchiato</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/11/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/63/index.html">OpenERP : gestion d&#39;entreprise Open Source en Python</a></div>
+                                
+                                    <div class="speaker">Alexandre ALLOUCHE</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="8" class="slot presentation rowspan-8 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/58/index.html">PyMite (python on a chip), python sur microcontrolleur.</a></div>
+                                
+                                    <div class="speaker">Jonathan Schemoul</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/7/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/3/index.html">Composer de la musique avec Python</a></div>
+                                
+                                    <div class="speaker">René Bastian</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/11/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/44/index.html">Anytracker : gestion de projet agile avec OpenERP</a></div>
+                                
+                                    <div class="speaker">Christophe Combelles</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">03:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/7/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/18/index.html">Kivy, Natural User Interfaces en Python, simplement.</a></div>
+                                
+                                    <div class="speaker">Gabriel Pettier</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/11/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/43/index.html">Tryton: un ERP libre</a></div>
+                                
+                                    <div class="speaker">Pierre-Louis Bonicoli</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">03:30Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot recess rowspan-1 colspan-3">
+                    
+                        <div class="title">Pause </div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">04:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/8/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/1/index.html">Nouveautés de Python 3.3</a></div>
+                                
+                                    <div class="speaker">Victor Stinner</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/12/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/25/index.html">REST in SPORE</a></div>
+                                
+                                    <div class="speaker">Arnaud Grausem</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">04:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/8/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/46/index.html">Démarrer/éteindre un supercalculateur du TOP500 en moins de 10 minutes sans casse (ou presque)...</a></div>
+                                
+                                    <div class="speaker">Pierre Vignéras</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/12/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/4/index.html">Web Services multi-protocoles avec WSME</a></div>
+                                
+                                    <div class="speaker">Christophe de Vienne</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">05:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/8/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/65/index.html">Manger tout type de données en python avec PyBABE</a></div>
+                                
+                                    <div class="speaker">Florian Douetteau</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/12/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/51/index.html">Cornice, créez vos services web simplement</a></div>
+                                
+                                    <div class="speaker">Alexis Metaireau</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">05:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/8/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/20/index.html">Parallel Machine Learning avec scikit-learn and IPython</a></div>
+                                
+                                    <div class="speaker">Olivier Grisel</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/12/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/19/index.html">Programmation web asynchrone avec Tornado</a></div>
+                                
+                                    <div class="speaker">Ronan Amicel</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">06:00Après-midi</td>
+            
+        </tr>
+    
+</table>
+
+        
+        <h2>Sunday</h2>
+        
+        
+
+<table>
+    <tr>
+        <th>&nbsp;</th>
+        
+            <th>Agora</th>
+        
+            <th>Classe Numérique</th>
+        
+            <th>L&#39;atelier</th>
+        
+    </tr>
+    
+        <tr>
+            <td class="time">10:00Matin</td>
+            
+                <td colspan="3" rowspan="1" class="slot plenary rowspan-1 colspan-3">
+                    
+                        
+                            <div class="title">AG de l&#39;AFPy</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">11:00Matin</td>
+            
+                <td colspan="3" rowspan="1" class="slot plenary rowspan-1 colspan-3">
+                    
+                        
+                            <div class="title">Pause</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">11:30Matin</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/14/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/17/index.html">Le serpent à lunette qui sait lire.</a></div>
+                                
+                                    <div class="speaker">Florian Strzelecki</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/8/index.html">Architecture CQRS et performance avec Django</a></div>
+                                
+                                    <div class="speaker">Olivier Girardot</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="3" class="slot presentation rowspan-3 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/62/index.html">Introduction à Mercurial Partie 2</a></div>
+                                
+                                    <div class="speaker">Pierre-Yves David</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/14/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/16/index.html">WeasyPrint : générer des documents PDF de qualité avec HTML et CSS</a></div>
+                                
+                                    <div class="speaker">Simon Sapin</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/69/index.html">Django et python 3, ce qui va changer</a></div>
+                                
+                                    <div class="speaker">Aymeric Augustin</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">12:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/14/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/24/index.html">Testons en Python, un retour d&#39;expérience sur l&#39;optimisation d&#39;un process validation</a></div>
+                                
+                                    <div class="speaker">Guillaume BURET</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/39/index.html">Mesurer tout, tout le temps</a></div>
+                                
+                                    <div class="speaker">Timothée Peignier</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">01:00Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot recess rowspan-1 colspan-3">
+                    
+                        <div class="title">Déjeuner</div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/9/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/9/index.html">Raspberry-Pi et Arduino sont dans un bateau</a></div>
+                                
+                                    <div class="speaker">Tarek Ziade</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/13/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/22/index.html">pythran(python - object)= OpenMP + c++</a></div>
+                                
+                                    <div class="speaker">Serge Guelton (Quiet-Oceans)</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="3" class="slot presentation rowspan-3 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/5/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/27/index.html">Faire des tests en python</a></div>
+                                
+                                    <div class="speaker">FELD Boris</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">02:30Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/9/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/55/index.html">L&#39;apport de Python sur OpenVMS : souplesse, réactivité. Donnez un coup de jeune à votre mainframe.</a></div>
+                                
+                                    <div class="speaker">Rémi Jolin</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/13/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/56/index.html">Il est temps!</a></div>
+                                
+                                    <div class="speaker">Aymeric Augustin</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">03:00Après-midi</td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/9/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/28/index.html">Forger son historique avec Mercurial: l&#39;obsolescence s&#39;abat sur les DVCS</a></div>
+                                
+                                    <div class="speaker">Pierre-Yves David</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+                <td colspan="1" rowspan="1" class="slot presentation rowspan-1 colspan-1">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/13/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/6/index.html">Tout ce qu&#39;un développeur Python doit décemment savoir au sujet d&#39;Unicode.</a></div>
+                                
+                                    <div class="speaker">Yoann Aubineau</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">03:30Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot recess rowspan-1 colspan-3">
+                    
+                        <div class="title">Pause </div>
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">04:00Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot presentation rowspan-1 colspan-3">
+                    
+                        
+                            <div class="badges">
+                                
+                                
+                                
+                                
+                                    <div class="badge session">
+                                        <a href="session/10/index.html">S</a>
+                                    </div>
+                                
+                            </div>
+                            
+                                <div class="title"><a href="presentation/2/index.html">Circus - Gestionnaire de processus avancé</a></div>
+                                
+                                    <div class="speaker">Tarek Ziade</div>
+                                
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">04:30Après-midi</td>
+            
+                <td colspan="3" rowspan="-12" class="slot plenary rowspan--12 colspan-3">
+                    
+                        
+                            <div class="title">Lightning talks (60min)</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">05:30Après-midi</td>
+            
+                <td colspan="3" rowspan="1" class="slot plenary rowspan-1 colspan-3">
+                    
+                        
+                            <div class="title">Clôture</div>
+                            
+                        
+                    
+                </td>
+            
+        </tr>
+    
+        <tr>
+            <td class="time">06:00Après-midi</td>
+            
+        </tr>
+    
+</table>
+
+    
+
+
+
+                    </div>
+
+                </section>
+            
+            <div class="push"></div>
+        </div>
+
+        <footer>
+            <div class="container">
+    <p>
+        PyConFR 2012 est organisé par <a href="http://afpy.org/">l'AFPY</a>.
+    <br />
+        Site construit par <a href="http://eldarion.com">Eldarion</a> et <a href="http://afpy.org/">l'AFPY</a>
+	avec <a href="http://djangoproject.com">Django</a> et <a href="http://pinaxproject.com">Pinax</a>.
+   <br />
+        Questions ? Commentaires ? Contactez <a href="mailto:orga@pycon.fr">orga@pycon.fr</a>
+   <br />
+	Forkez moi sur <a href="https://github.com/PyConFr/Pyconfr">Github</a>
+    </p>
+</div>
+        </footer>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script src="../../2012_static/js/base.js" type="text/javascript"></script>
+        <script src="../../2012_static/uni_form/uni-form.jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://www.pycon.fr/static/markitup/jquery.markitup.js"></script>
+        <script type="text/javascript" src="http://www.pycon.fr/static/markitup/sets/markdown/set.js"></script>
+        <script src="../../2012_static/js/facebox.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('a[rel*=facebox]').facebox({
+            loadingImage: '/2012_static/img/facebox/loading.gif',
+            closeImage: '/2012_static/img/facebox/closelabel.png'
+        });
+        $(document).bind('reveal.facebox', function() {
+            $("form.in_facebox").submit(function() {
+                form = this;
+                jQuery.facebox(function($) {
+                    fields = jQuery(form).find("input[type='text']").filter(":enabled");
+                    params = {}
+                    fields.each(function() {
+                        params[this.name] = this.value;
+                    });
+                    jQuery.post(form.action, params,
+                        function(data, textStatus) {
+                            jQuery.facebox(data);
+                        }
+                    );
+                });
+                return false;
+            });
+        });
+        $(document).bind('close.facebox', function() {
+           location.reload();
+          });
+     });
+</script>
+        <script type="text/javascript" charset="utf-8">
+            $(document).ajaxSend(function(event, xhr, settings) {
+                function getCookie(name) {
+                    var cookieValue = null;
+                    if (document.cookie && document.cookie != '') {
+                        var cookies = document.cookie.split(';');
+                        for (var i = 0; i < cookies.length; i++) {
+                            var cookie = jQuery.trim(cookies[i]);
+                            // Does this cookie string begin with the name we want?
+                            if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                                break;
+                            }
+                        }
+                    }
+                    return cookieValue;
+                }
+                function sameOrigin(url) {
+                    // url could be relative or scheme relative or absolute
+                    var host = document.location.host; // host + port
+                    var protocol = document.location.protocol;
+                    var sr_origin = '//' + host;
+                    var origin = protocol + sr_origin;
+                    // Allow absolute or scheme relative URLs to same origin
+                    return (url == origin || url.slice(0, origin.length + 1) == origin + '/') ||
+                        (url == sr_origin || url.slice(0, sr_origin.length + 1) == sr_origin + '/') ||
+                        // or any other URL that isn't scheme relative or absolute i.e relative.
+                        !(/^(\/\/|http:|https:).*/.test(url));
+                }
+                function safeMethod(method) {
+                    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+                }
+
+                if (!safeMethod(settings.type) && sameOrigin(settings.url)) {
+                    xhr.setRequestHeader("X-CSRFToken", getCookie('csrftoken'));
+                }
+            });
+        </script>
+        
+        <script type="text/javascript">
+            $(document).ready(function($) {
+                $("a.boxes-edit-link").click(function() {
+                    $.facebox.settings.loadingImage = "/site_media/static/img/loading.gif";
+                    $.facebox.settings.closeImage = "/site_media/static/img/closelabel.png";
+                    $(document).bind("beforeReveal.facebox", function() {
+                        $("#facebox .content").css("width", "600px");
+                    });
+                    var editable = this;
+                    $(document).bind("reveal.facebox", function() {
+                        $("#edit_form").submit(function() {
+                            $.post(editable.href, $(this).serialize(), function(data) {
+                                $(document).trigger("close.facebox");
+                                $(editable).load(data);
+                                $(document).unbind("reveal.facebox");
+                            });
+                            return false;
+                        });
+                    });
+                    $.facebox({ajax: this.href});
+                    return false;
+                });
+            });
+        </script>
+        
+        
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+          $("#id_email").focus();
+          $(function () {
+              if(('ul#messages').length > 0) {
+                  setTimeout(function() {
+                      $('ul#messages').fadeOut(3000);
+                  }, 2000 );
+              }
+          });
+      });
+    </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".slot .bookmark > a").live("click", function() {
+                divElem = $(this).parent();
+                $.ajax({
+                    type: "POST",
+                    url: this.href,
+                    data: "action=add;csrfmiddlewaretoken=437de46344f9f9588759b74cfa18e9bd",
+                    success: function() {
+                        divElem.removeClass("bookmark");
+                        divElem.addClass("bookmarked");
+                        divElem.parent().parent().addClass("bookmarked");
+                    },
+                    error: function(xhr, options, error) {
+                        alert(xhr.status);
+                    }
+                });
+                return false;
+            });
+            $(".slot .bookmarked > a").live("click", function() {
+                divElem = $(this).parent();
+                $.ajax({
+                    type: "POST",
+                    url: this.href,
+                    data: "action=delete;csrfmiddlewaretoken=437de46344f9f9588759b74cfa18e9bd",
+                    success: function(response) {
+                        divElem.removeClass("bookmarked");
+                        divElem.addClass("bookmark");
+                        divElem.parent().parent().removeClass("bookmarked");
+                    },
+                    error: function(xhr, options, error) {
+                        alert(xhr.status);
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+
+
+    </body>
+</html>
